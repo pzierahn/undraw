@@ -26,7 +26,7 @@ Future<String> getTintedIllustration(
     image = await _fetchFromWeb(location);
     _cache[location] = image;
   } else {
-    String path = "packages/ms_undraw/assets/$location";
+    String path = "packages/undraw/assets/$location";
     image = await rootBundle.loadString(path);
     _cache[location] = image;
   }

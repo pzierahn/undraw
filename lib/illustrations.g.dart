@@ -6816,2728 +6816,1406 @@ enum UnDrawIllustration {
 
 /// Map of illustrations with url to download
 const Map<UnDrawIllustration, String> illustrationMap = {
-  UnDrawIllustration._3d_modeling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/3d_modeling_re_6vi2.svg",
-  UnDrawIllustration.a_better_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_better_world_9xfd.svg",
-  UnDrawIllustration.a_day_at_the_park:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/A_day_at_the_park_re_9kxj.svg",
-  UnDrawIllustration.a_day_off:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/A_day_off_re_hedl.svg",
-  UnDrawIllustration.a_moment_to_relax:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/A_moment_to_relax_re_v5gv.svg",
-  UnDrawIllustration.a_whole_year:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/a_whole_year_vnfm.svg",
-  UnDrawIllustration.about_me:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/About_me_re_82bv.svg",
-  UnDrawIllustration.about_us_page:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/About_us_page_re_2jfm.svg",
-  UnDrawIllustration.absorbed_in:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Absorbed_in_re_ymd6.svg",
-  UnDrawIllustration.abstract:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Abstract_re_l9xy.svg",
-  UnDrawIllustration.accept_request:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Accept_request_re_d81h.svg",
-  UnDrawIllustration.accept_tasks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Accept_tasks_re_09mv.svg",
-  UnDrawIllustration.access_account:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Access_account_re_8spm.svg",
-  UnDrawIllustration.access_denied:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/access_denied_re_awnf.svg",
-  UnDrawIllustration.account:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Account_re_o7id.svg",
-  UnDrawIllustration.active_options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Active_options_re_8rj3.svg",
-  UnDrawIllustration.active_support:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Active_support_re_b7sj.svg",
-  UnDrawIllustration.activity_tracker:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Activity_tracker_re_2lvv.svg",
-  UnDrawIllustration.add_color:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_color_re_buro.svg",
-  UnDrawIllustration.add_content:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_content_re_vgqa.svg",
-  UnDrawIllustration.add_document:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/add_document_re_mbjx.svg",
-  UnDrawIllustration.add_file:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_file_re_s4qf.svg",
-  UnDrawIllustration.add_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_files_re_v09g.svg",
-  UnDrawIllustration.add_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/add_friends_re_3xte.svg",
-  UnDrawIllustration.add_information:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/add_information_j2wg.svg",
-  UnDrawIllustration.add_notes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_notes_re_ln36.svg",
-  UnDrawIllustration.add_post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_post_re_174w.svg",
-  UnDrawIllustration.add_tasks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_tasks_re_s5yj.svg",
-  UnDrawIllustration.add_to_cart:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_to_cart_re_wrdo.svg",
-  UnDrawIllustration.add_user:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Add_user_re_5oib.svg",
-  UnDrawIllustration.address:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Address_re_yaoj.svg",
-  UnDrawIllustration.adjustments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Adjustments_re_gvct.svg",
+  UnDrawIllustration._3d_modeling: "illustrations/_3d_modeling.svg",
+  UnDrawIllustration.a_better_world: "illustrations/a_better_world.svg",
+  UnDrawIllustration.a_day_at_the_park: "illustrations/a_day_at_the_park.svg",
+  UnDrawIllustration.a_day_off: "illustrations/a_day_off.svg",
+  UnDrawIllustration.a_moment_to_relax: "illustrations/a_moment_to_relax.svg",
+  UnDrawIllustration.a_whole_year: "illustrations/a_whole_year.svg",
+  UnDrawIllustration.about_me: "illustrations/about_me.svg",
+  UnDrawIllustration.about_us_page: "illustrations/about_us_page.svg",
+  UnDrawIllustration.absorbed_in: "illustrations/absorbed_in.svg",
+  UnDrawIllustration.abstract: "illustrations/abstract.svg",
+  UnDrawIllustration.accept_request: "illustrations/accept_request.svg",
+  UnDrawIllustration.accept_tasks: "illustrations/accept_tasks.svg",
+  UnDrawIllustration.access_account: "illustrations/access_account.svg",
+  UnDrawIllustration.access_denied: "illustrations/access_denied.svg",
+  UnDrawIllustration.account: "illustrations/account.svg",
+  UnDrawIllustration.active_options: "illustrations/active_options.svg",
+  UnDrawIllustration.active_support: "illustrations/active_support.svg",
+  UnDrawIllustration.activity_tracker: "illustrations/activity_tracker.svg",
+  UnDrawIllustration.add_color: "illustrations/add_color.svg",
+  UnDrawIllustration.add_content: "illustrations/add_content.svg",
+  UnDrawIllustration.add_document: "illustrations/add_document.svg",
+  UnDrawIllustration.add_file: "illustrations/add_file.svg",
+  UnDrawIllustration.add_files: "illustrations/add_files.svg",
+  UnDrawIllustration.add_friends: "illustrations/add_friends.svg",
+  UnDrawIllustration.add_information: "illustrations/add_information.svg",
+  UnDrawIllustration.add_notes: "illustrations/add_notes.svg",
+  UnDrawIllustration.add_post: "illustrations/add_post.svg",
+  UnDrawIllustration.add_tasks: "illustrations/add_tasks.svg",
+  UnDrawIllustration.add_to_cart: "illustrations/add_to_cart.svg",
+  UnDrawIllustration.add_user: "illustrations/add_user.svg",
+  UnDrawIllustration.address: "illustrations/address.svg",
+  UnDrawIllustration.adjustments: "illustrations/adjustments.svg",
   UnDrawIllustration.advanced_customization:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Advanced_customization_re_wo6h.svg",
-  UnDrawIllustration.adventure:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Adventure_re_ncqp.svg",
-  UnDrawIllustration.adventure_map:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/adventure_map_hnin.svg",
-  UnDrawIllustration.agree:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Agree_re_hor9.svg",
-  UnDrawIllustration.agreement:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Agreement_re_d4dv.svg",
-  UnDrawIllustration.air_support:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Air_support_re_nybl.svg",
-  UnDrawIllustration.aircraft:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Aircraft_re_m05i.svg",
-  UnDrawIllustration.alert:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Alert_re_j2op.svg",
-  UnDrawIllustration.algolia:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/algolia_msba.svg",
-  UnDrawIllustration.alien_science:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Alien_science_re_0f8q.svg",
-  UnDrawIllustration.all_the_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/All_the_data_re_hh4w.svg",
-  UnDrawIllustration.among_nature:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/among_nature_p1xb.svg",
-  UnDrawIllustration.amusement_park:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/amusement_park_17oe.svg",
-  UnDrawIllustration.analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Analysis_dq08.svg",
-  UnDrawIllustration.analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Analytics_re_dkf8.svg",
-  UnDrawIllustration.analyze:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/analyze_re_9kco.svg",
-  UnDrawIllustration.android:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/android_jr64.svg",
-  UnDrawIllustration.animating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Animating_re_5gvn.svg",
-  UnDrawIllustration.annotation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Annotation_re_h774.svg",
-  UnDrawIllustration.anonymous_feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Anonymous_feedback_re_rc5v.svg",
-  UnDrawIllustration.apartment_rent:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/apartment_rent_o0ut.svg",
-  UnDrawIllustration.app_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/app_data_re_vg5c.svg",
-  UnDrawIllustration.app_installation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/App_installation_re_h36x.svg",
-  UnDrawIllustration.app_wireframe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/App_wireframe_re_d467.svg",
-  UnDrawIllustration.appreciate_it:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciate_it_re_yc8h.svg",
-  UnDrawIllustration.appreciation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciation_0xsh.svg",
-  UnDrawIllustration.approve:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/approve_qwp7.svg",
-  UnDrawIllustration.apps:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Apps_re_ienc.svg",
-  UnDrawIllustration.around_the_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Around_the_world_re_rb1p.svg",
-  UnDrawIllustration.arrived:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Arrived_re_t2bw.svg",
-  UnDrawIllustration.art:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Art_re_vj2w.svg",
-  UnDrawIllustration.art_lover:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Art_lover_re_fn8g.svg",
-  UnDrawIllustration.art_museum:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/art_museum_8or4.svg",
-  UnDrawIllustration.art_thinking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/art_thinking_3g82.svg",
-  UnDrawIllustration.articles:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/articles_wbpb.svg",
+      "illustrations/advanced_customization.svg",
+  UnDrawIllustration.adventure: "illustrations/adventure.svg",
+  UnDrawIllustration.adventure_map: "illustrations/adventure_map.svg",
+  UnDrawIllustration.agree: "illustrations/agree.svg",
+  UnDrawIllustration.agreement: "illustrations/agreement.svg",
+  UnDrawIllustration.air_support: "illustrations/air_support.svg",
+  UnDrawIllustration.aircraft: "illustrations/aircraft.svg",
+  UnDrawIllustration.alert: "illustrations/alert.svg",
+  UnDrawIllustration.algolia: "illustrations/algolia.svg",
+  UnDrawIllustration.alien_science: "illustrations/alien_science.svg",
+  UnDrawIllustration.all_the_data: "illustrations/all_the_data.svg",
+  UnDrawIllustration.among_nature: "illustrations/among_nature.svg",
+  UnDrawIllustration.amusement_park: "illustrations/amusement_park.svg",
+  UnDrawIllustration.analysis: "illustrations/analysis.svg",
+  UnDrawIllustration.analytics: "illustrations/analytics.svg",
+  UnDrawIllustration.analyze: "illustrations/analyze.svg",
+  UnDrawIllustration.android: "illustrations/android.svg",
+  UnDrawIllustration.animating: "illustrations/animating.svg",
+  UnDrawIllustration.annotation: "illustrations/annotation.svg",
+  UnDrawIllustration.anonymous_feedback: "illustrations/anonymous_feedback.svg",
+  UnDrawIllustration.apartment_rent: "illustrations/apartment_rent.svg",
+  UnDrawIllustration.app_data: "illustrations/app_data.svg",
+  UnDrawIllustration.app_installation: "illustrations/app_installation.svg",
+  UnDrawIllustration.app_wireframe: "illustrations/app_wireframe.svg",
+  UnDrawIllustration.appreciate_it: "illustrations/appreciate_it.svg",
+  UnDrawIllustration.appreciation: "illustrations/appreciation.svg",
+  UnDrawIllustration.approve: "illustrations/approve.svg",
+  UnDrawIllustration.apps: "illustrations/apps.svg",
+  UnDrawIllustration.around_the_world: "illustrations/around_the_world.svg",
+  UnDrawIllustration.arrived: "illustrations/arrived.svg",
+  UnDrawIllustration.art: "illustrations/art.svg",
+  UnDrawIllustration.art_lover: "illustrations/art_lover.svg",
+  UnDrawIllustration.art_museum: "illustrations/art_museum.svg",
+  UnDrawIllustration.art_thinking: "illustrations/art_thinking.svg",
+  UnDrawIllustration.articles: "illustrations/articles.svg",
   UnDrawIllustration.artificial_intelligence:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Artificial_intelligence_re_enpp.svg",
-  UnDrawIllustration.artist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/artist_b4rc.svg",
-  UnDrawIllustration.ask_me_anything:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ask_me_anything_re_x7pm.svg",
-  UnDrawIllustration.asset_selection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Asset_selection_re_k5fj.svg",
-  UnDrawIllustration.astronaut:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Astronaut_re_8c33.svg",
-  UnDrawIllustration.at_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/At_home_re_1m0v.svg",
-  UnDrawIllustration.at_the_park:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/at_the_park_2e47.svg",
-  UnDrawIllustration.at_work:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/At_work_re_qotl.svg",
-  UnDrawIllustration.attached_file:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/attached_file_re_0n9b.svg",
-  UnDrawIllustration.audio_conversation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Audio_conversation_re_3t38.svg",
-  UnDrawIllustration.audio_player:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/audio_player_re_cl20.svg",
-  UnDrawIllustration.augmented_reality:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Augmented_reality_re_f0qd.svg",
-  UnDrawIllustration.authentication:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Authentication_re_svpt.svg",
-  UnDrawIllustration.autumn:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Autumn_re_rwy0.svg",
-  UnDrawIllustration.awards:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/awards_fieb.svg",
-  UnDrawIllustration.awesome:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/awesome_rlvy.svg",
-  UnDrawIllustration.baby:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Baby_re_fr9r.svg",
-  UnDrawIllustration.back_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/back_home_nl5c.svg",
-  UnDrawIllustration.balloons:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Balloons_re_8ymj.svg",
-  UnDrawIllustration.barbecue:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/barbecue_3x93.svg",
-  UnDrawIllustration.barber:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/barber_3uel.svg",
-  UnDrawIllustration.barista:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Barista_at0v.svg",
-  UnDrawIllustration.basketball:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Basketball_re_7701.svg",
-  UnDrawIllustration.be_the_hero:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/be_the_hero_ssr2.svg",
-  UnDrawIllustration.beach_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Beach_day_cser.svg",
-  UnDrawIllustration.bear_market:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/bear_market_ania.svg",
-  UnDrawIllustration.beer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/beer_xg5f.svg",
-  UnDrawIllustration.beer_celebration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Beer_celebration_re_0iqw.svg",
-  UnDrawIllustration.before_dawn:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Before_dawn_re_hp4m.svg",
-  UnDrawIllustration.begin_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Begin_chat_re_v0lw.svg",
-  UnDrawIllustration.best_place:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Best_place_re_lne9.svg",
-  UnDrawIllustration.bibliophile:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bibliophile_re_xarc.svg",
-  UnDrawIllustration.bike_ride:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/bike_ride_7xit.svg",
-  UnDrawIllustration.biking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/biking_kc4f.svg",
-  UnDrawIllustration.birthday_cake:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Birthday_cake_re_bsw5.svg",
-  UnDrawIllustration.birthday_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/birthday_girl_n46w.svg",
-  UnDrawIllustration.bitcoin:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bitcoin_re_urgq.svg",
-  UnDrawIllustration.bitcoin_p2p:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bitcoin_P2P_re_1xqa.svg",
-  UnDrawIllustration.blank_canvas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Blank_canvas_re_2hwy.svg",
-  UnDrawIllustration.blog_post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Blog_post_re_fy5x.svg",
-  UnDrawIllustration.blogging:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Blogging_re_kl0d.svg",
-  UnDrawIllustration.blooming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Blooming_re_2kc4.svg",
-  UnDrawIllustration.body_text:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Body_text_re_9riw.svg",
-  UnDrawIllustration.book_lover:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Book_lover_re_rwjy.svg",
-  UnDrawIllustration.book_reading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Book_reading_re_fu2c.svg",
-  UnDrawIllustration.booked:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Booked_re_vtod.svg",
-  UnDrawIllustration.booking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Booking_re_gw4j.svg",
-  UnDrawIllustration.bookmarks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bookmarks_re_mq1u.svg",
-  UnDrawIllustration.books:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Books_re_8gea.svg",
-  UnDrawIllustration.bookshelves:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bookshelves_re_lxoy.svg",
-  UnDrawIllustration.both_sides:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/both_sides_hbv3.svg",
-  UnDrawIllustration.brainstorming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Brainstorming_re_1lmw.svg",
-  UnDrawIllustration.breakfast:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/breakfast_psiw.svg",
-  UnDrawIllustration.breaking_barriers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/breaking_barriers_vnf3.svg",
-  UnDrawIllustration.broadcast:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/broadcast_jhwx.svg",
-  UnDrawIllustration.browser_stats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Browser_stats_re_j7wy.svg",
-  UnDrawIllustration.browsing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Browsing_re_eycn.svg",
-  UnDrawIllustration.browsing_online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Browsing_online_re_umsa.svg",
-  UnDrawIllustration.buddies:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Buddies_2ae5.svg",
-  UnDrawIllustration.buffer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/buffer_wq43.svg",
-  UnDrawIllustration.bug_fixing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/bug_fixing_oc7a.svg",
-  UnDrawIllustration.build_wireframe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Build_wireframe_re_ln7g.svg",
-  UnDrawIllustration.build_your_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/build_your__home_csh6.svg",
-  UnDrawIllustration.building:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Building_re_xfcm.svg",
-  UnDrawIllustration.building_blocks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Building_blocks_re_5ahy.svg",
-  UnDrawIllustration.building_websites:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/building_websites_i78t.svg",
-  UnDrawIllustration.bus_stop:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bus_stop_re_h8ej.svg",
-  UnDrawIllustration.business_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_analytics_re_tfh3.svg",
-  UnDrawIllustration.business_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_chat_re_gg4h.svg",
-  UnDrawIllustration.business_deal:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_deal_re_up4u.svg",
-  UnDrawIllustration.business_decisions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_decisions_re_84ag.svg",
-  UnDrawIllustration.business_man:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businessman_re_mlee.svg",
-  UnDrawIllustration.business_plan:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_plan_re_0v81.svg",
-  UnDrawIllustration.business_shop:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_shop_re_ruf4.svg",
-  UnDrawIllustration.businessman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businessman_5ccp.svg",
-  UnDrawIllustration.businesswoman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businesswoman_re_5n6b.svg",
-  UnDrawIllustration.button_style:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Button_style_re_uctt.svg",
-  UnDrawIllustration.buy_house:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Buy_house_re_8xq7.svg",
-  UnDrawIllustration.by_the_road:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/By_the_road_re_vvs7.svg",
-  UnDrawIllustration.cabin:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/cabin_hkfr.svg",
-  UnDrawIllustration.calculator:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calculator_re_alsc.svg",
-  UnDrawIllustration.calendar:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calendar_re_ki49.svg",
-  UnDrawIllustration.calling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calling_re_mgft.svg",
-  UnDrawIllustration.camera:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Camera_re_cnp4.svg",
-  UnDrawIllustration.campfire:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Campfire_re_9chj.svg",
-  UnDrawIllustration.camping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/camping_noc8.svg",
-  UnDrawIllustration.cancel:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cancel_re_pkdm.svg",
-  UnDrawIllustration.candidate:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/candidate_ubwv.svg",
-  UnDrawIllustration.car_repair:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/automobile_repair_ywci.svg",
-  UnDrawIllustration.card_postal:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/card_postal_5wvw.svg",
-  UnDrawIllustration.career_development:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Career_development_re_sv91.svg",
-  UnDrawIllustration.career_progress:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/career_progress_ivdb.svg",
-  UnDrawIllustration.cat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cat_epte.svg",
-  UnDrawIllustration.celebrating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Celebrating_rtuv.svg",
-  UnDrawIllustration.celebration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Celebration_re_kc9k.svg",
-  UnDrawIllustration.certificate:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Certificate_re_yadi.svg",
-  UnDrawIllustration.certification:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Certification_re_ifll.svg",
-  UnDrawIllustration.character_drawing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Character_drawing_re_s2lj.svg",
-  UnDrawIllustration.charts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Charts_re_5qe9.svg",
-  UnDrawIllustration.chasing_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chasing_love_re_9r1c.svg",
-  UnDrawIllustration.chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chat_re_re1u.svg",
-  UnDrawIllustration.chat_bot:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chat_bot_re_e2gj.svg",
-  UnDrawIllustration.chatting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chatting_re_j55r.svg",
-  UnDrawIllustration.check_boxes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Check_boxes_re_v40f.svg",
-  UnDrawIllustration.checking_boxes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Checking_boxes_re_9h8m.svg",
-  UnDrawIllustration.checklist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Checklist__re_2w7v.svg",
-  UnDrawIllustration.chef:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chef_cu0r.svg",
-  UnDrawIllustration.children:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Children_re_c37f.svg",
-  UnDrawIllustration.chilling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Chilling_re_4iq9.svg",
-  UnDrawIllustration.choice:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Choice_re_2hkp.svg",
-  UnDrawIllustration.choose:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Choose_re_7d5a.svg",
-  UnDrawIllustration.choosing_house:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Choosing_house_re_1rv7.svg",
-  UnDrawIllustration.chore_list:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/chore_list_re_2lq8.svg",
-  UnDrawIllustration.christmas_mode:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/christmas_mode_g81u.svg",
-  UnDrawIllustration.christmas_stocking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Christmas_stocking_wux9.svg",
-  UnDrawIllustration.circles:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/circles_y7s2.svg",
-  UnDrawIllustration.circuit:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/circuit_sdmr.svg",
-  UnDrawIllustration.circuit_board:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Circuit_board_re_1b79.svg",
-  UnDrawIllustration.city_driver:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/City_driver_re_9xyv.svg",
-  UnDrawIllustration.city_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/city_girl_ccpd.svg",
-  UnDrawIllustration.city_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/city_life_gnpr.svg",
-  UnDrawIllustration.clean_up:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Clean_up_re_504g.svg",
-  UnDrawIllustration.click_here:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Click_here_re_y6uq.svg",
-  UnDrawIllustration.close_tab:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Close_tab_re_4cj6.svg",
-  UnDrawIllustration.cloud_docs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cloud_docs_re_xjht.svg",
-  UnDrawIllustration.cloud_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/cloud_files_wmo8.svg",
-  UnDrawIllustration.cloud_hosting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cloud_hosting_7xb1.svg",
-  UnDrawIllustration.cloud_sync:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cloud_sync_re_02p1.svg",
-  UnDrawIllustration.cms:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/cms_re_asu0.svg",
-  UnDrawIllustration.co_workers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Co_workers_re_1i6i.svg",
-  UnDrawIllustration.co_working:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Co-working_re_w93t.svg",
-  UnDrawIllustration.code_inspection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/code_inspection_bdl7.svg",
-  UnDrawIllustration.code_review:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Code_review_re_woeb.svg",
-  UnDrawIllustration.code_thinking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Code_thinking_re_gka2.svg",
-  UnDrawIllustration.code_typing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Code_typing_re_p8b9.svg",
-  UnDrawIllustration.coding:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coding_re_iv62.svg",
-  UnDrawIllustration.coffee:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_re_x35h.svg",
-  UnDrawIllustration.coffee_break:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/coffee_break_h3uu.svg",
-  UnDrawIllustration.coffee_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_Time_7oqh.svg",
+      "illustrations/artificial_intelligence.svg",
+  UnDrawIllustration.artist: "illustrations/artist.svg",
+  UnDrawIllustration.ask_me_anything: "illustrations/ask_me_anything.svg",
+  UnDrawIllustration.asset_selection: "illustrations/asset_selection.svg",
+  UnDrawIllustration.astronaut: "illustrations/astronaut.svg",
+  UnDrawIllustration.at_home: "illustrations/at_home.svg",
+  UnDrawIllustration.at_the_park: "illustrations/at_the_park.svg",
+  UnDrawIllustration.at_work: "illustrations/at_work.svg",
+  UnDrawIllustration.attached_file: "illustrations/attached_file.svg",
+  UnDrawIllustration.audio_conversation: "illustrations/audio_conversation.svg",
+  UnDrawIllustration.audio_player: "illustrations/audio_player.svg",
+  UnDrawIllustration.augmented_reality: "illustrations/augmented_reality.svg",
+  UnDrawIllustration.authentication: "illustrations/authentication.svg",
+  UnDrawIllustration.autumn: "illustrations/autumn.svg",
+  UnDrawIllustration.awards: "illustrations/awards.svg",
+  UnDrawIllustration.awesome: "illustrations/awesome.svg",
+  UnDrawIllustration.baby: "illustrations/baby.svg",
+  UnDrawIllustration.back_home: "illustrations/back_home.svg",
+  UnDrawIllustration.balloons: "illustrations/balloons.svg",
+  UnDrawIllustration.barbecue: "illustrations/barbecue.svg",
+  UnDrawIllustration.barber: "illustrations/barber.svg",
+  UnDrawIllustration.barista: "illustrations/barista.svg",
+  UnDrawIllustration.basketball: "illustrations/basketball.svg",
+  UnDrawIllustration.be_the_hero: "illustrations/be_the_hero.svg",
+  UnDrawIllustration.beach_day: "illustrations/beach_day.svg",
+  UnDrawIllustration.bear_market: "illustrations/bear_market.svg",
+  UnDrawIllustration.beer: "illustrations/beer.svg",
+  UnDrawIllustration.beer_celebration: "illustrations/beer_celebration.svg",
+  UnDrawIllustration.before_dawn: "illustrations/before_dawn.svg",
+  UnDrawIllustration.begin_chat: "illustrations/begin_chat.svg",
+  UnDrawIllustration.best_place: "illustrations/best_place.svg",
+  UnDrawIllustration.bibliophile: "illustrations/bibliophile.svg",
+  UnDrawIllustration.bike_ride: "illustrations/bike_ride.svg",
+  UnDrawIllustration.biking: "illustrations/biking.svg",
+  UnDrawIllustration.birthday_cake: "illustrations/birthday_cake.svg",
+  UnDrawIllustration.birthday_girl: "illustrations/birthday_girl.svg",
+  UnDrawIllustration.bitcoin: "illustrations/bitcoin.svg",
+  UnDrawIllustration.bitcoin_p2p: "illustrations/bitcoin_p2p.svg",
+  UnDrawIllustration.blank_canvas: "illustrations/blank_canvas.svg",
+  UnDrawIllustration.blog_post: "illustrations/blog_post.svg",
+  UnDrawIllustration.blogging: "illustrations/blogging.svg",
+  UnDrawIllustration.blooming: "illustrations/blooming.svg",
+  UnDrawIllustration.body_text: "illustrations/body_text.svg",
+  UnDrawIllustration.book_lover: "illustrations/book_lover.svg",
+  UnDrawIllustration.book_reading: "illustrations/book_reading.svg",
+  UnDrawIllustration.booked: "illustrations/booked.svg",
+  UnDrawIllustration.booking: "illustrations/booking.svg",
+  UnDrawIllustration.bookmarks: "illustrations/bookmarks.svg",
+  UnDrawIllustration.books: "illustrations/books.svg",
+  UnDrawIllustration.bookshelves: "illustrations/bookshelves.svg",
+  UnDrawIllustration.both_sides: "illustrations/both_sides.svg",
+  UnDrawIllustration.brainstorming: "illustrations/brainstorming.svg",
+  UnDrawIllustration.breakfast: "illustrations/breakfast.svg",
+  UnDrawIllustration.breaking_barriers: "illustrations/breaking_barriers.svg",
+  UnDrawIllustration.broadcast: "illustrations/broadcast.svg",
+  UnDrawIllustration.browser_stats: "illustrations/browser_stats.svg",
+  UnDrawIllustration.browsing: "illustrations/browsing.svg",
+  UnDrawIllustration.browsing_online: "illustrations/browsing_online.svg",
+  UnDrawIllustration.buddies: "illustrations/buddies.svg",
+  UnDrawIllustration.buffer: "illustrations/buffer.svg",
+  UnDrawIllustration.bug_fixing: "illustrations/bug_fixing.svg",
+  UnDrawIllustration.build_wireframe: "illustrations/build_wireframe.svg",
+  UnDrawIllustration.build_your_home: "illustrations/build_your_home.svg",
+  UnDrawIllustration.building: "illustrations/building.svg",
+  UnDrawIllustration.building_blocks: "illustrations/building_blocks.svg",
+  UnDrawIllustration.building_websites: "illustrations/building_websites.svg",
+  UnDrawIllustration.bus_stop: "illustrations/bus_stop.svg",
+  UnDrawIllustration.business_analytics: "illustrations/business_analytics.svg",
+  UnDrawIllustration.business_chat: "illustrations/business_chat.svg",
+  UnDrawIllustration.business_deal: "illustrations/business_deal.svg",
+  UnDrawIllustration.business_decisions: "illustrations/business_decisions.svg",
+  UnDrawIllustration.business_man: "illustrations/business_man.svg",
+  UnDrawIllustration.business_plan: "illustrations/business_plan.svg",
+  UnDrawIllustration.business_shop: "illustrations/business_shop.svg",
+  UnDrawIllustration.businessman: "illustrations/businessman.svg",
+  UnDrawIllustration.businesswoman: "illustrations/businesswoman.svg",
+  UnDrawIllustration.button_style: "illustrations/button_style.svg",
+  UnDrawIllustration.buy_house: "illustrations/buy_house.svg",
+  UnDrawIllustration.by_the_road: "illustrations/by_the_road.svg",
+  UnDrawIllustration.cabin: "illustrations/cabin.svg",
+  UnDrawIllustration.calculator: "illustrations/calculator.svg",
+  UnDrawIllustration.calendar: "illustrations/calendar.svg",
+  UnDrawIllustration.calling: "illustrations/calling.svg",
+  UnDrawIllustration.camera: "illustrations/camera.svg",
+  UnDrawIllustration.campfire: "illustrations/campfire.svg",
+  UnDrawIllustration.camping: "illustrations/camping.svg",
+  UnDrawIllustration.cancel: "illustrations/cancel.svg",
+  UnDrawIllustration.candidate: "illustrations/candidate.svg",
+  UnDrawIllustration.car_repair: "illustrations/car_repair.svg",
+  UnDrawIllustration.card_postal: "illustrations/card_postal.svg",
+  UnDrawIllustration.career_development: "illustrations/career_development.svg",
+  UnDrawIllustration.career_progress: "illustrations/career_progress.svg",
+  UnDrawIllustration.cat: "illustrations/cat.svg",
+  UnDrawIllustration.celebrating: "illustrations/celebrating.svg",
+  UnDrawIllustration.celebration: "illustrations/celebration.svg",
+  UnDrawIllustration.certificate: "illustrations/certificate.svg",
+  UnDrawIllustration.certification: "illustrations/certification.svg",
+  UnDrawIllustration.character_drawing: "illustrations/character_drawing.svg",
+  UnDrawIllustration.charts: "illustrations/charts.svg",
+  UnDrawIllustration.chasing_love: "illustrations/chasing_love.svg",
+  UnDrawIllustration.chat: "illustrations/chat.svg",
+  UnDrawIllustration.chat_bot: "illustrations/chat_bot.svg",
+  UnDrawIllustration.chatting: "illustrations/chatting.svg",
+  UnDrawIllustration.check_boxes: "illustrations/check_boxes.svg",
+  UnDrawIllustration.checking_boxes: "illustrations/checking_boxes.svg",
+  UnDrawIllustration.checklist: "illustrations/checklist.svg",
+  UnDrawIllustration.chef: "illustrations/chef.svg",
+  UnDrawIllustration.children: "illustrations/children.svg",
+  UnDrawIllustration.chilling: "illustrations/chilling.svg",
+  UnDrawIllustration.choice: "illustrations/choice.svg",
+  UnDrawIllustration.choose: "illustrations/choose.svg",
+  UnDrawIllustration.choosing_house: "illustrations/choosing_house.svg",
+  UnDrawIllustration.chore_list: "illustrations/chore_list.svg",
+  UnDrawIllustration.christmas_mode: "illustrations/christmas_mode.svg",
+  UnDrawIllustration.christmas_stocking: "illustrations/christmas_stocking.svg",
+  UnDrawIllustration.circles: "illustrations/circles.svg",
+  UnDrawIllustration.circuit: "illustrations/circuit.svg",
+  UnDrawIllustration.circuit_board: "illustrations/circuit_board.svg",
+  UnDrawIllustration.city_driver: "illustrations/city_driver.svg",
+  UnDrawIllustration.city_girl: "illustrations/city_girl.svg",
+  UnDrawIllustration.city_life: "illustrations/city_life.svg",
+  UnDrawIllustration.clean_up: "illustrations/clean_up.svg",
+  UnDrawIllustration.click_here: "illustrations/click_here.svg",
+  UnDrawIllustration.close_tab: "illustrations/close_tab.svg",
+  UnDrawIllustration.cloud_docs: "illustrations/cloud_docs.svg",
+  UnDrawIllustration.cloud_files: "illustrations/cloud_files.svg",
+  UnDrawIllustration.cloud_hosting: "illustrations/cloud_hosting.svg",
+  UnDrawIllustration.cloud_sync: "illustrations/cloud_sync.svg",
+  UnDrawIllustration.cms: "illustrations/cms.svg",
+  UnDrawIllustration.co_workers: "illustrations/co_workers.svg",
+  UnDrawIllustration.co_working: "illustrations/co_working.svg",
+  UnDrawIllustration.code_inspection: "illustrations/code_inspection.svg",
+  UnDrawIllustration.code_review: "illustrations/code_review.svg",
+  UnDrawIllustration.code_thinking: "illustrations/code_thinking.svg",
+  UnDrawIllustration.code_typing: "illustrations/code_typing.svg",
+  UnDrawIllustration.coding: "illustrations/coding.svg",
+  UnDrawIllustration.coffee: "illustrations/coffee.svg",
+  UnDrawIllustration.coffee_break: "illustrations/coffee_break.svg",
+  UnDrawIllustration.coffee_time: "illustrations/coffee_time.svg",
   UnDrawIllustration.coffee_with_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/coffee_with_friends_3cbj.svg",
-  UnDrawIllustration.cohort_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/cohort_analysis_stny.svg",
-  UnDrawIllustration.collab:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/collab_8oes.svg",
-  UnDrawIllustration.collaborating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Collaborating_re_l43g.svg",
-  UnDrawIllustration.collaboration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Collaboration_re_vyau.svg",
-  UnDrawIllustration.collaborators:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Collaborators_re_hont.svg",
-  UnDrawIllustration.collecting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Collecting_re_lp6p.svg",
-  UnDrawIllustration.collection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Collection_re_4h7d.svg",
-  UnDrawIllustration.color_palette:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Color_palette_re_dwy7.svg",
-  UnDrawIllustration.color_schemes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/color__schemes_wv48.svg",
-  UnDrawIllustration.coming_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coming_home_re_ausc.svg",
-  UnDrawIllustration.community:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Community_re_cyrm.svg",
-  UnDrawIllustration.complete_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Complete_design_re_h75h.svg",
-  UnDrawIllustration.complete_task:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Complete_task_re_44tb.svg",
-  UnDrawIllustration.completed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_03xt.svg",
-  UnDrawIllustration.completed_steps:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_steps_re_h9wc.svg",
-  UnDrawIllustration.completed_tasks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/completed_tasks_vs6q.svg",
-  UnDrawIllustration.completing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completing_re_i7ap.svg",
-  UnDrawIllustration.compose_music:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Compose_music_re_wpiw.svg",
-  UnDrawIllustration.composition:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/composition_re_4o4o.svg",
-  UnDrawIllustration.conceptual_idea:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/conceptual_idea_xw7k.svg",
-  UnDrawIllustration.conference:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Conference_re_2yld.svg",
-  UnDrawIllustration.conference_call:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/conference_call_b0w6.svg",
-  UnDrawIllustration.conference_speaker:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Conference_speaker_re_1rna.svg",
+      "illustrations/coffee_with_friends.svg",
+  UnDrawIllustration.cohort_analysis: "illustrations/cohort_analysis.svg",
+  UnDrawIllustration.collab: "illustrations/collab.svg",
+  UnDrawIllustration.collaborating: "illustrations/collaborating.svg",
+  UnDrawIllustration.collaboration: "illustrations/collaboration.svg",
+  UnDrawIllustration.collaborators: "illustrations/collaborators.svg",
+  UnDrawIllustration.collecting: "illustrations/collecting.svg",
+  UnDrawIllustration.collection: "illustrations/collection.svg",
+  UnDrawIllustration.color_palette: "illustrations/color_palette.svg",
+  UnDrawIllustration.color_schemes: "illustrations/color_schemes.svg",
+  UnDrawIllustration.coming_home: "illustrations/coming_home.svg",
+  UnDrawIllustration.community: "illustrations/community.svg",
+  UnDrawIllustration.complete_design: "illustrations/complete_design.svg",
+  UnDrawIllustration.complete_task: "illustrations/complete_task.svg",
+  UnDrawIllustration.completed: "illustrations/completed.svg",
+  UnDrawIllustration.completed_steps: "illustrations/completed_steps.svg",
+  UnDrawIllustration.completed_tasks: "illustrations/completed_tasks.svg",
+  UnDrawIllustration.completing: "illustrations/completing.svg",
+  UnDrawIllustration.compose_music: "illustrations/compose_music.svg",
+  UnDrawIllustration.composition: "illustrations/composition.svg",
+  UnDrawIllustration.conceptual_idea: "illustrations/conceptual_idea.svg",
+  UnDrawIllustration.conference: "illustrations/conference.svg",
+  UnDrawIllustration.conference_call: "illustrations/conference_call.svg",
+  UnDrawIllustration.conference_speaker: "illustrations/conference_speaker.svg",
   UnDrawIllustration.confidential_letter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/confidential_letter_w6ux.svg",
-  UnDrawIllustration.confirm:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Confirm_re_69me.svg",
-  UnDrawIllustration.confirmation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Confirmation_re_b6q5.svg",
-  UnDrawIllustration.confirmed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Confirmed_re_sef7.svg",
-  UnDrawIllustration.connected:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Connected_re_lmq2.svg",
-  UnDrawIllustration.connected_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/connected_world_wuay.svg",
-  UnDrawIllustration.connecting_teams:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Connecting_Teams_re_hno7.svg",
-  UnDrawIllustration.connection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Connection_re_lcud.svg",
-  UnDrawIllustration.contact_us:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Contact_us_re_4qqt.svg",
-  UnDrawIllustration.container_ship:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Container_ship_re_alm4.svg",
-  UnDrawIllustration.contemplating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Contemplating_re_ynec.svg",
-  UnDrawIllustration.content:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Content_re_33px.svg",
-  UnDrawIllustration.content_creator:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Content_creator_re_pt5b.svg",
-  UnDrawIllustration.content_structure:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Content_structure_re_ebkv.svg",
-  UnDrawIllustration.content_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Content_team_re_6rlg.svg",
-  UnDrawIllustration.contract:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Contract_re_ves9.svg",
-  UnDrawIllustration.contrast:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Contrast_re_hc7k.svg",
-  UnDrawIllustration.control_panel:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Control_panel_re_y3ar.svg",
-  UnDrawIllustration.conversation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Conversation_re_c26v.svg",
-  UnDrawIllustration.convert:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Convert_re_l0y1.svg",
-  UnDrawIllustration.cookie_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cookie_love_re_lsjh.svg",
-  UnDrawIllustration.cooking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Cooking_p7m1.svg",
-  UnDrawIllustration.coolness:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coolness_re_sllr.svg",
-  UnDrawIllustration.counting_stars:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Counting_stars_re_smvv.svg",
-  UnDrawIllustration.country_side:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Country_side_re_0dou.svg",
-  UnDrawIllustration.couple:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Couple_re_94tl.svg",
-  UnDrawIllustration.couple_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/couple_love_re_3fw6.svg",
-  UnDrawIllustration.create:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Create_re_57a3.svg",
-  UnDrawIllustration.creation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creation_re_d1mi.svg",
-  UnDrawIllustration.creation_process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creation_process_re_kqa9.svg",
-  UnDrawIllustration.creative_draft:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/creative_draft_vb5x.svg",
+      "illustrations/confidential_letter.svg",
+  UnDrawIllustration.confirm: "illustrations/confirm.svg",
+  UnDrawIllustration.confirmation: "illustrations/confirmation.svg",
+  UnDrawIllustration.confirmed: "illustrations/confirmed.svg",
+  UnDrawIllustration.connected: "illustrations/connected.svg",
+  UnDrawIllustration.connected_world: "illustrations/connected_world.svg",
+  UnDrawIllustration.connecting_teams: "illustrations/connecting_teams.svg",
+  UnDrawIllustration.connection: "illustrations/connection.svg",
+  UnDrawIllustration.contact_us: "illustrations/contact_us.svg",
+  UnDrawIllustration.container_ship: "illustrations/container_ship.svg",
+  UnDrawIllustration.contemplating: "illustrations/contemplating.svg",
+  UnDrawIllustration.content: "illustrations/content.svg",
+  UnDrawIllustration.content_creator: "illustrations/content_creator.svg",
+  UnDrawIllustration.content_structure: "illustrations/content_structure.svg",
+  UnDrawIllustration.content_team: "illustrations/content_team.svg",
+  UnDrawIllustration.contract: "illustrations/contract.svg",
+  UnDrawIllustration.contrast: "illustrations/contrast.svg",
+  UnDrawIllustration.control_panel: "illustrations/control_panel.svg",
+  UnDrawIllustration.conversation: "illustrations/conversation.svg",
+  UnDrawIllustration.convert: "illustrations/convert.svg",
+  UnDrawIllustration.cookie_love: "illustrations/cookie_love.svg",
+  UnDrawIllustration.cooking: "illustrations/cooking.svg",
+  UnDrawIllustration.coolness: "illustrations/coolness.svg",
+  UnDrawIllustration.counting_stars: "illustrations/counting_stars.svg",
+  UnDrawIllustration.country_side: "illustrations/country_side.svg",
+  UnDrawIllustration.couple: "illustrations/couple.svg",
+  UnDrawIllustration.couple_love: "illustrations/couple_love.svg",
+  UnDrawIllustration.create: "illustrations/create.svg",
+  UnDrawIllustration.creation: "illustrations/creation.svg",
+  UnDrawIllustration.creation_process: "illustrations/creation_process.svg",
+  UnDrawIllustration.creative_draft: "illustrations/creative_draft.svg",
   UnDrawIllustration.creative_experiment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/creative_experiment_8dk3.svg",
-  UnDrawIllustration.creative_process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creative_process_re_4ylm.svg",
-  UnDrawIllustration.creative_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creative_team_re_85gn.svg",
-  UnDrawIllustration.creative_thinking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creative_thinking_re_9k71.svg",
-  UnDrawIllustration.creative_woman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creative_woman_re_u5tk.svg",
-  UnDrawIllustration.creativity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Creativity_re_8grt.svg",
-  UnDrawIllustration.credit_card:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Credit_card_re_blml.svg",
+      "illustrations/creative_experiment.svg",
+  UnDrawIllustration.creative_process: "illustrations/creative_process.svg",
+  UnDrawIllustration.creative_team: "illustrations/creative_team.svg",
+  UnDrawIllustration.creative_thinking: "illustrations/creative_thinking.svg",
+  UnDrawIllustration.creative_woman: "illustrations/creative_woman.svg",
+  UnDrawIllustration.creativity: "illustrations/creativity.svg",
+  UnDrawIllustration.credit_card: "illustrations/credit_card.svg",
   UnDrawIllustration.credit_card_payment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Credit_card_payment_re_o911.svg",
+      "illustrations/credit_card_payment.svg",
   UnDrawIllustration.credit_card_payments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Credit_card_payments_re_qboh.svg",
-  UnDrawIllustration.crypto_flowers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Crypto_flowers_re_dyqo.svg",
-  UnDrawIllustration.crypto_portfolio:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/crypto_portfolio_2jy5.svg",
-  UnDrawIllustration.current_location:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Current_location_re_j130.svg",
-  UnDrawIllustration.customer_survey:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Customer_survey_re_v9cj.svg",
-  UnDrawIllustration.dark_alley:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/dark_alley_hl3o.svg",
-  UnDrawIllustration.dark_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dark_analytics_re_2kvy.svg",
-  UnDrawIllustration.dark_mode:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/dark_mode_2xam.svg",
-  UnDrawIllustration.dashboard:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dashboard_re_3b76.svg",
-  UnDrawIllustration.data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Data_re_80ws.svg",
-  UnDrawIllustration.data_extraction:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Data_extraction_re_0rd3.svg",
-  UnDrawIllustration.data_input:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/data_input_fxv2.svg",
-  UnDrawIllustration.data_points:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Data_points_re_vkpq.svg",
-  UnDrawIllustration.data_processing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/data_processing_yrrv.svg",
-  UnDrawIllustration.data_report:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Data_report_re_p4so.svg",
-  UnDrawIllustration.data_reports:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/data_reports_706v.svg",
-  UnDrawIllustration.data_trends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Data_trends_re_2cdy.svg",
-  UnDrawIllustration.date_night:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/date_night_bda8.svg",
-  UnDrawIllustration.date_picker:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Date_picker_re_r0p8.svg",
-  UnDrawIllustration.decide:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Decide_re_ixfw.svg",
-  UnDrawIllustration.deconstructed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/deconstructed_alud.svg",
+      "illustrations/credit_card_payments.svg",
+  UnDrawIllustration.crypto_flowers: "illustrations/crypto_flowers.svg",
+  UnDrawIllustration.crypto_portfolio: "illustrations/crypto_portfolio.svg",
+  UnDrawIllustration.current_location: "illustrations/current_location.svg",
+  UnDrawIllustration.customer_survey: "illustrations/customer_survey.svg",
+  UnDrawIllustration.dark_alley: "illustrations/dark_alley.svg",
+  UnDrawIllustration.dark_analytics: "illustrations/dark_analytics.svg",
+  UnDrawIllustration.dark_mode: "illustrations/dark_mode.svg",
+  UnDrawIllustration.dashboard: "illustrations/dashboard.svg",
+  UnDrawIllustration.data: "illustrations/data.svg",
+  UnDrawIllustration.data_extraction: "illustrations/data_extraction.svg",
+  UnDrawIllustration.data_input: "illustrations/data_input.svg",
+  UnDrawIllustration.data_points: "illustrations/data_points.svg",
+  UnDrawIllustration.data_processing: "illustrations/data_processing.svg",
+  UnDrawIllustration.data_report: "illustrations/data_report.svg",
+  UnDrawIllustration.data_reports: "illustrations/data_reports.svg",
+  UnDrawIllustration.data_trends: "illustrations/data_trends.svg",
+  UnDrawIllustration.date_night: "illustrations/date_night.svg",
+  UnDrawIllustration.date_picker: "illustrations/date_picker.svg",
+  UnDrawIllustration.decide: "illustrations/decide.svg",
+  UnDrawIllustration.deconstructed: "illustrations/deconstructed.svg",
   UnDrawIllustration.decorate_christmas_tree:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/decorate_christmas_tree_rmj0.svg",
-  UnDrawIllustration.deliveries:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Deliveries_2r4y.svg",
-  UnDrawIllustration.delivery:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Delivery_re_f50b.svg",
-  UnDrawIllustration.delivery_address:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Delivery_address_re_cjca.svg",
-  UnDrawIllustration.delivery_truck:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/delivery_truck_vt6p.svg",
-  UnDrawIllustration.departing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Departing_re_mlq3.svg",
-  UnDrawIllustration.design_community:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/design_community_rcft.svg",
-  UnDrawIllustration.design_components:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/design_components_9vy6.svg",
-  UnDrawIllustration.design_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_data_re_0s26.svg",
-  UnDrawIllustration.design_feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_feedback_re_8gtk.svg",
-  UnDrawIllustration.design_inspiration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_inspiration_re_tftx.svg",
-  UnDrawIllustration.design_notes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_notes_re_eklr.svg",
-  UnDrawIllustration.design_objectives:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_objectives_re_94pd.svg",
-  UnDrawIllustration.design_process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_process_re_0dhf.svg",
-  UnDrawIllustration.design_sprint:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_sprint_re_tke3.svg",
-  UnDrawIllustration.design_stats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/design_stats_ne2k.svg",
-  UnDrawIllustration.design_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_team_re_gh2d.svg",
-  UnDrawIllustration.design_thinking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Design_thinking_re_644h.svg",
-  UnDrawIllustration.design_tools:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/design_tools_42tf.svg",
-  UnDrawIllustration.designer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Designer_re_5v95.svg",
-  UnDrawIllustration.designer_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Designer_girl_re_h54c.svg",
-  UnDrawIllustration.designer_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Designer_life_re_6ywf.svg",
-  UnDrawIllustration.designer_mindset:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Designer_mindset_re_2w1k.svg",
-  UnDrawIllustration.destination:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Destination_re_sr74.svg",
-  UnDrawIllustration.destinations:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Destinations_re_80yc.svg",
-  UnDrawIllustration.detailed_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Detailed_analysis_re_tk6j.svg",
+      "illustrations/decorate_christmas_tree.svg",
+  UnDrawIllustration.deliveries: "illustrations/deliveries.svg",
+  UnDrawIllustration.delivery: "illustrations/delivery.svg",
+  UnDrawIllustration.delivery_address: "illustrations/delivery_address.svg",
+  UnDrawIllustration.delivery_truck: "illustrations/delivery_truck.svg",
+  UnDrawIllustration.departing: "illustrations/departing.svg",
+  UnDrawIllustration.design_community: "illustrations/design_community.svg",
+  UnDrawIllustration.design_components: "illustrations/design_components.svg",
+  UnDrawIllustration.design_data: "illustrations/design_data.svg",
+  UnDrawIllustration.design_feedback: "illustrations/design_feedback.svg",
+  UnDrawIllustration.design_inspiration: "illustrations/design_inspiration.svg",
+  UnDrawIllustration.design_notes: "illustrations/design_notes.svg",
+  UnDrawIllustration.design_objectives: "illustrations/design_objectives.svg",
+  UnDrawIllustration.design_process: "illustrations/design_process.svg",
+  UnDrawIllustration.design_sprint: "illustrations/design_sprint.svg",
+  UnDrawIllustration.design_stats: "illustrations/design_stats.svg",
+  UnDrawIllustration.design_team: "illustrations/design_team.svg",
+  UnDrawIllustration.design_thinking: "illustrations/design_thinking.svg",
+  UnDrawIllustration.design_tools: "illustrations/design_tools.svg",
+  UnDrawIllustration.designer: "illustrations/designer.svg",
+  UnDrawIllustration.designer_girl: "illustrations/designer_girl.svg",
+  UnDrawIllustration.designer_life: "illustrations/designer_life.svg",
+  UnDrawIllustration.designer_mindset: "illustrations/designer_mindset.svg",
+  UnDrawIllustration.destination: "illustrations/destination.svg",
+  UnDrawIllustration.destinations: "illustrations/destinations.svg",
+  UnDrawIllustration.detailed_analysis: "illustrations/detailed_analysis.svg",
   UnDrawIllustration.detailed_examination:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Detailed_examination_re_ieui.svg",
+      "illustrations/detailed_examination.svg",
   UnDrawIllustration.detailed_information:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Detailed_information_re_qmuc.svg",
-  UnDrawIllustration.details:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/details_8k13.svg",
-  UnDrawIllustration.dev_focus:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dev_focus_re_6iwt.svg",
-  UnDrawIllustration.dev_productivity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dev_productivity_re_fylf.svg",
-  UnDrawIllustration.develop_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/develop_app_re_bi4i.svg",
-  UnDrawIllustration.developer_activity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Developer_activity_re_39tg.svg",
-  UnDrawIllustration.development:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Development_re_g5hq.svg",
-  UnDrawIllustration.devices:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Devices_re_dxae.svg",
-  UnDrawIllustration.diary:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Diary_re_4jpc.svg",
-  UnDrawIllustration.diet:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/diet_ghvw.svg",
-  UnDrawIllustration.different_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/different_love_a3rg.svg",
-  UnDrawIllustration.digital_currency:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/digital_currency_qpak.svg",
-  UnDrawIllustration.digital_nomad:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Digital_nomad_re_w8uy.svg",
-  UnDrawIllustration.directions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Directions_re_kjxs.svg",
-  UnDrawIllustration.discount:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/discount_d4bd.svg",
-  UnDrawIllustration.discoverable:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/discoverable_xwsc.svg",
-  UnDrawIllustration.doctor:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/doctor_kw5l.svg",
-  UnDrawIllustration.doctors:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Doctors_p6aq.svg",
-  UnDrawIllustration.documents:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Documents_re_isxv.svg",
-  UnDrawIllustration.dog:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dog_c7i6.svg",
-  UnDrawIllustration.dog_walking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dog_walking_re_l61p.svg",
-  UnDrawIllustration.doll_play:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/doll_play_evbw.svg",
-  UnDrawIllustration.domain_names:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Domain_names_re_0uun.svg",
-  UnDrawIllustration.done:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Done_re_oak4.svg",
-  UnDrawIllustration.done_checking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Done_checking_re_6vyx.svg",
-  UnDrawIllustration.donut_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/donut_love_kau1.svg",
-  UnDrawIllustration.download:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Download_re_li50.svg",
-  UnDrawIllustration.drag:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Drag_re_shc0.svg",
-  UnDrawIllustration.dream_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dream_world_re_x2yl.svg",
-  UnDrawIllustration.dreamer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dreamer_re_9tua.svg",
-  UnDrawIllustration.drink_coffee:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Drink_coffee_v3au.svg",
-  UnDrawIllustration.drone_delivery:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Drone_delivery_re_in95.svg",
-  UnDrawIllustration.drone_race:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/drone_race_0sim.svg",
-  UnDrawIllustration.drone_surveillance:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/drone_surveillance_kjjg.svg",
-  UnDrawIllustration.dropdown_menu:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Dropdown_menu_re_jqqs.svg",
-  UnDrawIllustration.dua_lipa:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/dua_lipa_ixam.svg",
-  UnDrawIllustration.duplicate:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Duplicate_re_d39g.svg",
-  UnDrawIllustration.eating_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Eating_together_re_ux62.svg",
-  UnDrawIllustration.eco_conscious:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Eco_conscious_re_r2bs.svg",
-  UnDrawIllustration.edit_photo:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Edit_photo_re_ton4.svg",
-  UnDrawIllustration.editable:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Editable_re_4l94.svg",
-  UnDrawIllustration.education:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/education_f8ru.svg",
-  UnDrawIllustration.educator:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Educator_re_ju47.svg",
-  UnDrawIllustration.eiffel_tower:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Eiffel_tower_re_e11r.svg",
-  UnDrawIllustration.election_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/election_day_w842.svg",
-  UnDrawIllustration.electric_car:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/electric_car_b7hl.svg",
-  UnDrawIllustration.electricity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/electricity_k2ft.svg",
-  UnDrawIllustration.elements:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Elements_re_25t9.svg",
-  UnDrawIllustration.email_campaign:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Email_campaign_re_m6k5.svg",
-  UnDrawIllustration.email_capture:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Email_capture_re_b5ys.svg",
-  UnDrawIllustration.emails:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Emails_re_cqen.svg",
-  UnDrawIllustration.empty:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Empty_re_opql.svg",
-  UnDrawIllustration.empty_cart:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/empty_cart_co35.svg",
-  UnDrawIllustration.empty_street:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Empty_street_re_atjq.svg",
-  UnDrawIllustration.energizer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Energizer_re_vhjv.svg",
-  UnDrawIllustration.engineering_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Engineering_team_a7n2.svg",
-  UnDrawIllustration.enter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/enter_uhqk.svg",
-  UnDrawIllustration.envelope:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Envelope_re_f5j4.svg",
-  UnDrawIllustration.environment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/environment_iaus.svg",
+      "illustrations/detailed_information.svg",
+  UnDrawIllustration.details: "illustrations/details.svg",
+  UnDrawIllustration.dev_focus: "illustrations/dev_focus.svg",
+  UnDrawIllustration.dev_productivity: "illustrations/dev_productivity.svg",
+  UnDrawIllustration.develop_app: "illustrations/develop_app.svg",
+  UnDrawIllustration.developer_activity: "illustrations/developer_activity.svg",
+  UnDrawIllustration.development: "illustrations/development.svg",
+  UnDrawIllustration.devices: "illustrations/devices.svg",
+  UnDrawIllustration.diary: "illustrations/diary.svg",
+  UnDrawIllustration.diet: "illustrations/diet.svg",
+  UnDrawIllustration.different_love: "illustrations/different_love.svg",
+  UnDrawIllustration.digital_currency: "illustrations/digital_currency.svg",
+  UnDrawIllustration.digital_nomad: "illustrations/digital_nomad.svg",
+  UnDrawIllustration.directions: "illustrations/directions.svg",
+  UnDrawIllustration.discount: "illustrations/discount.svg",
+  UnDrawIllustration.discoverable: "illustrations/discoverable.svg",
+  UnDrawIllustration.doctor: "illustrations/doctor.svg",
+  UnDrawIllustration.doctors: "illustrations/doctors.svg",
+  UnDrawIllustration.documents: "illustrations/documents.svg",
+  UnDrawIllustration.dog: "illustrations/dog.svg",
+  UnDrawIllustration.dog_walking: "illustrations/dog_walking.svg",
+  UnDrawIllustration.doll_play: "illustrations/doll_play.svg",
+  UnDrawIllustration.domain_names: "illustrations/domain_names.svg",
+  UnDrawIllustration.done: "illustrations/done.svg",
+  UnDrawIllustration.done_checking: "illustrations/done_checking.svg",
+  UnDrawIllustration.donut_love: "illustrations/donut_love.svg",
+  UnDrawIllustration.download: "illustrations/download.svg",
+  UnDrawIllustration.drag: "illustrations/drag.svg",
+  UnDrawIllustration.dream_world: "illustrations/dream_world.svg",
+  UnDrawIllustration.dreamer: "illustrations/dreamer.svg",
+  UnDrawIllustration.drink_coffee: "illustrations/drink_coffee.svg",
+  UnDrawIllustration.drone_delivery: "illustrations/drone_delivery.svg",
+  UnDrawIllustration.drone_race: "illustrations/drone_race.svg",
+  UnDrawIllustration.drone_surveillance: "illustrations/drone_surveillance.svg",
+  UnDrawIllustration.dropdown_menu: "illustrations/dropdown_menu.svg",
+  UnDrawIllustration.dua_lipa: "illustrations/dua_lipa.svg",
+  UnDrawIllustration.duplicate: "illustrations/duplicate.svg",
+  UnDrawIllustration.eating_together: "illustrations/eating_together.svg",
+  UnDrawIllustration.eco_conscious: "illustrations/eco_conscious.svg",
+  UnDrawIllustration.edit_photo: "illustrations/edit_photo.svg",
+  UnDrawIllustration.editable: "illustrations/editable.svg",
+  UnDrawIllustration.education: "illustrations/education.svg",
+  UnDrawIllustration.educator: "illustrations/educator.svg",
+  UnDrawIllustration.eiffel_tower: "illustrations/eiffel_tower.svg",
+  UnDrawIllustration.election_day: "illustrations/election_day.svg",
+  UnDrawIllustration.electric_car: "illustrations/electric_car.svg",
+  UnDrawIllustration.electricity: "illustrations/electricity.svg",
+  UnDrawIllustration.elements: "illustrations/elements.svg",
+  UnDrawIllustration.email_campaign: "illustrations/email_campaign.svg",
+  UnDrawIllustration.email_capture: "illustrations/email_capture.svg",
+  UnDrawIllustration.emails: "illustrations/emails.svg",
+  UnDrawIllustration.empty: "illustrations/empty.svg",
+  UnDrawIllustration.empty_cart: "illustrations/empty_cart.svg",
+  UnDrawIllustration.empty_street: "illustrations/empty_street.svg",
+  UnDrawIllustration.energizer: "illustrations/energizer.svg",
+  UnDrawIllustration.engineering_team: "illustrations/engineering_team.svg",
+  UnDrawIllustration.enter: "illustrations/enter.svg",
+  UnDrawIllustration.envelope: "illustrations/envelope.svg",
+  UnDrawIllustration.environment: "illustrations/environment.svg",
   UnDrawIllustration.environmental_study:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Environmental_study_re_q4q8.svg",
-  UnDrawIllustration.escaping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/escaping_my1b.svg",
-  UnDrawIllustration.ether:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ether_re_y7ft.svg",
-  UnDrawIllustration.ethereum:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ethereum_re_0m68.svg",
-  UnDrawIllustration.events:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Events_re_98ue.svg",
-  UnDrawIllustration.everyday_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/everyday_design_gy64.svg",
-  UnDrawIllustration.everyday_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Everyday_life_re_1lfb.svg",
+      "illustrations/environmental_study.svg",
+  UnDrawIllustration.escaping: "illustrations/escaping.svg",
+  UnDrawIllustration.ether: "illustrations/ether.svg",
+  UnDrawIllustration.ethereum: "illustrations/ethereum.svg",
+  UnDrawIllustration.events: "illustrations/events.svg",
+  UnDrawIllustration.everyday_design: "illustrations/everyday_design.svg",
+  UnDrawIllustration.everyday_life: "illustrations/everyday_life.svg",
   UnDrawIllustration.everywhere_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Everywhere_together_re_xe5a.svg",
-  UnDrawIllustration.exams:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Exams_re_4ios.svg",
-  UnDrawIllustration.exciting_news:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Exciting_news_re_y1iw.svg",
-  UnDrawIllustration.expecting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/expecting_l6j1.svg",
-  UnDrawIllustration.experience_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Experience_design_re_dmqq.svg",
-  UnDrawIllustration.experts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Experts_re_i40h.svg",
-  UnDrawIllustration.explore:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Explore_re_8l4v.svg",
-  UnDrawIllustration.exploring:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Exploring_re_grb8.svg",
-  UnDrawIllustration.export_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/export_files_re_99ar.svg",
-  UnDrawIllustration.factory:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/factory_dy0a.svg",
-  UnDrawIllustration.fall:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fall_thyk.svg",
-  UnDrawIllustration.fall_is_coming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fall_is_coming_yl0x.svg",
-  UnDrawIllustration.family:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/family_vg76.svg",
-  UnDrawIllustration.fans:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fans_re_cri3.svg",
-  UnDrawIllustration.faq:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Faq_re_31cw.svg",
-  UnDrawIllustration.farm_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/farm_girl_dnpe.svg",
-  UnDrawIllustration.fashion_blogging:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fashion_blogging_re_fhi5.svg",
-  UnDrawIllustration.fashion_photoshoot:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fashion_photoshoot_mtq8.svg",
-  UnDrawIllustration.fast:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fast_re_lywu.svg",
-  UnDrawIllustration.fast_loading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fast_loading_re_8oi3.svg",
-  UnDrawIllustration.fatherhood:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fatherhood_7i19.svg",
-  UnDrawIllustration.features_overview:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Features_overview_re_2w78.svg",
-  UnDrawIllustration.feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Feedback_re_urmj.svg",
-  UnDrawIllustration.feeling_blue:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/feeling_blue_4b7q.svg",
-  UnDrawIllustration.feeling_happy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/feeling_happy_jymo.svg",
-  UnDrawIllustration.feeling_of_joy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Feeling_of_joy_re_cqko.svg",
-  UnDrawIllustration.feeling_proud:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/feeling_proud_qne1.svg",
-  UnDrawIllustration.female_avatar:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Female_avatar_efig.svg",
-  UnDrawIllustration.festivities:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/festivities_tvvj.svg",
-  UnDrawIllustration.file_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/file_analysis_8k9b.svg",
-  UnDrawIllustration.file_bundle:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/File_bundle_re_6q1e.svg",
-  UnDrawIllustration.file_manager:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/File_manager_re_ms29.svg",
-  UnDrawIllustration.file_searching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/File_searching_re_3evy.svg",
-  UnDrawIllustration.file_sync:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/File_sync_re_0pcx.svg",
+      "illustrations/everywhere_together.svg",
+  UnDrawIllustration.exams: "illustrations/exams.svg",
+  UnDrawIllustration.exciting_news: "illustrations/exciting_news.svg",
+  UnDrawIllustration.expecting: "illustrations/expecting.svg",
+  UnDrawIllustration.experience_design: "illustrations/experience_design.svg",
+  UnDrawIllustration.experts: "illustrations/experts.svg",
+  UnDrawIllustration.explore: "illustrations/explore.svg",
+  UnDrawIllustration.exploring: "illustrations/exploring.svg",
+  UnDrawIllustration.export_files: "illustrations/export_files.svg",
+  UnDrawIllustration.factory: "illustrations/factory.svg",
+  UnDrawIllustration.fall: "illustrations/fall.svg",
+  UnDrawIllustration.fall_is_coming: "illustrations/fall_is_coming.svg",
+  UnDrawIllustration.family: "illustrations/family.svg",
+  UnDrawIllustration.fans: "illustrations/fans.svg",
+  UnDrawIllustration.faq: "illustrations/faq.svg",
+  UnDrawIllustration.farm_girl: "illustrations/farm_girl.svg",
+  UnDrawIllustration.fashion_blogging: "illustrations/fashion_blogging.svg",
+  UnDrawIllustration.fashion_photoshoot: "illustrations/fashion_photoshoot.svg",
+  UnDrawIllustration.fast: "illustrations/fast.svg",
+  UnDrawIllustration.fast_loading: "illustrations/fast_loading.svg",
+  UnDrawIllustration.fatherhood: "illustrations/fatherhood.svg",
+  UnDrawIllustration.features_overview: "illustrations/features_overview.svg",
+  UnDrawIllustration.feedback: "illustrations/feedback.svg",
+  UnDrawIllustration.feeling_blue: "illustrations/feeling_blue.svg",
+  UnDrawIllustration.feeling_happy: "illustrations/feeling_happy.svg",
+  UnDrawIllustration.feeling_of_joy: "illustrations/feeling_of_joy.svg",
+  UnDrawIllustration.feeling_proud: "illustrations/feeling_proud.svg",
+  UnDrawIllustration.female_avatar: "illustrations/female_avatar.svg",
+  UnDrawIllustration.festivities: "illustrations/festivities.svg",
+  UnDrawIllustration.file_analysis: "illustrations/file_analysis.svg",
+  UnDrawIllustration.file_bundle: "illustrations/file_bundle.svg",
+  UnDrawIllustration.file_manager: "illustrations/file_manager.svg",
+  UnDrawIllustration.file_searching: "illustrations/file_searching.svg",
+  UnDrawIllustration.file_sync: "illustrations/file_sync.svg",
   UnDrawIllustration.file_synchronization:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/File_synchronization_re_m5jd.svg",
-  UnDrawIllustration.files_sent:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Files_sent_re_kv00.svg",
-  UnDrawIllustration.filing_system:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Filing_system_re_56h6.svg",
-  UnDrawIllustration.fill_forms:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fill_form_re_cwyf.svg",
-  UnDrawIllustration.fill_in:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fill_in_re_sybw.svg",
-  UnDrawIllustration.filter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Filter_re_sa16.svg",
-  UnDrawIllustration.finance:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Finance_re_gnv2.svg",
-  UnDrawIllustration.financial_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Financial_data_re_p0fl.svg",
-  UnDrawIllustration.fingerprint:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fingerprint_re_uf3f.svg",
-  UnDrawIllustration.fingerprint_login:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fingerprint_login_re_t71l.svg",
-  UnDrawIllustration.finish_line:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Finish_line_re_jkxc.svg",
-  UnDrawIllustration.fireworks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fireworks_re_2xi7.svg",
-  UnDrawIllustration.firmware:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Firmware_re_fgdy.svg",
-  UnDrawIllustration.fish_bowl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fish_bowl_uu88.svg",
-  UnDrawIllustration.fishing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fishing_hoxa.svg",
-  UnDrawIllustration.fitness_stats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fitness_stats_sht6.svg",
-  UnDrawIllustration.fitness_tracker:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fitness_tracker_3033.svg",
-  UnDrawIllustration.fitting_piece:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fitting_piece_re_pxay.svg",
-  UnDrawIllustration.fitting_pieces:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fitting_pieces_re_nss7.svg",
-  UnDrawIllustration.fixing_bugs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fixing_bugs_w7gi.svg",
-  UnDrawIllustration.flagged:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/flagged_2uty.svg",
-  UnDrawIllustration.floating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Floating_re_xtcj.svg",
-  UnDrawIllustration.flowers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/flowers_vx06.svg",
-  UnDrawIllustration.flutter_dev:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/flutter_dev_wvqj.svg",
-  UnDrawIllustration.flying_drone:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Flying_drone_u3r2.svg",
-  UnDrawIllustration.focus:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/focus_sey6.svg",
-  UnDrawIllustration.folder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Folder_re_apfp.svg",
-  UnDrawIllustration.folder_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Folder_files_re_2cbm.svg",
-  UnDrawIllustration.follow_me_drone:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Follow_me_drone_kn76.svg",
-  UnDrawIllustration.followers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Followers_re_6k3g.svg",
-  UnDrawIllustration.following:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Following_re_d5aa.svg",
-  UnDrawIllustration.font:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Font_re_efri.svg",
-  UnDrawIllustration.for_review:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/for_review_eqxk.svg",
-  UnDrawIllustration.for_sale:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/For_sale_re_egkk.svg",
-  UnDrawIllustration.forgot_password:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Forgot_password_re_hxwm.svg",
-  UnDrawIllustration.forming_ideas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Forming_ideas_re_2afc.svg",
-  UnDrawIllustration.forms:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Forms_re_pkrt.svg",
-  UnDrawIllustration.freelancer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Freelancer_re_irh4.svg",
-  UnDrawIllustration.fresh_notification:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Fresh_notification_re_whq4.svg",
-  UnDrawIllustration.friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/friends_r511.svg",
-  UnDrawIllustration.friends_online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Friends_online_re_r7pq.svg",
-  UnDrawIllustration.friendship:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/friendship_mni7.svg",
-  UnDrawIllustration.frozen_figure:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/frozen_figure_omho.svg",
-  UnDrawIllustration.fun_moments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/fun_moments_2vha.svg",
-  UnDrawIllustration.functions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Functions_re_alho.svg",
+      "illustrations/file_synchronization.svg",
+  UnDrawIllustration.files_sent: "illustrations/files_sent.svg",
+  UnDrawIllustration.filing_system: "illustrations/filing_system.svg",
+  UnDrawIllustration.fill_forms: "illustrations/fill_forms.svg",
+  UnDrawIllustration.fill_in: "illustrations/fill_in.svg",
+  UnDrawIllustration.filter: "illustrations/filter.svg",
+  UnDrawIllustration.finance: "illustrations/finance.svg",
+  UnDrawIllustration.financial_data: "illustrations/financial_data.svg",
+  UnDrawIllustration.fingerprint: "illustrations/fingerprint.svg",
+  UnDrawIllustration.fingerprint_login: "illustrations/fingerprint_login.svg",
+  UnDrawIllustration.finish_line: "illustrations/finish_line.svg",
+  UnDrawIllustration.fireworks: "illustrations/fireworks.svg",
+  UnDrawIllustration.firmware: "illustrations/firmware.svg",
+  UnDrawIllustration.fish_bowl: "illustrations/fish_bowl.svg",
+  UnDrawIllustration.fishing: "illustrations/fishing.svg",
+  UnDrawIllustration.fitness_stats: "illustrations/fitness_stats.svg",
+  UnDrawIllustration.fitness_tracker: "illustrations/fitness_tracker.svg",
+  UnDrawIllustration.fitting_piece: "illustrations/fitting_piece.svg",
+  UnDrawIllustration.fitting_pieces: "illustrations/fitting_pieces.svg",
+  UnDrawIllustration.fixing_bugs: "illustrations/fixing_bugs.svg",
+  UnDrawIllustration.flagged: "illustrations/flagged.svg",
+  UnDrawIllustration.floating: "illustrations/floating.svg",
+  UnDrawIllustration.flowers: "illustrations/flowers.svg",
+  UnDrawIllustration.flutter_dev: "illustrations/flutter_dev.svg",
+  UnDrawIllustration.flying_drone: "illustrations/flying_drone.svg",
+  UnDrawIllustration.focus: "illustrations/focus.svg",
+  UnDrawIllustration.folder: "illustrations/folder.svg",
+  UnDrawIllustration.folder_files: "illustrations/folder_files.svg",
+  UnDrawIllustration.follow_me_drone: "illustrations/follow_me_drone.svg",
+  UnDrawIllustration.followers: "illustrations/followers.svg",
+  UnDrawIllustration.following: "illustrations/following.svg",
+  UnDrawIllustration.font: "illustrations/font.svg",
+  UnDrawIllustration.for_review: "illustrations/for_review.svg",
+  UnDrawIllustration.for_sale: "illustrations/for_sale.svg",
+  UnDrawIllustration.forgot_password: "illustrations/forgot_password.svg",
+  UnDrawIllustration.forming_ideas: "illustrations/forming_ideas.svg",
+  UnDrawIllustration.forms: "illustrations/forms.svg",
+  UnDrawIllustration.freelancer: "illustrations/freelancer.svg",
+  UnDrawIllustration.fresh_notification: "illustrations/fresh_notification.svg",
+  UnDrawIllustration.friends: "illustrations/friends.svg",
+  UnDrawIllustration.friends_online: "illustrations/friends_online.svg",
+  UnDrawIllustration.friendship: "illustrations/friendship.svg",
+  UnDrawIllustration.frozen_figure: "illustrations/frozen_figure.svg",
+  UnDrawIllustration.fun_moments: "illustrations/fun_moments.svg",
+  UnDrawIllustration.functions: "illustrations/functions.svg",
   UnDrawIllustration.futuristic_interface:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Futuristic_interface_re_0cm6.svg",
-  UnDrawIllustration.game_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/game_day_ucx9.svg",
-  UnDrawIllustration.game_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Game_world_re_e44j.svg",
-  UnDrawIllustration.gaming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gaming_re_cma2.svg",
-  UnDrawIllustration.gardening:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gardening_re_e658.svg",
-  UnDrawIllustration.gatsbyjs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/gatsbyjs_st4g.svg",
-  UnDrawIllustration.gdpr:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/gdpr_3xfb.svg",
-  UnDrawIllustration.genius:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/geniuses_9h9g.svg",
-  UnDrawIllustration.getting_coffee:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Getting_coffee_re_f2do.svg",
-  UnDrawIllustration.gift:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gift_re_qr17.svg",
-  UnDrawIllustration.gift_box:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gift_box_re_vau4.svg",
-  UnDrawIllustration.gift_card:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gift_card_re_5dyy.svg",
-  UnDrawIllustration.gifts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gifts_0ceh.svg",
+      "illustrations/futuristic_interface.svg",
+  UnDrawIllustration.game_day: "illustrations/game_day.svg",
+  UnDrawIllustration.game_world: "illustrations/game_world.svg",
+  UnDrawIllustration.gaming: "illustrations/gaming.svg",
+  UnDrawIllustration.gardening: "illustrations/gardening.svg",
+  UnDrawIllustration.gatsbyjs: "illustrations/gatsbyjs.svg",
+  UnDrawIllustration.gdpr: "illustrations/gdpr.svg",
+  UnDrawIllustration.genius: "illustrations/genius.svg",
+  UnDrawIllustration.getting_coffee: "illustrations/getting_coffee.svg",
+  UnDrawIllustration.gift: "illustrations/gift.svg",
+  UnDrawIllustration.gift_box: "illustrations/gift_box.svg",
+  UnDrawIllustration.gift_card: "illustrations/gift_card.svg",
+  UnDrawIllustration.gifts: "illustrations/gifts.svg",
   UnDrawIllustration.girls_just_wanna_have_fun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/girl_just_wanna_have_fun_9d5u.svg",
-  UnDrawIllustration.goal:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/goal_0v5v.svg",
-  UnDrawIllustration.goals:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Goals_re_lu76.svg",
-  UnDrawIllustration.going_offline:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/going_offline_ihag.svg",
-  UnDrawIllustration.going_up:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Going_up_re_86kg.svg",
-  UnDrawIllustration.golden_gate_bridge:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Golden_gate_bridge_re_e8tc.svg",
-  UnDrawIllustration.golf:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/golf_neir.svg",
-  UnDrawIllustration.gone_shopping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gone_shopping_re_2lau.svg",
-  UnDrawIllustration.good_doggy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Good_doggy_re_eet7.svg",
-  UnDrawIllustration.good_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Good_team_re_hrvm.svg",
-  UnDrawIllustration.google_docs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Google_docs_re_evm3.svg",
-  UnDrawIllustration.grades:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Grades_re_j7d6.svg",
-  UnDrawIllustration.graduation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Graduation_re_gthn.svg",
-  UnDrawIllustration.grand_slam:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Grand_slam_84ep.svg",
-  UnDrawIllustration.grandma:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Grandma_re_rnv1.svg",
-  UnDrawIllustration.gravitas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/gravitas_d3ep.svg",
-  UnDrawIllustration.greek_freak:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/greek_freak_j2qb.svg",
-  UnDrawIllustration.grid_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/grid_design_obmd.svg",
-  UnDrawIllustration.group_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Group_chat_re_frmo.svg",
-  UnDrawIllustration.group_hangout:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Group_hangout_re_4t8r.svg",
-  UnDrawIllustration.group_selfie:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Group_selfie_re_h8gb.svg",
-  UnDrawIllustration.group_video:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Group_video_re_btu7.svg",
-  UnDrawIllustration.growing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Growing_re_olpi.svg",
-  UnDrawIllustration.growth_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Growth_analytics_re_pyxf.svg",
-  UnDrawIllustration.growth_chart:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/growth_chart_r99m.svg",
-  UnDrawIllustration.growth_curve:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Growth_curve_re_t5s7.svg",
-  UnDrawIllustration.hacker_mind:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/hacker_mind_6y85.svg",
-  UnDrawIllustration.hacker_mindset:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hacker_mindset_re_8a33.svg",
-  UnDrawIllustration.halloween:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Halloween_re_2kq1.svg",
-  UnDrawIllustration.hamburger:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hamburger_re_7sfy.svg",
-  UnDrawIllustration.hang_out:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hang_out_re_udl4.svg",
-  UnDrawIllustration.happy_2019:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_2019_jq3f.svg",
-  UnDrawIllustration.happy_2021:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_2021_h01d.svg",
-  UnDrawIllustration.happy_announcement:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Happy_announcement_re_tsm0.svg",
-  UnDrawIllustration.happy_birthday:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Happy_birthday_re_c16u.svg",
-  UnDrawIllustration.happy_feeling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Happy_feeling_re_e76r.svg",
-  UnDrawIllustration.happy_music:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_music_g6wc.svg",
-  UnDrawIllustration.happy_new_year:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_new_year_di92.svg",
-  UnDrawIllustration.happy_news:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Happy_news_re_tsbd.svg",
-  UnDrawIllustration.happy_women_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/happy_women_day_fbjt.svg",
-  UnDrawIllustration.having_fun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Having_fun_re_vj4h.svg",
-  UnDrawIllustration.healthy_habit:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Healthy_habit_kwe6.svg",
-  UnDrawIllustration.healthy_lifestyle:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Healthy_lifestyle_re_ifwg.svg",
-  UnDrawIllustration.healthy_options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Healthy_options_re_lf9l.svg",
-  UnDrawIllustration.heartbroken:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/heartbroken_cble.svg",
-  UnDrawIllustration.heatmap:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/heatmap_uyye.svg",
-  UnDrawIllustration.heavy_box:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/heavy_box_agqi.svg",
-  UnDrawIllustration.hello:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hello_re_3evm.svg",
-  UnDrawIllustration.helpful_sign:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Helpful_sign_re_8ms5.svg",
-  UnDrawIllustration.hey_by_basecamp:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/hey_email_liaa.svg",
-  UnDrawIllustration.high_five:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/High_five_re_jy71.svg",
-  UnDrawIllustration.hiking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hiking_re_k0bc.svg",
-  UnDrawIllustration.hire:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hire_re_gn5j.svg",
-  UnDrawIllustration.hiring:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hiring_re_yk5n.svg",
-  UnDrawIllustration.hologram:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hologram_re_7ppw.svg",
-  UnDrawIllustration.home_cinema:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/home_cinema_l7yl.svg",
-  UnDrawIllustration.home_run:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Home_run_acyh.svg",
-  UnDrawIllustration.home_screen:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Home_screen_re_640d.svg",
-  UnDrawIllustration.home_settings:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Home_settings_re_pkya.svg",
-  UnDrawIllustration.hooked:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hooked_re_vl59.svg",
-  UnDrawIllustration.horror_movie:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/horror_movie_3988.svg",
-  UnDrawIllustration.hot_beverage:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Hot_beverage_re_9mpe.svg",
-  UnDrawIllustration.house_searching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/House_searching_re_stk8.svg",
-  UnDrawIllustration.houses:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/houses_re_uaq7.svg",
-  UnDrawIllustration.i_can_fly:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/i_can_fly_7egl.svg",
-  UnDrawIllustration.ice_cream:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/ice_cream_s2rh.svg",
-  UnDrawIllustration.icon_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Icon_design_re_9web.svg",
-  UnDrawIllustration.icons:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/icons_wdp4.svg",
-  UnDrawIllustration.ideas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ideas_re_7twj.svg",
-  UnDrawIllustration.ideas_flow:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ideas_flow_re_bmea.svg",
-  UnDrawIllustration.ideation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/ideation_re_8i2h.svg",
-  UnDrawIllustration.image_focus:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Image_focus_re_qqxc.svg",
-  UnDrawIllustration.image_folder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Image__folder_re_hgp7.svg",
-  UnDrawIllustration.image_options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/image_options_7uph.svg",
-  UnDrawIllustration.image_post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Image_post_re_25wd.svg",
-  UnDrawIllustration.image_upload:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Image_upload_re_w7pm.svg",
-  UnDrawIllustration.image_viewer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Image_viewer_re_7ejc.svg",
-  UnDrawIllustration.images:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Images_re_0kll.svg",
-  UnDrawIllustration.imagination:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Imagination_re_i0xi.svg",
-  UnDrawIllustration.in_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/In_love_6sq2.svg",
-  UnDrawIllustration.in_no_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/in_no_time_6igu.svg",
-  UnDrawIllustration.in_progress:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/In_progress_re_m1l6.svg",
-  UnDrawIllustration.in_real_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/in_real_life_v8fk.svg",
-  UnDrawIllustration.in_sync:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/In_sync_re_jlqd.svg",
-  UnDrawIllustration.in_the_office:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/In_the_office_re_jtgc.svg",
-  UnDrawIllustration.in_the_pool:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pool_bk6q.svg",
-  UnDrawIllustration.in_thought:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/in_thought_re_qyxl.svg",
-  UnDrawIllustration.inbox:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/inbox_oppv.svg",
-  UnDrawIllustration.inbox_cleanup:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Inbox_cleanup_re_jcbh.svg",
-  UnDrawIllustration.indoor_bike:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/indoor_bike_pwa4.svg",
-  UnDrawIllustration.influencer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Influencer_re_1fkb.svg",
-  UnDrawIllustration.information_tab:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Information_tab_re_f0w3.svg",
-  UnDrawIllustration.informed_decision:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/informed_decision_p2lh.svg",
-  UnDrawIllustration.injured:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/injured_9757.svg",
-  UnDrawIllustration.innovative:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Innovative_re_rr5i.svg",
-  UnDrawIllustration.insert:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Insert_re_s97w.svg",
-  UnDrawIllustration.insert_block:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/insert_block_re_4t4l.svg",
-  UnDrawIllustration.inspection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Inspection_re_tbt7.svg",
-  UnDrawIllustration.inspiration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Inspiration_re_ivlv.svg",
-  UnDrawIllustration.instant_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Instant_analysis_re_mid5.svg",
+      "illustrations/girls_just_wanna_have_fun.svg",
+  UnDrawIllustration.goal: "illustrations/goal.svg",
+  UnDrawIllustration.goals: "illustrations/goals.svg",
+  UnDrawIllustration.going_offline: "illustrations/going_offline.svg",
+  UnDrawIllustration.going_up: "illustrations/going_up.svg",
+  UnDrawIllustration.golden_gate_bridge: "illustrations/golden_gate_bridge.svg",
+  UnDrawIllustration.golf: "illustrations/golf.svg",
+  UnDrawIllustration.gone_shopping: "illustrations/gone_shopping.svg",
+  UnDrawIllustration.good_doggy: "illustrations/good_doggy.svg",
+  UnDrawIllustration.good_team: "illustrations/good_team.svg",
+  UnDrawIllustration.google_docs: "illustrations/google_docs.svg",
+  UnDrawIllustration.grades: "illustrations/grades.svg",
+  UnDrawIllustration.graduation: "illustrations/graduation.svg",
+  UnDrawIllustration.grand_slam: "illustrations/grand_slam.svg",
+  UnDrawIllustration.grandma: "illustrations/grandma.svg",
+  UnDrawIllustration.gravitas: "illustrations/gravitas.svg",
+  UnDrawIllustration.greek_freak: "illustrations/greek_freak.svg",
+  UnDrawIllustration.grid_design: "illustrations/grid_design.svg",
+  UnDrawIllustration.group_chat: "illustrations/group_chat.svg",
+  UnDrawIllustration.group_hangout: "illustrations/group_hangout.svg",
+  UnDrawIllustration.group_selfie: "illustrations/group_selfie.svg",
+  UnDrawIllustration.group_video: "illustrations/group_video.svg",
+  UnDrawIllustration.growing: "illustrations/growing.svg",
+  UnDrawIllustration.growth_analytics: "illustrations/growth_analytics.svg",
+  UnDrawIllustration.growth_chart: "illustrations/growth_chart.svg",
+  UnDrawIllustration.growth_curve: "illustrations/growth_curve.svg",
+  UnDrawIllustration.hacker_mind: "illustrations/hacker_mind.svg",
+  UnDrawIllustration.hacker_mindset: "illustrations/hacker_mindset.svg",
+  UnDrawIllustration.halloween: "illustrations/halloween.svg",
+  UnDrawIllustration.hamburger: "illustrations/hamburger.svg",
+  UnDrawIllustration.hang_out: "illustrations/hang_out.svg",
+  UnDrawIllustration.happy_2019: "illustrations/happy_2019.svg",
+  UnDrawIllustration.happy_2021: "illustrations/happy_2021.svg",
+  UnDrawIllustration.happy_announcement: "illustrations/happy_announcement.svg",
+  UnDrawIllustration.happy_birthday: "illustrations/happy_birthday.svg",
+  UnDrawIllustration.happy_feeling: "illustrations/happy_feeling.svg",
+  UnDrawIllustration.happy_music: "illustrations/happy_music.svg",
+  UnDrawIllustration.happy_new_year: "illustrations/happy_new_year.svg",
+  UnDrawIllustration.happy_news: "illustrations/happy_news.svg",
+  UnDrawIllustration.happy_women_day: "illustrations/happy_women_day.svg",
+  UnDrawIllustration.having_fun: "illustrations/having_fun.svg",
+  UnDrawIllustration.healthy_habit: "illustrations/healthy_habit.svg",
+  UnDrawIllustration.healthy_lifestyle: "illustrations/healthy_lifestyle.svg",
+  UnDrawIllustration.healthy_options: "illustrations/healthy_options.svg",
+  UnDrawIllustration.heartbroken: "illustrations/heartbroken.svg",
+  UnDrawIllustration.heatmap: "illustrations/heatmap.svg",
+  UnDrawIllustration.heavy_box: "illustrations/heavy_box.svg",
+  UnDrawIllustration.hello: "illustrations/hello.svg",
+  UnDrawIllustration.helpful_sign: "illustrations/helpful_sign.svg",
+  UnDrawIllustration.hey_by_basecamp: "illustrations/hey_by_basecamp.svg",
+  UnDrawIllustration.high_five: "illustrations/high_five.svg",
+  UnDrawIllustration.hiking: "illustrations/hiking.svg",
+  UnDrawIllustration.hire: "illustrations/hire.svg",
+  UnDrawIllustration.hiring: "illustrations/hiring.svg",
+  UnDrawIllustration.hologram: "illustrations/hologram.svg",
+  UnDrawIllustration.home_cinema: "illustrations/home_cinema.svg",
+  UnDrawIllustration.home_run: "illustrations/home_run.svg",
+  UnDrawIllustration.home_screen: "illustrations/home_screen.svg",
+  UnDrawIllustration.home_settings: "illustrations/home_settings.svg",
+  UnDrawIllustration.hooked: "illustrations/hooked.svg",
+  UnDrawIllustration.horror_movie: "illustrations/horror_movie.svg",
+  UnDrawIllustration.hot_beverage: "illustrations/hot_beverage.svg",
+  UnDrawIllustration.house_searching: "illustrations/house_searching.svg",
+  UnDrawIllustration.houses: "illustrations/houses.svg",
+  UnDrawIllustration.i_can_fly: "illustrations/i_can_fly.svg",
+  UnDrawIllustration.ice_cream: "illustrations/ice_cream.svg",
+  UnDrawIllustration.icon_design: "illustrations/icon_design.svg",
+  UnDrawIllustration.icons: "illustrations/icons.svg",
+  UnDrawIllustration.ideas: "illustrations/ideas.svg",
+  UnDrawIllustration.ideas_flow: "illustrations/ideas_flow.svg",
+  UnDrawIllustration.ideation: "illustrations/ideation.svg",
+  UnDrawIllustration.image_focus: "illustrations/image_focus.svg",
+  UnDrawIllustration.image_folder: "illustrations/image_folder.svg",
+  UnDrawIllustration.image_options: "illustrations/image_options.svg",
+  UnDrawIllustration.image_post: "illustrations/image_post.svg",
+  UnDrawIllustration.image_upload: "illustrations/image_upload.svg",
+  UnDrawIllustration.image_viewer: "illustrations/image_viewer.svg",
+  UnDrawIllustration.images: "illustrations/images.svg",
+  UnDrawIllustration.imagination: "illustrations/imagination.svg",
+  UnDrawIllustration.in_love: "illustrations/in_love.svg",
+  UnDrawIllustration.in_no_time: "illustrations/in_no_time.svg",
+  UnDrawIllustration.in_progress: "illustrations/in_progress.svg",
+  UnDrawIllustration.in_real_life: "illustrations/in_real_life.svg",
+  UnDrawIllustration.in_sync: "illustrations/in_sync.svg",
+  UnDrawIllustration.in_the_office: "illustrations/in_the_office.svg",
+  UnDrawIllustration.in_the_pool: "illustrations/in_the_pool.svg",
+  UnDrawIllustration.in_thought: "illustrations/in_thought.svg",
+  UnDrawIllustration.inbox: "illustrations/inbox.svg",
+  UnDrawIllustration.inbox_cleanup: "illustrations/inbox_cleanup.svg",
+  UnDrawIllustration.indoor_bike: "illustrations/indoor_bike.svg",
+  UnDrawIllustration.influencer: "illustrations/influencer.svg",
+  UnDrawIllustration.information_tab: "illustrations/information_tab.svg",
+  UnDrawIllustration.informed_decision: "illustrations/informed_decision.svg",
+  UnDrawIllustration.injured: "illustrations/injured.svg",
+  UnDrawIllustration.innovative: "illustrations/innovative.svg",
+  UnDrawIllustration.insert: "illustrations/insert.svg",
+  UnDrawIllustration.insert_block: "illustrations/insert_block.svg",
+  UnDrawIllustration.inspection: "illustrations/inspection.svg",
+  UnDrawIllustration.inspiration: "illustrations/inspiration.svg",
+  UnDrawIllustration.instant_analysis: "illustrations/instant_analysis.svg",
   UnDrawIllustration.instant_information:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Instant_information_re_c5v5.svg",
-  UnDrawIllustration.instant_support:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Instant_support_re_s7un.svg",
-  UnDrawIllustration.instruction_manual:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/instruction_manual_cyae.svg",
-  UnDrawIllustration.intense_feeling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/intense_feeling_ft9s.svg",
-  UnDrawIllustration.interior_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Interior_design_re_7mvn.svg",
-  UnDrawIllustration.internet_on_the_go:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Internet_on_the_go_re_vben.svg",
-  UnDrawIllustration.interview:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Interview_re_e5jn.svg",
-  UnDrawIllustration.into_the_night:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/into_the_night_vumi.svg",
-  UnDrawIllustration.invest:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Invest_re_8jl5.svg",
-  UnDrawIllustration.investing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Investing_re_bov7.svg",
-  UnDrawIllustration.investment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Investment_re_rpk5.svg",
-  UnDrawIllustration.investment_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Investment_data_re_sh9x.svg",
-  UnDrawIllustration.investor_update:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Investor_update_re_qnuu.svg",
-  UnDrawIllustration.invite:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Invite_re_rrcp.svg",
-  UnDrawIllustration.japan:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/japan_ubgk.svg",
+      "illustrations/instant_information.svg",
+  UnDrawIllustration.instant_support: "illustrations/instant_support.svg",
+  UnDrawIllustration.instruction_manual: "illustrations/instruction_manual.svg",
+  UnDrawIllustration.intense_feeling: "illustrations/intense_feeling.svg",
+  UnDrawIllustration.interior_design: "illustrations/interior_design.svg",
+  UnDrawIllustration.internet_on_the_go: "illustrations/internet_on_the_go.svg",
+  UnDrawIllustration.interview: "illustrations/interview.svg",
+  UnDrawIllustration.into_the_night: "illustrations/into_the_night.svg",
+  UnDrawIllustration.invest: "illustrations/invest.svg",
+  UnDrawIllustration.investing: "illustrations/investing.svg",
+  UnDrawIllustration.investment: "illustrations/investment.svg",
+  UnDrawIllustration.investment_data: "illustrations/investment_data.svg",
+  UnDrawIllustration.investor_update: "illustrations/investor_update.svg",
+  UnDrawIllustration.invite: "illustrations/invite.svg",
+  UnDrawIllustration.japan: "illustrations/japan.svg",
   UnDrawIllustration.javascript_frameworks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/JavaScript_frameworks_8qpc.svg",
-  UnDrawIllustration.jewelry:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/jewelry_iima.svg",
-  UnDrawIllustration.job_hunt:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Job_hunt_re_q203.svg",
-  UnDrawIllustration.job_offers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Job_offers_re_634p.svg",
-  UnDrawIllustration.jogging:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Jogging_re_k28i.svg",
-  UnDrawIllustration.join:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Join_re_w1lh.svg",
-  UnDrawIllustration.journey:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Journey_re_ec5q.svg",
-  UnDrawIllustration.joyride:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Joyride_re_968t.svg",
-  UnDrawIllustration.judge:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/judge_katerina_limpitsouni_ny1q.svg",
-  UnDrawIllustration.junior_soccer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/junior_soccer_6sop.svg",
-  UnDrawIllustration.just_browsing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Just_browsing_re_ofnd.svg",
-  UnDrawIllustration.just_saying:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Just_saying_re_kw9c.svg",
-  UnDrawIllustration.key_points:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Key_points_re_u903.svg",
-  UnDrawIllustration.knowledge:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Knowledge_re_5v9l.svg",
-  UnDrawIllustration.landing_page:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Landing_page_re_6xev.svg",
-  UnDrawIllustration.landscape_mode:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Landscape_mode_re_r964.svg",
+      "illustrations/javascript_frameworks.svg",
+  UnDrawIllustration.jewelry: "illustrations/jewelry.svg",
+  UnDrawIllustration.job_hunt: "illustrations/job_hunt.svg",
+  UnDrawIllustration.job_offers: "illustrations/job_offers.svg",
+  UnDrawIllustration.jogging: "illustrations/jogging.svg",
+  UnDrawIllustration.join: "illustrations/join.svg",
+  UnDrawIllustration.journey: "illustrations/journey.svg",
+  UnDrawIllustration.joyride: "illustrations/joyride.svg",
+  UnDrawIllustration.judge: "illustrations/judge.svg",
+  UnDrawIllustration.junior_soccer: "illustrations/junior_soccer.svg",
+  UnDrawIllustration.just_browsing: "illustrations/just_browsing.svg",
+  UnDrawIllustration.just_saying: "illustrations/just_saying.svg",
+  UnDrawIllustration.key_points: "illustrations/key_points.svg",
+  UnDrawIllustration.knowledge: "illustrations/knowledge.svg",
+  UnDrawIllustration.landing_page: "illustrations/landing_page.svg",
+  UnDrawIllustration.landscape_mode: "illustrations/landscape_mode.svg",
   UnDrawIllustration.landscape_photographer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Landscape_photographer_blv1.svg",
-  UnDrawIllustration.laravel_and_vue:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/laravel_and_vue_59tp.svg",
-  UnDrawIllustration.late_at_night:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Late_at_night_re_d3mx.svg",
-  UnDrawIllustration.launch_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/launch_day_4e04.svg",
-  UnDrawIllustration.launching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Launching_re_tomg.svg",
-  UnDrawIllustration.learning:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Learning_re_32qv.svg",
-  UnDrawIllustration.learning_sketching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/learning_sketching_nd4f.svg",
-  UnDrawIllustration.letter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Letter_re_8m03.svg",
-  UnDrawIllustration.light_the_fire:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/light_the_fire_gt58.svg",
-  UnDrawIllustration.lightbulb_moment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/lightbulb_moment_re_ulyo.svg",
-  UnDrawIllustration.lighthouse:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Lighthouse_re_7r60.svg",
-  UnDrawIllustration.like_dislike:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Like_dislike_re_dwcj.svg",
-  UnDrawIllustration.link_shortener:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/link_shortener_mvf6.svg",
-  UnDrawIllustration.listening:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Listening_re_c2w0.svg",
-  UnDrawIllustration.live_collaboration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Live_collaboration_re_60ha.svg",
-  UnDrawIllustration.live_photo:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Live_photo_re_4khn.svg",
-  UnDrawIllustration.living:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Lives_matter_38lv.svg",
-  UnDrawIllustration.load_more:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Load_more_re_482p.svg",
-  UnDrawIllustration.loading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Loading_re_5axr.svg",
-  UnDrawIllustration.location_review:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Location_review_d5qn.svg",
-  UnDrawIllustration.location_search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Location_search_re_ttoj.svg",
-  UnDrawIllustration.location_tracking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Location_tracking_re_n3ok.svg",
-  UnDrawIllustration.logic:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Logic_re_nyb4.svg",
-  UnDrawIllustration.login:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Login_re_4vu2.svg",
-  UnDrawIllustration.logistics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/logistics_x4dc.svg",
-  UnDrawIllustration.logo_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Logo_design_re_gfu6.svg",
-  UnDrawIllustration.lost:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Lost_re_xqjt.svg",
-  UnDrawIllustration.love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_re_mwbq.svg",
-  UnDrawIllustration.love_is_in_the_air:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_is_in_the_air_4uud.svg",
-  UnDrawIllustration.love_it:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_it_loh3.svg",
-  UnDrawIllustration.loving_it:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Loving_it_re_jfh4.svg",
-  UnDrawIllustration.loving_story:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Loving_story_re_wo5x.svg",
-  UnDrawIllustration.mail:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mail_re_duel.svg",
-  UnDrawIllustration.mail_sent:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mail_sent_re_0ofv.svg",
-  UnDrawIllustration.mailbox:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mailbox_re_dvds.svg",
-  UnDrawIllustration.maintenance:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Maintenance_re_59vn.svg",
-  UnDrawIllustration.make_it_rain:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Make_it_rain_re_w9pc.svg",
-  UnDrawIllustration.maker_launch:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Maker_launch_re_rq81.svg",
-  UnDrawIllustration.makeup_artist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/makeup_artist_rxn8.svg",
-  UnDrawIllustration.making_art:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Making_art_re_ee8w.svg",
-  UnDrawIllustration.male_avatar:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Male_avatar_g98d.svg",
-  UnDrawIllustration.manage_chats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Manage_chats_re_0yoj.svg",
-  UnDrawIllustration.map:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Map_re_60yf.svg",
-  UnDrawIllustration.map_dark:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Map_dark_re_36sy.svg",
-  UnDrawIllustration.marilyn:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/marilyn_v73y.svg",
-  UnDrawIllustration.marketing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Marketing_re_7f1g.svg",
-  UnDrawIllustration.master_plan:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Master_plan_re_jvit.svg",
-  UnDrawIllustration.mathematics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mathematics_4otb.svg",
-  UnDrawIllustration.media_player:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Media_player_re_rdd2.svg",
-  UnDrawIllustration.medical_care:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/medical_care_movn.svg",
-  UnDrawIllustration.medical_research:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/medical_research_qg4d.svg",
-  UnDrawIllustration.medicine:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/medicine_b1ol.svg",
-  UnDrawIllustration.meditating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meditating_re_aiqa.svg",
-  UnDrawIllustration.meditation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meditation_re_gll0.svg",
-  UnDrawIllustration.meet_the_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meet_the_team_re_4h08.svg",
-  UnDrawIllustration.meeting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Meeting_re_i53h.svg",
-  UnDrawIllustration.mello:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mello_otq1.svg",
-  UnDrawIllustration.memory_storage:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Memory_storage_reh0.svg",
-  UnDrawIllustration.mention:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mention_re_k5xc.svg",
-  UnDrawIllustration.message_sent:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Message_sent_re_q2kl.svg",
-  UnDrawIllustration.messages:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Messages_re_qy9x.svg",
-  UnDrawIllustration.messaging:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Messaging_re_pgx8.svg",
-  UnDrawIllustration.messaging_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Messaging_app_re_aytg.svg",
-  UnDrawIllustration.messaging_fun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Messaging_fun_re_vic9.svg",
-  UnDrawIllustration.messenger:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Messenger_re_8bky.svg",
-  UnDrawIllustration.metrics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Metrics_re_6g90.svg",
-  UnDrawIllustration.mic_drop:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mic_drop_uuyg.svg",
-  UnDrawIllustration.millennial_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/millennial_girl_fxlt.svg",
-  UnDrawIllustration.mind_map:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mind_map_re_nlb6.svg",
-  UnDrawIllustration.mindfulness:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mindfulness_8gqa.svg",
-  UnDrawIllustration.mint_tea:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mint_tea_7su0.svg",
-  UnDrawIllustration.miro:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/miro_qvwm.svg",
-  UnDrawIllustration.missed_chances:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/missed_chances_k3cq.svg",
-  UnDrawIllustration.mobile:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_re_q4nk.svg",
-  UnDrawIllustration.mobile_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_analytics_72sr.svg",
-  UnDrawIllustration.mobile_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_app_re_catg.svg",
-  UnDrawIllustration.mobile_application:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_application_re_13u3.svg",
-  UnDrawIllustration.mobile_apps:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_apps_re_3wjf.svg",
-  UnDrawIllustration.mobile_browsers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_browsers_re_kxol.svg",
-  UnDrawIllustration.mobile_development:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_development_re_wwsn.svg",
-  UnDrawIllustration.mobile_devices:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_devices_k1ok.svg",
-  UnDrawIllustration.mobile_encryption:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_encryption_re_yw3o.svg",
-  UnDrawIllustration.mobile_feed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_feed_re_72ta.svg",
-  UnDrawIllustration.mobile_images:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_images_rc0q.svg",
-  UnDrawIllustration.mobile_inbox:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_inbox_re_ciwq.svg",
-  UnDrawIllustration.mobile_interface:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_interface_re_1vv9.svg",
-  UnDrawIllustration.mobile_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_life_re_jtih.svg",
-  UnDrawIllustration.mobile_login:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_login_re_9ntv.svg",
-  UnDrawIllustration.mobile_marketing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_marketing_re_p77p.svg",
-  UnDrawIllustration.mobile_messages:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_messages_re_yx8w.svg",
-  UnDrawIllustration.mobile_pay:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_pay_re_sjb8.svg",
-  UnDrawIllustration.mobile_payments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_payments_re_7udl.svg",
-  UnDrawIllustration.mobile_photos:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_photos_psm5.svg",
-  UnDrawIllustration.mobile_posts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_posts_re_bpuw.svg",
-  UnDrawIllustration.mobile_prototyping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_prototyping_grmd.svg",
-  UnDrawIllustration.mobile_search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_search_jxq5.svg",
-  UnDrawIllustration.mobile_testing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_testing_re_w7yb.svg",
-  UnDrawIllustration.mobile_user:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_user_re_xta4.svg",
-  UnDrawIllustration.mobile_ux:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_ux_re_59hr.svg",
-  UnDrawIllustration.mobile_web:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_web_2g8b.svg",
-  UnDrawIllustration.mobile_wireframe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_wireframe_re_jxui.svg",
-  UnDrawIllustration.modern_art:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/modern_art_re_pff5.svg",
-  UnDrawIllustration.modern_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Modern_design_re_dlp8.svg",
-  UnDrawIllustration.modern_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Modern_life_re_8pdp.svg",
+      "illustrations/landscape_photographer.svg",
+  UnDrawIllustration.laravel_and_vue: "illustrations/laravel_and_vue.svg",
+  UnDrawIllustration.late_at_night: "illustrations/late_at_night.svg",
+  UnDrawIllustration.launch_day: "illustrations/launch_day.svg",
+  UnDrawIllustration.launching: "illustrations/launching.svg",
+  UnDrawIllustration.learning: "illustrations/learning.svg",
+  UnDrawIllustration.learning_sketching: "illustrations/learning_sketching.svg",
+  UnDrawIllustration.letter: "illustrations/letter.svg",
+  UnDrawIllustration.light_the_fire: "illustrations/light_the_fire.svg",
+  UnDrawIllustration.lightbulb_moment: "illustrations/lightbulb_moment.svg",
+  UnDrawIllustration.lighthouse: "illustrations/lighthouse.svg",
+  UnDrawIllustration.like_dislike: "illustrations/like_dislike.svg",
+  UnDrawIllustration.link_shortener: "illustrations/link_shortener.svg",
+  UnDrawIllustration.listening: "illustrations/listening.svg",
+  UnDrawIllustration.live_collaboration: "illustrations/live_collaboration.svg",
+  UnDrawIllustration.live_photo: "illustrations/live_photo.svg",
+  UnDrawIllustration.living: "illustrations/living.svg",
+  UnDrawIllustration.load_more: "illustrations/load_more.svg",
+  UnDrawIllustration.loading: "illustrations/loading.svg",
+  UnDrawIllustration.location_review: "illustrations/location_review.svg",
+  UnDrawIllustration.location_search: "illustrations/location_search.svg",
+  UnDrawIllustration.location_tracking: "illustrations/location_tracking.svg",
+  UnDrawIllustration.logic: "illustrations/logic.svg",
+  UnDrawIllustration.login: "illustrations/login.svg",
+  UnDrawIllustration.logistics: "illustrations/logistics.svg",
+  UnDrawIllustration.logo_design: "illustrations/logo_design.svg",
+  UnDrawIllustration.lost: "illustrations/lost.svg",
+  UnDrawIllustration.love: "illustrations/love.svg",
+  UnDrawIllustration.love_is_in_the_air: "illustrations/love_is_in_the_air.svg",
+  UnDrawIllustration.love_it: "illustrations/love_it.svg",
+  UnDrawIllustration.loving_it: "illustrations/loving_it.svg",
+  UnDrawIllustration.loving_story: "illustrations/loving_story.svg",
+  UnDrawIllustration.mail: "illustrations/mail.svg",
+  UnDrawIllustration.mail_sent: "illustrations/mail_sent.svg",
+  UnDrawIllustration.mailbox: "illustrations/mailbox.svg",
+  UnDrawIllustration.maintenance: "illustrations/maintenance.svg",
+  UnDrawIllustration.make_it_rain: "illustrations/make_it_rain.svg",
+  UnDrawIllustration.maker_launch: "illustrations/maker_launch.svg",
+  UnDrawIllustration.makeup_artist: "illustrations/makeup_artist.svg",
+  UnDrawIllustration.making_art: "illustrations/making_art.svg",
+  UnDrawIllustration.male_avatar: "illustrations/male_avatar.svg",
+  UnDrawIllustration.manage_chats: "illustrations/manage_chats.svg",
+  UnDrawIllustration.map: "illustrations/map.svg",
+  UnDrawIllustration.map_dark: "illustrations/map_dark.svg",
+  UnDrawIllustration.marilyn: "illustrations/marilyn.svg",
+  UnDrawIllustration.marketing: "illustrations/marketing.svg",
+  UnDrawIllustration.master_plan: "illustrations/master_plan.svg",
+  UnDrawIllustration.mathematics: "illustrations/mathematics.svg",
+  UnDrawIllustration.media_player: "illustrations/media_player.svg",
+  UnDrawIllustration.medical_care: "illustrations/medical_care.svg",
+  UnDrawIllustration.medical_research: "illustrations/medical_research.svg",
+  UnDrawIllustration.medicine: "illustrations/medicine.svg",
+  UnDrawIllustration.meditating: "illustrations/meditating.svg",
+  UnDrawIllustration.meditation: "illustrations/meditation.svg",
+  UnDrawIllustration.meet_the_team: "illustrations/meet_the_team.svg",
+  UnDrawIllustration.meeting: "illustrations/meeting.svg",
+  UnDrawIllustration.mello: "illustrations/mello.svg",
+  UnDrawIllustration.memory_storage: "illustrations/memory_storage.svg",
+  UnDrawIllustration.mention: "illustrations/mention.svg",
+  UnDrawIllustration.message_sent: "illustrations/message_sent.svg",
+  UnDrawIllustration.messages: "illustrations/messages.svg",
+  UnDrawIllustration.messaging: "illustrations/messaging.svg",
+  UnDrawIllustration.messaging_app: "illustrations/messaging_app.svg",
+  UnDrawIllustration.messaging_fun: "illustrations/messaging_fun.svg",
+  UnDrawIllustration.messenger: "illustrations/messenger.svg",
+  UnDrawIllustration.metrics: "illustrations/metrics.svg",
+  UnDrawIllustration.mic_drop: "illustrations/mic_drop.svg",
+  UnDrawIllustration.millennial_girl: "illustrations/millennial_girl.svg",
+  UnDrawIllustration.mind_map: "illustrations/mind_map.svg",
+  UnDrawIllustration.mindfulness: "illustrations/mindfulness.svg",
+  UnDrawIllustration.mint_tea: "illustrations/mint_tea.svg",
+  UnDrawIllustration.miro: "illustrations/miro.svg",
+  UnDrawIllustration.missed_chances: "illustrations/missed_chances.svg",
+  UnDrawIllustration.mobile: "illustrations/mobile.svg",
+  UnDrawIllustration.mobile_analytics: "illustrations/mobile_analytics.svg",
+  UnDrawIllustration.mobile_app: "illustrations/mobile_app.svg",
+  UnDrawIllustration.mobile_application: "illustrations/mobile_application.svg",
+  UnDrawIllustration.mobile_apps: "illustrations/mobile_apps.svg",
+  UnDrawIllustration.mobile_browsers: "illustrations/mobile_browsers.svg",
+  UnDrawIllustration.mobile_development: "illustrations/mobile_development.svg",
+  UnDrawIllustration.mobile_devices: "illustrations/mobile_devices.svg",
+  UnDrawIllustration.mobile_encryption: "illustrations/mobile_encryption.svg",
+  UnDrawIllustration.mobile_feed: "illustrations/mobile_feed.svg",
+  UnDrawIllustration.mobile_images: "illustrations/mobile_images.svg",
+  UnDrawIllustration.mobile_inbox: "illustrations/mobile_inbox.svg",
+  UnDrawIllustration.mobile_interface: "illustrations/mobile_interface.svg",
+  UnDrawIllustration.mobile_life: "illustrations/mobile_life.svg",
+  UnDrawIllustration.mobile_login: "illustrations/mobile_login.svg",
+  UnDrawIllustration.mobile_marketing: "illustrations/mobile_marketing.svg",
+  UnDrawIllustration.mobile_messages: "illustrations/mobile_messages.svg",
+  UnDrawIllustration.mobile_pay: "illustrations/mobile_pay.svg",
+  UnDrawIllustration.mobile_payments: "illustrations/mobile_payments.svg",
+  UnDrawIllustration.mobile_photos: "illustrations/mobile_photos.svg",
+  UnDrawIllustration.mobile_posts: "illustrations/mobile_posts.svg",
+  UnDrawIllustration.mobile_prototyping: "illustrations/mobile_prototyping.svg",
+  UnDrawIllustration.mobile_search: "illustrations/mobile_search.svg",
+  UnDrawIllustration.mobile_testing: "illustrations/mobile_testing.svg",
+  UnDrawIllustration.mobile_user: "illustrations/mobile_user.svg",
+  UnDrawIllustration.mobile_ux: "illustrations/mobile_ux.svg",
+  UnDrawIllustration.mobile_web: "illustrations/mobile_web.svg",
+  UnDrawIllustration.mobile_wireframe: "illustrations/mobile_wireframe.svg",
+  UnDrawIllustration.modern_art: "illustrations/modern_art.svg",
+  UnDrawIllustration.modern_design: "illustrations/modern_design.svg",
+  UnDrawIllustration.modern_life: "illustrations/modern_life.svg",
   UnDrawIllustration.modern_professional:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Modern_professional_re_3b6l.svg",
-  UnDrawIllustration.modern_woman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Modern_woman_re_d8bx.svg",
-  UnDrawIllustration.moment_to_remember:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Moment_to_remember_re_t18u.svg",
-  UnDrawIllustration.moments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/moments_0y20.svg",
-  UnDrawIllustration.monitor:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/monitor_iqpq.svg",
-  UnDrawIllustration.monster_artist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/monster_artist_2crm.svg",
-  UnDrawIllustration.moonlight:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/moonlight_5ksn.svg",
-  UnDrawIllustration.more_music:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/more_music_w70e.svg",
-  UnDrawIllustration.mornings:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mornings_re_cofi.svg",
-  UnDrawIllustration.motherhood:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Motherhood_re_pk2m.svg",
-  UnDrawIllustration.movie_night:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Movie_night_re_9umk.svg",
-  UnDrawIllustration.moving:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/moving_re_pipp.svg",
-  UnDrawIllustration.moving_forward:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Moving_forward_re_rs8p.svg",
-  UnDrawIllustration.multitasking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Multitasking_re_ffpb.svg",
-  UnDrawIllustration.music:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Music_re_a2jk.svg",
-  UnDrawIllustration.my_answer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_answer_re_k4dv.svg",
-  UnDrawIllustration.my_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/my_app_re_gxtj.svg",
-  UnDrawIllustration.my_code_snippets:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_code_snippets_re_4adu.svg",
+      "illustrations/modern_professional.svg",
+  UnDrawIllustration.modern_woman: "illustrations/modern_woman.svg",
+  UnDrawIllustration.moment_to_remember: "illustrations/moment_to_remember.svg",
+  UnDrawIllustration.moments: "illustrations/moments.svg",
+  UnDrawIllustration.monitor: "illustrations/monitor.svg",
+  UnDrawIllustration.monster_artist: "illustrations/monster_artist.svg",
+  UnDrawIllustration.moonlight: "illustrations/moonlight.svg",
+  UnDrawIllustration.more_music: "illustrations/more_music.svg",
+  UnDrawIllustration.mornings: "illustrations/mornings.svg",
+  UnDrawIllustration.motherhood: "illustrations/motherhood.svg",
+  UnDrawIllustration.movie_night: "illustrations/movie_night.svg",
+  UnDrawIllustration.moving: "illustrations/moving.svg",
+  UnDrawIllustration.moving_forward: "illustrations/moving_forward.svg",
+  UnDrawIllustration.multitasking: "illustrations/multitasking.svg",
+  UnDrawIllustration.music: "illustrations/music.svg",
+  UnDrawIllustration.my_answer: "illustrations/my_answer.svg",
+  UnDrawIllustration.my_app: "illustrations/my_app.svg",
+  UnDrawIllustration.my_code_snippets: "illustrations/my_code_snippets.svg",
   UnDrawIllustration.my_current_location:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_current_location_re_whmt.svg",
-  UnDrawIllustration.my_documents:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_documents_re_13dc.svg",
-  UnDrawIllustration.my_feed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/my_feed_inj0.svg",
-  UnDrawIllustration.my_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/my_files_swob.svg",
-  UnDrawIllustration.my_location:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_location_re_r52x.svg",
-  UnDrawIllustration.my_notifications:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_notifications_re_ehmk.svg",
-  UnDrawIllustration.my_password:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_password_re_ydq7.svg",
-  UnDrawIllustration.my_personal_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_personal_files_re_3q0p.svg",
-  UnDrawIllustration.my_universe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/My_universe_803e.svg",
-  UnDrawIllustration.nakamoto:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/nakamoto_2iv6.svg",
-  UnDrawIllustration.nature:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/nature_m5ll.svg",
-  UnDrawIllustration.nature_benefits:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Nature_benefits_re_kk70.svg",
-  UnDrawIllustration.nature_fun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Nature_fun_re_gkjt.svg",
-  UnDrawIllustration.nature_on_screen:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/nature_on_screen_xkli.svg",
-  UnDrawIllustration.navigation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Navigation_re_wxx4.svg",
-  UnDrawIllustration.navigator:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/navigator_a479.svg",
-  UnDrawIllustration.neighbors:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/neighbors_ciwb.svg",
-  UnDrawIllustration.netflix:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/netflix_q00o.svg",
-  UnDrawIllustration.new_decade:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/new_decade_n4qd.svg",
-  UnDrawIllustration.new_entries:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_entries_re_cffr.svg",
-  UnDrawIllustration.new_ideas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_ideas_re_asn4.svg",
-  UnDrawIllustration.new_message:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_message_re_fp03.svg",
-  UnDrawIllustration.new_notifications:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_notifications_re_xpcv.svg",
-  UnDrawIllustration.new_year_2021:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/new_year_2021_2neh.svg",
-  UnDrawIllustration.new_year_2022:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_year_2022_bxec.svg",
-  UnDrawIllustration.new_year_2023:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/New_Year_2023_pfnc.svg",
-  UnDrawIllustration.news:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/News_re_6uub.svg",
-  UnDrawIllustration.newsletter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Newsletter_re_wrob.svg",
-  UnDrawIllustration.newspaper:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Newspaper_re_syf5.svg",
-  UnDrawIllustration.next_option:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Next_option_re_r9uf.svg",
-  UnDrawIllustration.next_tasks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Next_tasks_re_5eyy.svg",
-  UnDrawIllustration.nextjs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/next_js_8g5m.svg",
-  UnDrawIllustration.night_calls:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/night_calls_5jh7.svg",
-  UnDrawIllustration.ninja:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/ninja_e52b.svg",
-  UnDrawIllustration.no_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/No_data_re_kwbl.svg",
-  UnDrawIllustration.not_found:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Not_found_re_bh2e.svg",
-  UnDrawIllustration.note_list:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Note_list_re_r4u9.svg",
-  UnDrawIllustration.notebook:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notebook_re_id0r.svg",
-  UnDrawIllustration.noted:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Noted_re_c5wv.svg",
-  UnDrawIllustration.notes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notes_re_pxhw.svg",
-  UnDrawIllustration.notify:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notify_re_65on.svg",
-  UnDrawIllustration.nuxt_js:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/nuxt_js_0fq9.svg",
-  UnDrawIllustration.observations:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Observations_re_ohja.svg",
-  UnDrawIllustration.off_road:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Off_road_re_leme.svg",
-  UnDrawIllustration.office_snack:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Office_snack_re_l162.svg",
-  UnDrawIllustration.omega:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/omega_4kob.svg",
-  UnDrawIllustration.on_the_office:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/On_the_office_re_cxds.svg",
-  UnDrawIllustration.on_the_way:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/On_the_way_re_swjt.svg",
-  UnDrawIllustration.onboarding:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Onboarding_re_6osc.svg",
-  UnDrawIllustration.online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_re_x00h.svg",
-  UnDrawIllustration.online_ad:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_ad_re_ol62.svg",
-  UnDrawIllustration.online_art:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_art_re_f1pk.svg",
-  UnDrawIllustration.online_article:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_article_re_daq5.svg",
-  UnDrawIllustration.online_articles:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_articles_re_yrkj.svg",
-  UnDrawIllustration.online_banking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_banking_re_kwqh.svg",
-  UnDrawIllustration.online_calendar:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_calendar_re_wk3t.svg",
-  UnDrawIllustration.online_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_chat_re_c4lx.svg",
+      "illustrations/my_current_location.svg",
+  UnDrawIllustration.my_documents: "illustrations/my_documents.svg",
+  UnDrawIllustration.my_feed: "illustrations/my_feed.svg",
+  UnDrawIllustration.my_files: "illustrations/my_files.svg",
+  UnDrawIllustration.my_location: "illustrations/my_location.svg",
+  UnDrawIllustration.my_notifications: "illustrations/my_notifications.svg",
+  UnDrawIllustration.my_password: "illustrations/my_password.svg",
+  UnDrawIllustration.my_personal_files: "illustrations/my_personal_files.svg",
+  UnDrawIllustration.my_universe: "illustrations/my_universe.svg",
+  UnDrawIllustration.nakamoto: "illustrations/nakamoto.svg",
+  UnDrawIllustration.nature: "illustrations/nature.svg",
+  UnDrawIllustration.nature_benefits: "illustrations/nature_benefits.svg",
+  UnDrawIllustration.nature_fun: "illustrations/nature_fun.svg",
+  UnDrawIllustration.nature_on_screen: "illustrations/nature_on_screen.svg",
+  UnDrawIllustration.navigation: "illustrations/navigation.svg",
+  UnDrawIllustration.navigator: "illustrations/navigator.svg",
+  UnDrawIllustration.neighbors: "illustrations/neighbors.svg",
+  UnDrawIllustration.netflix: "illustrations/netflix.svg",
+  UnDrawIllustration.new_decade: "illustrations/new_decade.svg",
+  UnDrawIllustration.new_entries: "illustrations/new_entries.svg",
+  UnDrawIllustration.new_ideas: "illustrations/new_ideas.svg",
+  UnDrawIllustration.new_message: "illustrations/new_message.svg",
+  UnDrawIllustration.new_notifications: "illustrations/new_notifications.svg",
+  UnDrawIllustration.new_year_2021: "illustrations/new_year_2021.svg",
+  UnDrawIllustration.new_year_2022: "illustrations/new_year_2022.svg",
+  UnDrawIllustration.new_year_2023: "illustrations/new_year_2023.svg",
+  UnDrawIllustration.news: "illustrations/news.svg",
+  UnDrawIllustration.newsletter: "illustrations/newsletter.svg",
+  UnDrawIllustration.newspaper: "illustrations/newspaper.svg",
+  UnDrawIllustration.next_option: "illustrations/next_option.svg",
+  UnDrawIllustration.next_tasks: "illustrations/next_tasks.svg",
+  UnDrawIllustration.nextjs: "illustrations/nextjs.svg",
+  UnDrawIllustration.night_calls: "illustrations/night_calls.svg",
+  UnDrawIllustration.ninja: "illustrations/ninja.svg",
+  UnDrawIllustration.no_data: "illustrations/no_data.svg",
+  UnDrawIllustration.not_found: "illustrations/not_found.svg",
+  UnDrawIllustration.note_list: "illustrations/note_list.svg",
+  UnDrawIllustration.notebook: "illustrations/notebook.svg",
+  UnDrawIllustration.noted: "illustrations/noted.svg",
+  UnDrawIllustration.notes: "illustrations/notes.svg",
+  UnDrawIllustration.notify: "illustrations/notify.svg",
+  UnDrawIllustration.nuxt_js: "illustrations/nuxt_js.svg",
+  UnDrawIllustration.observations: "illustrations/observations.svg",
+  UnDrawIllustration.off_road: "illustrations/off_road.svg",
+  UnDrawIllustration.office_snack: "illustrations/office_snack.svg",
+  UnDrawIllustration.omega: "illustrations/omega.svg",
+  UnDrawIllustration.on_the_office: "illustrations/on_the_office.svg",
+  UnDrawIllustration.on_the_way: "illustrations/on_the_way.svg",
+  UnDrawIllustration.onboarding: "illustrations/onboarding.svg",
+  UnDrawIllustration.online: "illustrations/online.svg",
+  UnDrawIllustration.online_ad: "illustrations/online_ad.svg",
+  UnDrawIllustration.online_art: "illustrations/online_art.svg",
+  UnDrawIllustration.online_article: "illustrations/online_article.svg",
+  UnDrawIllustration.online_articles: "illustrations/online_articles.svg",
+  UnDrawIllustration.online_banking: "illustrations/online_banking.svg",
+  UnDrawIllustration.online_calendar: "illustrations/online_calendar.svg",
+  UnDrawIllustration.online_chat: "illustrations/online_chat.svg",
   UnDrawIllustration.online_collaboration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_collaboration_re_bkpm.svg",
-  UnDrawIllustration.online_connection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_connection_6778.svg",
-  UnDrawIllustration.online_cv:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_cv_re_gn0a.svg",
-  UnDrawIllustration.online_dating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_dating_re_hu03.svg",
-  UnDrawIllustration.online_discussion:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_discussion_re_nn7e.svg",
-  UnDrawIllustration.online_everywhere:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_everywhere_re_n3lr.svg",
-  UnDrawIllustration.online_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_friends_re_eqaj.svg",
-  UnDrawIllustration.online_gallery:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_gallery_re_3098.svg",
-  UnDrawIllustration.online_groceries:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_groceries_a02y.svg",
-  UnDrawIllustration.online_information:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_information_re_erks.svg",
-  UnDrawIllustration.online_learning:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_learning_re_qw08.svg",
-  UnDrawIllustration.online_media:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_media_re_r9qv.svg",
-  UnDrawIllustration.online_message:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_message_re_3m5v.svg",
-  UnDrawIllustration.online_messaging:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_messaging_re_qft3.svg",
-  UnDrawIllustration.online_organizer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_organizer_re_156n.svg",
-  UnDrawIllustration.online_page:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_page_re_lhgx.svg",
-  UnDrawIllustration.online_party:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_party_re_7t6g.svg",
-  UnDrawIllustration.online_payments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_payments_re_y8f2.svg",
-  UnDrawIllustration.online_popularity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_popularity_re_nm0s.svg",
-  UnDrawIllustration.online_posts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_posts_re_7ucl.svg",
-  UnDrawIllustration.online_reading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_reading_np7n.svg",
-  UnDrawIllustration.online_resume:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_resume_re_ru7s.svg",
-  UnDrawIllustration.online_shopping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_shopping_re_k1sv.svg",
-  UnDrawIllustration.online_stats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_stats_0g94.svg",
-  UnDrawIllustration.online_test:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_test_re_kyfx.svg",
+      "illustrations/online_collaboration.svg",
+  UnDrawIllustration.online_connection: "illustrations/online_connection.svg",
+  UnDrawIllustration.online_cv: "illustrations/online_cv.svg",
+  UnDrawIllustration.online_dating: "illustrations/online_dating.svg",
+  UnDrawIllustration.online_discussion: "illustrations/online_discussion.svg",
+  UnDrawIllustration.online_everywhere: "illustrations/online_everywhere.svg",
+  UnDrawIllustration.online_friends: "illustrations/online_friends.svg",
+  UnDrawIllustration.online_gallery: "illustrations/online_gallery.svg",
+  UnDrawIllustration.online_groceries: "illustrations/online_groceries.svg",
+  UnDrawIllustration.online_information: "illustrations/online_information.svg",
+  UnDrawIllustration.online_learning: "illustrations/online_learning.svg",
+  UnDrawIllustration.online_media: "illustrations/online_media.svg",
+  UnDrawIllustration.online_message: "illustrations/online_message.svg",
+  UnDrawIllustration.online_messaging: "illustrations/online_messaging.svg",
+  UnDrawIllustration.online_organizer: "illustrations/online_organizer.svg",
+  UnDrawIllustration.online_page: "illustrations/online_page.svg",
+  UnDrawIllustration.online_party: "illustrations/online_party.svg",
+  UnDrawIllustration.online_payments: "illustrations/online_payments.svg",
+  UnDrawIllustration.online_popularity: "illustrations/online_popularity.svg",
+  UnDrawIllustration.online_posts: "illustrations/online_posts.svg",
+  UnDrawIllustration.online_reading: "illustrations/online_reading.svg",
+  UnDrawIllustration.online_resume: "illustrations/online_resume.svg",
+  UnDrawIllustration.online_shopping: "illustrations/online_shopping.svg",
+  UnDrawIllustration.online_stats: "illustrations/online_stats.svg",
+  UnDrawIllustration.online_test: "illustrations/online_test.svg",
   UnDrawIllustration.online_transactions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_transactions_02ka.svg",
-  UnDrawIllustration.online_video:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_video_re_fou2.svg",
-  UnDrawIllustration.online_wishes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/online_wishes_dlmr.svg",
-  UnDrawIllustration.online_world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_world_re_h4cb.svg",
-  UnDrawIllustration.open_source:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/open_source_1qxw.svg",
-  UnDrawIllustration.opened:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Opened_re_i38e.svg",
-  UnDrawIllustration.opened_tabs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/opened_tabs_re_s5ur.svg",
-  UnDrawIllustration.opinion:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Opinion_re_jix4.svg",
-  UnDrawIllustration.optimize_image:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Optimize_image_re_3tb1.svg",
-  UnDrawIllustration.options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Options_re_9vxh.svg",
-  UnDrawIllustration.order_a_car:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/order_a_car_3tww.svg",
-  UnDrawIllustration.order_confirmed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Order_confirmed_re_g0if.svg",
-  UnDrawIllustration.order_delivered:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Order_delivered_re_v4ab.svg",
-  UnDrawIllustration.order_ride:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Order_ride_re_372k.svg",
-  UnDrawIllustration.ordinary_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ordinary_day_re_v5hy.svg",
-  UnDrawIllustration.organize_photos:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Organize_photos_re_ogcy.svg",
-  UnDrawIllustration.organize_resume:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Organize_resume_re_k45b.svg",
-  UnDrawIllustration.organized_content:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Organized_content_re_831r.svg",
+      "illustrations/online_transactions.svg",
+  UnDrawIllustration.online_video: "illustrations/online_video.svg",
+  UnDrawIllustration.online_wishes: "illustrations/online_wishes.svg",
+  UnDrawIllustration.online_world: "illustrations/online_world.svg",
+  UnDrawIllustration.open_source: "illustrations/open_source.svg",
+  UnDrawIllustration.opened: "illustrations/opened.svg",
+  UnDrawIllustration.opened_tabs: "illustrations/opened_tabs.svg",
+  UnDrawIllustration.opinion: "illustrations/opinion.svg",
+  UnDrawIllustration.optimize_image: "illustrations/optimize_image.svg",
+  UnDrawIllustration.options: "illustrations/options.svg",
+  UnDrawIllustration.order_a_car: "illustrations/order_a_car.svg",
+  UnDrawIllustration.order_confirmed: "illustrations/order_confirmed.svg",
+  UnDrawIllustration.order_delivered: "illustrations/order_delivered.svg",
+  UnDrawIllustration.order_ride: "illustrations/order_ride.svg",
+  UnDrawIllustration.ordinary_day: "illustrations/ordinary_day.svg",
+  UnDrawIllustration.organize_photos: "illustrations/organize_photos.svg",
+  UnDrawIllustration.organize_resume: "illustrations/organize_resume.svg",
+  UnDrawIllustration.organized_content: "illustrations/organized_content.svg",
   UnDrawIllustration.organizing_projects:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Organizing_projects_re_9p1k.svg",
-  UnDrawIllustration.os_upgrade:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/OS_upgrade_re_r0qa.svg",
-  UnDrawIllustration.our_neighborhood:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Our_neighborhood_re_rmx8.svg",
-  UnDrawIllustration.our_solution:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Our_solution_re_8yk6.svg",
-  UnDrawIllustration.outdoor_adventure:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Outdoor_adventure_re_j3b7.svg",
-  UnDrawIllustration.outdoor_party:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/outdoor_party_oqh3.svg",
-  UnDrawIllustration.outdoors:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/outdoors_amdn.svg",
-  UnDrawIllustration.outer_space:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Outer_space_re_u9vd.svg",
-  UnDrawIllustration.package_arrived:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/package_arrived_63rf.svg",
-  UnDrawIllustration.page_not_found:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Page_not_found_re_e9o6.svg",
-  UnDrawIllustration.pair_programming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pair_programming_re_or4x.svg",
-  UnDrawIllustration.palette:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/palette_110c.svg",
-  UnDrawIllustration.pancakes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pancakes_238t.svg",
-  UnDrawIllustration.party:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Party_re_nmwj.svg",
-  UnDrawIllustration.partying:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Partying_re_at7f.svg",
-  UnDrawIllustration.passing_by:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Passing_by_0un9.svg",
-  UnDrawIllustration.pay_online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pay_online_re_aqe6.svg",
-  UnDrawIllustration.payments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Payments_re_77x0.svg",
+      "illustrations/organizing_projects.svg",
+  UnDrawIllustration.os_upgrade: "illustrations/os_upgrade.svg",
+  UnDrawIllustration.our_neighborhood: "illustrations/our_neighborhood.svg",
+  UnDrawIllustration.our_solution: "illustrations/our_solution.svg",
+  UnDrawIllustration.outdoor_adventure: "illustrations/outdoor_adventure.svg",
+  UnDrawIllustration.outdoor_party: "illustrations/outdoor_party.svg",
+  UnDrawIllustration.outdoors: "illustrations/outdoors.svg",
+  UnDrawIllustration.outer_space: "illustrations/outer_space.svg",
+  UnDrawIllustration.package_arrived: "illustrations/package_arrived.svg",
+  UnDrawIllustration.page_not_found: "illustrations/page_not_found.svg",
+  UnDrawIllustration.pair_programming: "illustrations/pair_programming.svg",
+  UnDrawIllustration.palette: "illustrations/palette.svg",
+  UnDrawIllustration.pancakes: "illustrations/pancakes.svg",
+  UnDrawIllustration.party: "illustrations/party.svg",
+  UnDrawIllustration.partying: "illustrations/partying.svg",
+  UnDrawIllustration.passing_by: "illustrations/passing_by.svg",
+  UnDrawIllustration.pay_online: "illustrations/pay_online.svg",
+  UnDrawIllustration.payments: "illustrations/payments.svg",
   UnDrawIllustration.pedestrian_crossing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pedestrian_crossing_l6jv.svg",
-  UnDrawIllustration.pen_tool:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pen_tool_re_s92o.svg",
-  UnDrawIllustration.pending_approval:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pending_approval_xuu9.svg",
-  UnDrawIllustration.people:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/People_re_8spw.svg",
-  UnDrawIllustration.people_search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/People_search_re_5rre.svg",
-  UnDrawIllustration.percentages:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Percentages_re_a1ao.svg",
+      "illustrations/pedestrian_crossing.svg",
+  UnDrawIllustration.pen_tool: "illustrations/pen_tool.svg",
+  UnDrawIllustration.pending_approval: "illustrations/pending_approval.svg",
+  UnDrawIllustration.people: "illustrations/people.svg",
+  UnDrawIllustration.people_search: "illustrations/people_search.svg",
+  UnDrawIllustration.percentages: "illustrations/percentages.svg",
   UnDrawIllustration.performance_overview:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Performance_overview_re_mqrq.svg",
-  UnDrawIllustration.personal_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_data_re_ihde.svg",
-  UnDrawIllustration.personal_documents:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_documents_re_vcf2.svg",
-  UnDrawIllustration.personal_email:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_email_re_4lx7.svg",
-  UnDrawIllustration.personal_file:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_file_re_5joy.svg",
-  UnDrawIllustration.personal_finance:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_finance_re_ie6k.svg",
-  UnDrawIllustration.personal_goals:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_goals_re_iow7.svg",
-  UnDrawIllustration.personal_info:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_info_re_ur1n.svg",
+      "illustrations/performance_overview.svg",
+  UnDrawIllustration.personal_data: "illustrations/personal_data.svg",
+  UnDrawIllustration.personal_documents: "illustrations/personal_documents.svg",
+  UnDrawIllustration.personal_email: "illustrations/personal_email.svg",
+  UnDrawIllustration.personal_file: "illustrations/personal_file.svg",
+  UnDrawIllustration.personal_finance: "illustrations/personal_finance.svg",
+  UnDrawIllustration.personal_goals: "illustrations/personal_goals.svg",
+  UnDrawIllustration.personal_info: "illustrations/personal_info.svg",
   UnDrawIllustration.personal_information:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/personal_information_re_vw8a.svg",
-  UnDrawIllustration.personal_notebook:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_notebook_re_d7dc.svg",
-  UnDrawIllustration.personal_notes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/personal_notes_8n63.svg",
-  UnDrawIllustration.personal_opinions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_opinions_re_qw29.svg",
-  UnDrawIllustration.personal_settings:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_settings_re_i6w4.svg",
-  UnDrawIllustration.personal_site:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_site_re_c4bp.svg",
-  UnDrawIllustration.personal_text:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_text_re_vqj3.svg",
-  UnDrawIllustration.personal_trainer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_trainer_re_cnua.svg",
-  UnDrawIllustration.personal_training:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/personal_training_0dqn.svg",
-  UnDrawIllustration.personal_website:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personal_website_re_c8dv.svg",
-  UnDrawIllustration.personalization:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Personalization_re_grty.svg",
-  UnDrawIllustration.pet_adoption:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pet_adoption_2qkw.svg",
-  UnDrawIllustration.phone_call:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Phone_call_re_hx6a.svg",
-  UnDrawIllustration.photo:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photo_re_5blb.svg",
-  UnDrawIllustration.photo_album:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/photo_album_re_31c2.svg",
-  UnDrawIllustration.photo_session:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photo_session_re_c0cp.svg",
-  UnDrawIllustration.photo_sharing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photo_sharing_re_jip7.svg",
-  UnDrawIllustration.photocopy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photocopy_re_gln4.svg",
-  UnDrawIllustration.photograph:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photograph_re_up3b.svg",
-  UnDrawIllustration.photos:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Photos_re_pvh3.svg",
-  UnDrawIllustration.pic_profile:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pic_profile_re_7g2h.svg",
-  UnDrawIllustration.picture:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Picture_re_ne03.svg",
-  UnDrawIllustration.pie_chart:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pie_chart_re_bgs8.svg",
-  UnDrawIllustration.pie_graph:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pie_graph_re_fvol.svg",
-  UnDrawIllustration.pilates:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pilates_ltw9.svg",
-  UnDrawIllustration.pitching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pitching_re_fpgk.svg",
-  UnDrawIllustration.pizza_sharing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pizza_sharing_wxop.svg",
-  UnDrawIllustration.placeholders:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Placeholders_re_pvr4.svg",
-  UnDrawIllustration.plain_credit_card:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Plain_credit_card_re_c07w.svg",
-  UnDrawIllustration.plans:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Plans_re_s9mf.svg",
-  UnDrawIllustration.play_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/play_time_7k7b.svg",
-  UnDrawIllustration.playful_cat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playful_cat_re_ac9g.svg",
-  UnDrawIllustration.playing_cards:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/playing_cards_cywn.svg",
-  UnDrawIllustration.playing_fetch:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/playing_fetch_cm19.svg",
-  UnDrawIllustration.playing_golf:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playing_Golf_mm4r.svg",
-  UnDrawIllustration.playlist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playlist_re_1oed.svg",
-  UnDrawIllustration.pleasant_surprise:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pleasant_surprise_5sjy.svg",
-  UnDrawIllustration.podcast:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Podcast_re_wr88.svg",
-  UnDrawIllustration.podcast_audience:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Podcast_audience_re_4i5q.svg",
-  UnDrawIllustration.polaroid:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Polaroid_re_481f.svg",
-  UnDrawIllustration.popular:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Popular_re_mlfe.svg",
-  UnDrawIllustration.portfolio:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Portfolio_re_qwm5.svg",
-  UnDrawIllustration.portfolio_feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/portfolio_feedback_6r17.svg",
-  UnDrawIllustration.portfolio_update:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Portfolio_update_re_jqnp.svg",
-  UnDrawIllustration.portfolio_website:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Portfolio_website_re_jsdd.svg",
-  UnDrawIllustration.positive_attitude:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Positive_attitude_re_wu7d.svg",
-  UnDrawIllustration.post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Post_re_mtr4.svg",
-  UnDrawIllustration.post_online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Post_online_re_1b82.svg",
-  UnDrawIllustration.posting_photo:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Posting_photo_re_plk8.svg",
-  UnDrawIllustration.posts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Posts_re_ormv.svg",
-  UnDrawIllustration.powerful:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Powerful_re_frhr.svg",
+      "illustrations/personal_information.svg",
+  UnDrawIllustration.personal_notebook: "illustrations/personal_notebook.svg",
+  UnDrawIllustration.personal_notes: "illustrations/personal_notes.svg",
+  UnDrawIllustration.personal_opinions: "illustrations/personal_opinions.svg",
+  UnDrawIllustration.personal_settings: "illustrations/personal_settings.svg",
+  UnDrawIllustration.personal_site: "illustrations/personal_site.svg",
+  UnDrawIllustration.personal_text: "illustrations/personal_text.svg",
+  UnDrawIllustration.personal_trainer: "illustrations/personal_trainer.svg",
+  UnDrawIllustration.personal_training: "illustrations/personal_training.svg",
+  UnDrawIllustration.personal_website: "illustrations/personal_website.svg",
+  UnDrawIllustration.personalization: "illustrations/personalization.svg",
+  UnDrawIllustration.pet_adoption: "illustrations/pet_adoption.svg",
+  UnDrawIllustration.phone_call: "illustrations/phone_call.svg",
+  UnDrawIllustration.photo: "illustrations/photo.svg",
+  UnDrawIllustration.photo_album: "illustrations/photo_album.svg",
+  UnDrawIllustration.photo_session: "illustrations/photo_session.svg",
+  UnDrawIllustration.photo_sharing: "illustrations/photo_sharing.svg",
+  UnDrawIllustration.photocopy: "illustrations/photocopy.svg",
+  UnDrawIllustration.photograph: "illustrations/photograph.svg",
+  UnDrawIllustration.photos: "illustrations/photos.svg",
+  UnDrawIllustration.pic_profile: "illustrations/pic_profile.svg",
+  UnDrawIllustration.picture: "illustrations/picture.svg",
+  UnDrawIllustration.pie_chart: "illustrations/pie_chart.svg",
+  UnDrawIllustration.pie_graph: "illustrations/pie_graph.svg",
+  UnDrawIllustration.pilates: "illustrations/pilates.svg",
+  UnDrawIllustration.pitching: "illustrations/pitching.svg",
+  UnDrawIllustration.pizza_sharing: "illustrations/pizza_sharing.svg",
+  UnDrawIllustration.placeholders: "illustrations/placeholders.svg",
+  UnDrawIllustration.plain_credit_card: "illustrations/plain_credit_card.svg",
+  UnDrawIllustration.plans: "illustrations/plans.svg",
+  UnDrawIllustration.play_time: "illustrations/play_time.svg",
+  UnDrawIllustration.playful_cat: "illustrations/playful_cat.svg",
+  UnDrawIllustration.playing_cards: "illustrations/playing_cards.svg",
+  UnDrawIllustration.playing_fetch: "illustrations/playing_fetch.svg",
+  UnDrawIllustration.playing_golf: "illustrations/playing_golf.svg",
+  UnDrawIllustration.playlist: "illustrations/playlist.svg",
+  UnDrawIllustration.pleasant_surprise: "illustrations/pleasant_surprise.svg",
+  UnDrawIllustration.podcast: "illustrations/podcast.svg",
+  UnDrawIllustration.podcast_audience: "illustrations/podcast_audience.svg",
+  UnDrawIllustration.polaroid: "illustrations/polaroid.svg",
+  UnDrawIllustration.popular: "illustrations/popular.svg",
+  UnDrawIllustration.portfolio: "illustrations/portfolio.svg",
+  UnDrawIllustration.portfolio_feedback: "illustrations/portfolio_feedback.svg",
+  UnDrawIllustration.portfolio_update: "illustrations/portfolio_update.svg",
+  UnDrawIllustration.portfolio_website: "illustrations/portfolio_website.svg",
+  UnDrawIllustration.positive_attitude: "illustrations/positive_attitude.svg",
+  UnDrawIllustration.post: "illustrations/post.svg",
+  UnDrawIllustration.post_online: "illustrations/post_online.svg",
+  UnDrawIllustration.posting_photo: "illustrations/posting_photo.svg",
+  UnDrawIllustration.posts: "illustrations/posts.svg",
+  UnDrawIllustration.powerful: "illustrations/powerful.svg",
   UnDrawIllustration.predictive_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Predictive_analytics_re_wxt8.svg",
-  UnDrawIllustration.preferences:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Preferences_re_49in.svg",
-  UnDrawIllustration.preferences_popup:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Preferences_popup_re_4qk0.svg",
-  UnDrawIllustration.preparation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Preparation_re_t0ce.svg",
-  UnDrawIllustration.presentation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Presentation_re_sxof.svg",
-  UnDrawIllustration.press_play:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Press_play_re_85bj.svg",
-  UnDrawIllustration.pride:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pride_y0te.svg",
-  UnDrawIllustration.printing_invoices:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/printing_invoices_5r4r.svg",
-  UnDrawIllustration.prioritise:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Prioritise_re_r5xu.svg",
-  UnDrawIllustration.private_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Private_data_re_4eab.svg",
-  UnDrawIllustration.problem_solving:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Problem_solving_re_4gq3.svg",
-  UnDrawIllustration.process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Process_re_gws7.svg",
-  UnDrawIllustration.processing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Processing_re_tbdu.svg",
+      "illustrations/predictive_analytics.svg",
+  UnDrawIllustration.preferences: "illustrations/preferences.svg",
+  UnDrawIllustration.preferences_popup: "illustrations/preferences_popup.svg",
+  UnDrawIllustration.preparation: "illustrations/preparation.svg",
+  UnDrawIllustration.presentation: "illustrations/presentation.svg",
+  UnDrawIllustration.press_play: "illustrations/press_play.svg",
+  UnDrawIllustration.pride: "illustrations/pride.svg",
+  UnDrawIllustration.printing_invoices: "illustrations/printing_invoices.svg",
+  UnDrawIllustration.prioritise: "illustrations/prioritise.svg",
+  UnDrawIllustration.private_data: "illustrations/private_data.svg",
+  UnDrawIllustration.problem_solving: "illustrations/problem_solving.svg",
+  UnDrawIllustration.process: "illustrations/process.svg",
+  UnDrawIllustration.processing: "illustrations/processing.svg",
   UnDrawIllustration.processing_thoughts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/processing_thoughts_d8ha.svg",
-  UnDrawIllustration.product_explainer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/product_explainer_8jbm.svg",
-  UnDrawIllustration.product_hunt:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/product_hunt_n3f5.svg",
-  UnDrawIllustration.product_iteration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/product_iteration_kjok.svg",
+      "illustrations/processing_thoughts.svg",
+  UnDrawIllustration.product_explainer: "illustrations/product_explainer.svg",
+  UnDrawIllustration.product_hunt: "illustrations/product_hunt.svg",
+  UnDrawIllustration.product_iteration: "illustrations/product_iteration.svg",
   UnDrawIllustration.product_photography:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/product_photography_91i2.svg",
-  UnDrawIllustration.product_teardown:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Product_teardown_re_m1pc.svg",
-  UnDrawIllustration.product_tour:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/product_tour_re_8bai.svg",
-  UnDrawIllustration.professional_card:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/professional_card_otb4.svg",
-  UnDrawIllustration.professor:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Professor_re_mj1s.svg",
-  UnDrawIllustration.profile:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Profile_re_4a55.svg",
-  UnDrawIllustration.profile_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Profile_data_re_v81r.svg",
-  UnDrawIllustration.profile_details:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Profile_details_re_ch9r.svg",
-  UnDrawIllustration.profile_image:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/profile_image_re_ic2f.svg",
-  UnDrawIllustration.profile_pic:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Profile_pic_re_iwgo.svg",
-  UnDrawIllustration.programmer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Programmer_re_owql.svg",
-  UnDrawIllustration.programming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Programming_re_kg9v.svg",
-  UnDrawIllustration.progress_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Progress_data_re_rv4p.svg",
-  UnDrawIllustration.progress_indicator:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Progress_indicator_re_4o4n.svg",
-  UnDrawIllustration.progress_overview:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Progress_overview_re_tvcl.svg",
-  UnDrawIllustration.progress_tracking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Progress_tracking_re_ulfg.svg",
-  UnDrawIllustration.progressive_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/progressive_app_m9ms.svg",
-  UnDrawIllustration.project_complete:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/project_complete_lwss.svg",
-  UnDrawIllustration.project_completed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Project_completed_re_jr7u.svg",
-  UnDrawIllustration.project_feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Project_feedback_re_cm3l.svg",
-  UnDrawIllustration.project_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/project_team_lc5a.svg",
-  UnDrawIllustration.projections:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Projections_re_ulc6.svg",
+      "illustrations/product_photography.svg",
+  UnDrawIllustration.product_teardown: "illustrations/product_teardown.svg",
+  UnDrawIllustration.product_tour: "illustrations/product_tour.svg",
+  UnDrawIllustration.professional_card: "illustrations/professional_card.svg",
+  UnDrawIllustration.professor: "illustrations/professor.svg",
+  UnDrawIllustration.profile: "illustrations/profile.svg",
+  UnDrawIllustration.profile_data: "illustrations/profile_data.svg",
+  UnDrawIllustration.profile_details: "illustrations/profile_details.svg",
+  UnDrawIllustration.profile_image: "illustrations/profile_image.svg",
+  UnDrawIllustration.profile_pic: "illustrations/profile_pic.svg",
+  UnDrawIllustration.programmer: "illustrations/programmer.svg",
+  UnDrawIllustration.programming: "illustrations/programming.svg",
+  UnDrawIllustration.progress_data: "illustrations/progress_data.svg",
+  UnDrawIllustration.progress_indicator: "illustrations/progress_indicator.svg",
+  UnDrawIllustration.progress_overview: "illustrations/progress_overview.svg",
+  UnDrawIllustration.progress_tracking: "illustrations/progress_tracking.svg",
+  UnDrawIllustration.progressive_app: "illustrations/progressive_app.svg",
+  UnDrawIllustration.project_complete: "illustrations/project_complete.svg",
+  UnDrawIllustration.project_completed: "illustrations/project_completed.svg",
+  UnDrawIllustration.project_feedback: "illustrations/project_feedback.svg",
+  UnDrawIllustration.project_team: "illustrations/project_team.svg",
+  UnDrawIllustration.projections: "illustrations/projections.svg",
   UnDrawIllustration.prototyping_process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Prototyping_process_re_7a6p.svg",
-  UnDrawIllustration.proud_coder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Proud_coder_re_exuy.svg",
-  UnDrawIllustration.proud_self:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/proud_self_1ddv.svg",
-  UnDrawIllustration.public_discussion:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Public_discussion_re_w9up.svg",
-  UnDrawIllustration.publish_article:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Publish_article_re_3x8h.svg",
-  UnDrawIllustration.publish_post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Publish_post_re_wmql.svg",
-  UnDrawIllustration.pull_request:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Pull_request_re_aqi5.svg",
-  UnDrawIllustration.pumpkin:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pumpkin_re_bm46.svg",
-  UnDrawIllustration.pure_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/pure_love_ay8a.svg",
-  UnDrawIllustration.push_notifications:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Push_notifications_re_t84m.svg",
-  UnDrawIllustration.qa_engineers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/QA_engineers_dg5p.svg",
-  UnDrawIllustration.quality_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/quality_time_wiyl.svg",
-  UnDrawIllustration.questions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Questions_re_1fy7.svg",
-  UnDrawIllustration.quick_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/quick_chat_re_bit5.svg",
-  UnDrawIllustration.quiet_town:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Quiet_town_re_n99r.svg",
-  UnDrawIllustration.quitting_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Quitting_time_re_1whp.svg",
-  UnDrawIllustration.quiz:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Quiz_re_aol4.svg",
-  UnDrawIllustration.raining:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Raining_re_4b55.svg",
-  UnDrawIllustration.random_thoughts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Random_thoughts_re_cob6.svg",
-  UnDrawIllustration.react:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/React_re_g3ui.svg",
-  UnDrawIllustration.reading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reading_re_29f8.svg",
-  UnDrawIllustration.reading_book:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reading_book_re_kqpk.svg",
-  UnDrawIllustration.reading_list:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reading_list_re_bk72.svg",
-  UnDrawIllustration.reading_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reading_time_re_phf7.svg",
-  UnDrawIllustration.ready_for_waves:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ready_for_waves_vlke.svg",
+      "illustrations/prototyping_process.svg",
+  UnDrawIllustration.proud_coder: "illustrations/proud_coder.svg",
+  UnDrawIllustration.proud_self: "illustrations/proud_self.svg",
+  UnDrawIllustration.public_discussion: "illustrations/public_discussion.svg",
+  UnDrawIllustration.publish_article: "illustrations/publish_article.svg",
+  UnDrawIllustration.publish_post: "illustrations/publish_post.svg",
+  UnDrawIllustration.pull_request: "illustrations/pull_request.svg",
+  UnDrawIllustration.pumpkin: "illustrations/pumpkin.svg",
+  UnDrawIllustration.pure_love: "illustrations/pure_love.svg",
+  UnDrawIllustration.push_notifications: "illustrations/push_notifications.svg",
+  UnDrawIllustration.qa_engineers: "illustrations/qa_engineers.svg",
+  UnDrawIllustration.quality_time: "illustrations/quality_time.svg",
+  UnDrawIllustration.questions: "illustrations/questions.svg",
+  UnDrawIllustration.quick_chat: "illustrations/quick_chat.svg",
+  UnDrawIllustration.quiet_town: "illustrations/quiet_town.svg",
+  UnDrawIllustration.quitting_time: "illustrations/quitting_time.svg",
+  UnDrawIllustration.quiz: "illustrations/quiz.svg",
+  UnDrawIllustration.raining: "illustrations/raining.svg",
+  UnDrawIllustration.random_thoughts: "illustrations/random_thoughts.svg",
+  UnDrawIllustration.react: "illustrations/react.svg",
+  UnDrawIllustration.reading: "illustrations/reading.svg",
+  UnDrawIllustration.reading_book: "illustrations/reading_book.svg",
+  UnDrawIllustration.reading_list: "illustrations/reading_list.svg",
+  UnDrawIllustration.reading_time: "illustrations/reading_time.svg",
+  UnDrawIllustration.ready_for_waves: "illustrations/ready_for_waves.svg",
   UnDrawIllustration.real_time_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/real_time_analytics_re_yliv.svg",
+      "illustrations/real_time_analytics.svg",
   UnDrawIllustration.real_time_collaboration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/real_time_collaboration_c62i.svg",
-  UnDrawIllustration.real_time_sync:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Real_time_sync_re_nky7.svg",
-  UnDrawIllustration.receipt:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Receipt_re_fre3.svg",
-  UnDrawIllustration.recording:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Recording_re_5xyq.svg",
-  UnDrawIllustration.redesign_feedback:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Redesign_feedback_re_jvm0.svg",
-  UnDrawIllustration.referral:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Referral_re_0aji.svg",
-  UnDrawIllustration.refreshing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/refreshing_ncum.svg",
+      "illustrations/real_time_collaboration.svg",
+  UnDrawIllustration.real_time_sync: "illustrations/real_time_sync.svg",
+  UnDrawIllustration.receipt: "illustrations/receipt.svg",
+  UnDrawIllustration.recording: "illustrations/recording.svg",
+  UnDrawIllustration.redesign_feedback: "illustrations/redesign_feedback.svg",
+  UnDrawIllustration.referral: "illustrations/referral.svg",
+  UnDrawIllustration.refreshing: "illustrations/refreshing.svg",
   UnDrawIllustration.refreshing_beverage:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/refreshing_beverage_td3r.svg",
-  UnDrawIllustration.regain_focus:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/regain_focus_ecvj.svg",
-  UnDrawIllustration.relaunch_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/relaunch_day_902d.svg",
-  UnDrawIllustration.relaxation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Relaxation_re_ohkx.svg",
-  UnDrawIllustration.relaxing_at_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Relaxing_at_home_re_mror.svg",
-  UnDrawIllustration.relaxing_walk:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Relaxing_walk_re_7fko.svg",
-  UnDrawIllustration.reminder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reminder_re_fe15.svg",
-  UnDrawIllustration.reminders:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reminders_re_gtyb.svg",
-  UnDrawIllustration.remote_design_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Remote_design_team_re_urdx.svg",
-  UnDrawIllustration.remote_meeting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Remote_meeting_re_abe7.svg",
-  UnDrawIllustration.remote_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Remote_team_re_ck1y.svg",
-  UnDrawIllustration.remotely:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/remotely_2j6y.svg",
-  UnDrawIllustration.report:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Report_re_f5n5.svg",
-  UnDrawIllustration.researching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Researching_re_fuod.svg",
-  UnDrawIllustration.respond:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Respond_re_iph2.svg",
-  UnDrawIllustration.responsive:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Responsive_re_e1nn.svg",
-  UnDrawIllustration.responsiveness:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Responsiveness_re_cuv5.svg",
-  UnDrawIllustration.result:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Result_re_uj08.svg",
-  UnDrawIllustration.resume:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Resume_re_hkth.svg",
-  UnDrawIllustration.resume_folder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Resume_folder_re_e0bi.svg",
-  UnDrawIllustration.revenue:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Revenue_re_2bmg.svg",
-  UnDrawIllustration.review:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Review_re_kgg1.svg",
-  UnDrawIllustration.reviewed_docs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Reviewed_docs_re_9lmr.svg",
-  UnDrawIllustration.reviews:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/reviews_lp8w.svg",
-  UnDrawIllustration.ride_a_bicycle:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ride_a_bicycle_re_6tjy.svg",
+      "illustrations/refreshing_beverage.svg",
+  UnDrawIllustration.regain_focus: "illustrations/regain_focus.svg",
+  UnDrawIllustration.relaunch_day: "illustrations/relaunch_day.svg",
+  UnDrawIllustration.relaxation: "illustrations/relaxation.svg",
+  UnDrawIllustration.relaxing_at_home: "illustrations/relaxing_at_home.svg",
+  UnDrawIllustration.relaxing_walk: "illustrations/relaxing_walk.svg",
+  UnDrawIllustration.reminder: "illustrations/reminder.svg",
+  UnDrawIllustration.reminders: "illustrations/reminders.svg",
+  UnDrawIllustration.remote_design_team: "illustrations/remote_design_team.svg",
+  UnDrawIllustration.remote_meeting: "illustrations/remote_meeting.svg",
+  UnDrawIllustration.remote_team: "illustrations/remote_team.svg",
+  UnDrawIllustration.remotely: "illustrations/remotely.svg",
+  UnDrawIllustration.report: "illustrations/report.svg",
+  UnDrawIllustration.researching: "illustrations/researching.svg",
+  UnDrawIllustration.respond: "illustrations/respond.svg",
+  UnDrawIllustration.responsive: "illustrations/responsive.svg",
+  UnDrawIllustration.responsiveness: "illustrations/responsiveness.svg",
+  UnDrawIllustration.result: "illustrations/result.svg",
+  UnDrawIllustration.resume: "illustrations/resume.svg",
+  UnDrawIllustration.resume_folder: "illustrations/resume_folder.svg",
+  UnDrawIllustration.revenue: "illustrations/revenue.svg",
+  UnDrawIllustration.review: "illustrations/review.svg",
+  UnDrawIllustration.reviewed_docs: "illustrations/reviewed_docs.svg",
+  UnDrawIllustration.reviews: "illustrations/reviews.svg",
+  UnDrawIllustration.ride_a_bicycle: "illustrations/ride_a_bicycle.svg",
   UnDrawIllustration.ride_till_i_can_no_more:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ride_till_I_can_no_more_re_5q3p.svg",
-  UnDrawIllustration.right_direction:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/right_direction_tge8.svg",
-  UnDrawIllustration.right_places:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Right_places_re_3sve.svg",
-  UnDrawIllustration.rising:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/rising_8svm.svg",
-  UnDrawIllustration.road_sign:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Road_sign_re_3kc3.svg",
-  UnDrawIllustration.road_to_knowledge:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/road_to_knowledge_m8s0.svg",
-  UnDrawIllustration.robotics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/robotics_kep0.svg",
-  UnDrawIllustration.romantic_getaway:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Romantic_getaway_re_3f45.svg",
-  UnDrawIllustration.runner_start:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/runner_start_x0uu.svg",
-  UnDrawIllustration.running_wild:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Running_wild_h6ao.svg",
-  UnDrawIllustration.safe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Safe_re_kiil.svg",
-  UnDrawIllustration.santa_claus:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Santa_claus_re_sv6b.svg",
-  UnDrawIllustration.santa_visit:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Santa_visit_re_oiwr.svg",
-  UnDrawIllustration.save_to_bookmarks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Save_to_bookmarks_re_8ajf.svg",
-  UnDrawIllustration.savings:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Savings_re_eq4w.svg",
-  UnDrawIllustration.schedule:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Schedule_re_2vro.svg",
-  UnDrawIllustration.schedule_meeting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/schedule_meeting_52nu.svg",
-  UnDrawIllustration.science:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Science_re_mnnr.svg",
-  UnDrawIllustration.scientist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Scientist_ft0o.svg",
-  UnDrawIllustration.scooter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Scooter_re_lrsb.svg",
-  UnDrawIllustration.screen_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/screen_time_vkev.svg",
-  UnDrawIllustration.scrum_board:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Scrum_board_re_wk7v.svg",
-  UnDrawIllustration.sculpting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/sculpting_1c9p.svg",
-  UnDrawIllustration.search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_re_x5gq.svg",
-  UnDrawIllustration.search_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/search_app_oso2.svg",
-  UnDrawIllustration.search_engines:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_engines_ij7q.svg",
-  UnDrawIllustration.searching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Searching_re_3ra9.svg",
-  UnDrawIllustration.season_change:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/season_change_f99v.svg",
-  UnDrawIllustration.secure_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/secure_files_re_6vdh.svg",
-  UnDrawIllustration.secure_login:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/secure_login_pdn4.svg",
-  UnDrawIllustration.secure_server:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Secure_server_re_8wsq.svg",
-  UnDrawIllustration.security:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Security_re_a2rk.svg",
-  UnDrawIllustration.security_on:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Security_on_re_e491.svg",
-  UnDrawIllustration.segment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Segment_re_a3e7.svg",
-  UnDrawIllustration.segment_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Segment_analysis_re_ocsl.svg",
-  UnDrawIllustration.segmentation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Segmentation_re_gduq.svg",
-  UnDrawIllustration.select:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_re_3kbd.svg",
-  UnDrawIllustration.select_house:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_house_re_s1j9.svg",
-  UnDrawIllustration.select_option:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_option_re_u4qn.svg",
-  UnDrawIllustration.select_player:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/select_player_64ca.svg",
-  UnDrawIllustration.selected_options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selected_options_re_vtjd.svg",
-  UnDrawIllustration.selecting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selecting_re_5ff6.svg",
-  UnDrawIllustration.selecting_team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selecting_team_re_ndkb.svg",
-  UnDrawIllustration.selection:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/selection_re_ycpo.svg",
-  UnDrawIllustration.selfie:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selfie_re_h9um.svg",
-  UnDrawIllustration.selfie_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selfie_time_re_apbg.svg",
-  UnDrawIllustration.send_gift:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Send_gift_re_t5ni.svg",
-  UnDrawIllustration.sentiment_analysis:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/sentiment_analysis_jp6w.svg",
-  UnDrawIllustration.server:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Server_re_twwj.svg",
-  UnDrawIllustration.server_cluster:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/server_cluster_jwwq.svg",
-  UnDrawIllustration.server_down:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/server_down_s4lk.svg",
-  UnDrawIllustration.server_push:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Server_push_re_303w.svg",
-  UnDrawIllustration.server_status:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Server_status_re_n8ln.svg",
-  UnDrawIllustration.services:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Services_re_hu5n.svg",
-  UnDrawIllustration.set_preferences:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/set_preferences_kwia.svg",
-  UnDrawIllustration.settings:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Settings_re_b08x.svg",
-  UnDrawIllustration.settings_tab:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/settings_tab_mgiw.svg",
-  UnDrawIllustration.setup:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Setup_re_y9w8.svg",
-  UnDrawIllustration.setup_analytics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Setup_analytics_re_foim.svg",
-  UnDrawIllustration.setup_wizard:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Setup_wizard_re_nday.svg",
-  UnDrawIllustration.share:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Share_re_9kfx.svg",
-  UnDrawIllustration.share_link:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Share_link_re_54rx.svg",
-  UnDrawIllustration.share_online:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Share_online_re_gal9.svg",
-  UnDrawIllustration.share_opinion:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Share_opinion_re_4qk7.svg",
-  UnDrawIllustration.shared_goals:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shared_goals_re_jvqd.svg",
-  UnDrawIllustration.shared_workspace:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shared_workspace_re_3gsu.svg",
-  UnDrawIllustration.sharing_articles:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sharing_articles_re_jnkp.svg",
-  UnDrawIllustration.sharing_knowledge:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/sharing_knowledge_03vp.svg",
-  UnDrawIllustration.shopping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_re_hdd9.svg",
-  UnDrawIllustration.shopping_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/shopping_app_flsj.svg",
-  UnDrawIllustration.shopping_bags:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_Bags_g4xr.svg",
-  UnDrawIllustration.short_bio:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Short_bio_re_fmx0.svg",
-  UnDrawIllustration.showing_support:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Showing_support_re_5f2v.svg",
-  UnDrawIllustration.sign_in:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sign_in_re_o58h.svg",
-  UnDrawIllustration.sign_up:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sign_up_n6im.svg",
-  UnDrawIllustration.signal_searching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Signal_searching_re_yl8n.svg",
-  UnDrawIllustration.site_content:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Site_content_re_4ctl.svg",
-  UnDrawIllustration.site_stats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Site_stats_re_ejgy.svg",
-  UnDrawIllustration.skateboard:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Skateboard_re_we2n.svg",
-  UnDrawIllustration.skateboarding:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/skateboarding_929d.svg",
-  UnDrawIllustration.slider:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Slider_re_ch7w.svg",
-  UnDrawIllustration.small_town:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Small_town_re_7mcn.svg",
-  UnDrawIllustration.smart_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/smart_home_re_orvn.svg",
-  UnDrawIllustration.smart_resize:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Smart_resize_re_q4mo.svg",
-  UnDrawIllustration.smartwatch:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Smartwatch_re_59lx.svg",
-  UnDrawIllustration.smiley_face:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Smiley_face_re_9uid.svg",
-  UnDrawIllustration.snap_the_moment:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/snap_the_moment_re_88cu.svg",
-  UnDrawIllustration.snow_fun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/snow_fun_re_plbr.svg",
-  UnDrawIllustration.snow_games:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/snow_games_tq9r.svg",
-  UnDrawIllustration.snow_globe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/snow_globe_923j.svg",
-  UnDrawIllustration.snowman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Snowman_re_guxt.svg",
-  UnDrawIllustration.social_bio:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_bio_re_0t9u.svg",
-  UnDrawIllustration.social_dashboard:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_dashboard_re_ocbd.svg",
-  UnDrawIllustration.social_distancing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/social_distancing_2g0u.svg",
-  UnDrawIllustration.social_expert:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_expert_re_elbp.svg",
-  UnDrawIllustration.social_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_friends_re_7uaa.svg",
-  UnDrawIllustration.social_girl:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_girl_re_kdrx.svg",
-  UnDrawIllustration.social_growth:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_growth_re_tjy9.svg",
-  UnDrawIllustration.social_ideas:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_ideas_re_j5v4.svg",
-  UnDrawIllustration.social_influencer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_influencer_re_beim.svg",
-  UnDrawIllustration.social_interaction:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_interaction_re_dyjh.svg",
-  UnDrawIllustration.social_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_life_re_x7t5.svg",
-  UnDrawIllustration.social_media:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_media_re_sulg.svg",
-  UnDrawIllustration.social_networking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_networking_re_i1ex.svg",
+      "illustrations/ride_till_i_can_no_more.svg",
+  UnDrawIllustration.right_direction: "illustrations/right_direction.svg",
+  UnDrawIllustration.right_places: "illustrations/right_places.svg",
+  UnDrawIllustration.rising: "illustrations/rising.svg",
+  UnDrawIllustration.road_sign: "illustrations/road_sign.svg",
+  UnDrawIllustration.road_to_knowledge: "illustrations/road_to_knowledge.svg",
+  UnDrawIllustration.robotics: "illustrations/robotics.svg",
+  UnDrawIllustration.romantic_getaway: "illustrations/romantic_getaway.svg",
+  UnDrawIllustration.runner_start: "illustrations/runner_start.svg",
+  UnDrawIllustration.running_wild: "illustrations/running_wild.svg",
+  UnDrawIllustration.safe: "illustrations/safe.svg",
+  UnDrawIllustration.santa_claus: "illustrations/santa_claus.svg",
+  UnDrawIllustration.santa_visit: "illustrations/santa_visit.svg",
+  UnDrawIllustration.save_to_bookmarks: "illustrations/save_to_bookmarks.svg",
+  UnDrawIllustration.savings: "illustrations/savings.svg",
+  UnDrawIllustration.schedule: "illustrations/schedule.svg",
+  UnDrawIllustration.schedule_meeting: "illustrations/schedule_meeting.svg",
+  UnDrawIllustration.science: "illustrations/science.svg",
+  UnDrawIllustration.scientist: "illustrations/scientist.svg",
+  UnDrawIllustration.scooter: "illustrations/scooter.svg",
+  UnDrawIllustration.screen_time: "illustrations/screen_time.svg",
+  UnDrawIllustration.scrum_board: "illustrations/scrum_board.svg",
+  UnDrawIllustration.sculpting: "illustrations/sculpting.svg",
+  UnDrawIllustration.search: "illustrations/search.svg",
+  UnDrawIllustration.search_app: "illustrations/search_app.svg",
+  UnDrawIllustration.search_engines: "illustrations/search_engines.svg",
+  UnDrawIllustration.searching: "illustrations/searching.svg",
+  UnDrawIllustration.season_change: "illustrations/season_change.svg",
+  UnDrawIllustration.secure_files: "illustrations/secure_files.svg",
+  UnDrawIllustration.secure_login: "illustrations/secure_login.svg",
+  UnDrawIllustration.secure_server: "illustrations/secure_server.svg",
+  UnDrawIllustration.security: "illustrations/security.svg",
+  UnDrawIllustration.security_on: "illustrations/security_on.svg",
+  UnDrawIllustration.segment: "illustrations/segment.svg",
+  UnDrawIllustration.segment_analysis: "illustrations/segment_analysis.svg",
+  UnDrawIllustration.segmentation: "illustrations/segmentation.svg",
+  UnDrawIllustration.select: "illustrations/select.svg",
+  UnDrawIllustration.select_house: "illustrations/select_house.svg",
+  UnDrawIllustration.select_option: "illustrations/select_option.svg",
+  UnDrawIllustration.select_player: "illustrations/select_player.svg",
+  UnDrawIllustration.selected_options: "illustrations/selected_options.svg",
+  UnDrawIllustration.selecting: "illustrations/selecting.svg",
+  UnDrawIllustration.selecting_team: "illustrations/selecting_team.svg",
+  UnDrawIllustration.selection: "illustrations/selection.svg",
+  UnDrawIllustration.selfie: "illustrations/selfie.svg",
+  UnDrawIllustration.selfie_time: "illustrations/selfie_time.svg",
+  UnDrawIllustration.send_gift: "illustrations/send_gift.svg",
+  UnDrawIllustration.sentiment_analysis: "illustrations/sentiment_analysis.svg",
+  UnDrawIllustration.server: "illustrations/server.svg",
+  UnDrawIllustration.server_cluster: "illustrations/server_cluster.svg",
+  UnDrawIllustration.server_down: "illustrations/server_down.svg",
+  UnDrawIllustration.server_push: "illustrations/server_push.svg",
+  UnDrawIllustration.server_status: "illustrations/server_status.svg",
+  UnDrawIllustration.services: "illustrations/services.svg",
+  UnDrawIllustration.set_preferences: "illustrations/set_preferences.svg",
+  UnDrawIllustration.settings: "illustrations/settings.svg",
+  UnDrawIllustration.settings_tab: "illustrations/settings_tab.svg",
+  UnDrawIllustration.setup: "illustrations/setup.svg",
+  UnDrawIllustration.setup_analytics: "illustrations/setup_analytics.svg",
+  UnDrawIllustration.setup_wizard: "illustrations/setup_wizard.svg",
+  UnDrawIllustration.share: "illustrations/share.svg",
+  UnDrawIllustration.share_link: "illustrations/share_link.svg",
+  UnDrawIllustration.share_online: "illustrations/share_online.svg",
+  UnDrawIllustration.share_opinion: "illustrations/share_opinion.svg",
+  UnDrawIllustration.shared_goals: "illustrations/shared_goals.svg",
+  UnDrawIllustration.shared_workspace: "illustrations/shared_workspace.svg",
+  UnDrawIllustration.sharing_articles: "illustrations/sharing_articles.svg",
+  UnDrawIllustration.sharing_knowledge: "illustrations/sharing_knowledge.svg",
+  UnDrawIllustration.shopping: "illustrations/shopping.svg",
+  UnDrawIllustration.shopping_app: "illustrations/shopping_app.svg",
+  UnDrawIllustration.shopping_bags: "illustrations/shopping_bags.svg",
+  UnDrawIllustration.short_bio: "illustrations/short_bio.svg",
+  UnDrawIllustration.showing_support: "illustrations/showing_support.svg",
+  UnDrawIllustration.sign_in: "illustrations/sign_in.svg",
+  UnDrawIllustration.sign_up: "illustrations/sign_up.svg",
+  UnDrawIllustration.signal_searching: "illustrations/signal_searching.svg",
+  UnDrawIllustration.site_content: "illustrations/site_content.svg",
+  UnDrawIllustration.site_stats: "illustrations/site_stats.svg",
+  UnDrawIllustration.skateboard: "illustrations/skateboard.svg",
+  UnDrawIllustration.skateboarding: "illustrations/skateboarding.svg",
+  UnDrawIllustration.slider: "illustrations/slider.svg",
+  UnDrawIllustration.small_town: "illustrations/small_town.svg",
+  UnDrawIllustration.smart_home: "illustrations/smart_home.svg",
+  UnDrawIllustration.smart_resize: "illustrations/smart_resize.svg",
+  UnDrawIllustration.smartwatch: "illustrations/smartwatch.svg",
+  UnDrawIllustration.smiley_face: "illustrations/smiley_face.svg",
+  UnDrawIllustration.snap_the_moment: "illustrations/snap_the_moment.svg",
+  UnDrawIllustration.snow_fun: "illustrations/snow_fun.svg",
+  UnDrawIllustration.snow_games: "illustrations/snow_games.svg",
+  UnDrawIllustration.snow_globe: "illustrations/snow_globe.svg",
+  UnDrawIllustration.snowman: "illustrations/snowman.svg",
+  UnDrawIllustration.social_bio: "illustrations/social_bio.svg",
+  UnDrawIllustration.social_dashboard: "illustrations/social_dashboard.svg",
+  UnDrawIllustration.social_distancing: "illustrations/social_distancing.svg",
+  UnDrawIllustration.social_expert: "illustrations/social_expert.svg",
+  UnDrawIllustration.social_friends: "illustrations/social_friends.svg",
+  UnDrawIllustration.social_girl: "illustrations/social_girl.svg",
+  UnDrawIllustration.social_growth: "illustrations/social_growth.svg",
+  UnDrawIllustration.social_ideas: "illustrations/social_ideas.svg",
+  UnDrawIllustration.social_influencer: "illustrations/social_influencer.svg",
+  UnDrawIllustration.social_interaction: "illustrations/social_interaction.svg",
+  UnDrawIllustration.social_life: "illustrations/social_life.svg",
+  UnDrawIllustration.social_media: "illustrations/social_media.svg",
+  UnDrawIllustration.social_networking: "illustrations/social_networking.svg",
   UnDrawIllustration.social_notifications:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_notifications_re_xcbi.svg",
-  UnDrawIllustration.social_serenity:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/social_serenity_vhix.svg",
-  UnDrawIllustration.social_share:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_share_re_qb4v.svg",
-  UnDrawIllustration.social_sharing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_sharing_re_pvmr.svg",
-  UnDrawIllustration.social_strategy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_strategy_re_mk87.svg",
-  UnDrawIllustration.social_thinking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_thinking_re_y8cc.svg",
-  UnDrawIllustration.social_tree:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/social_tree_1_y9wa.svg",
-  UnDrawIllustration.social_update:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_update_re_xhjr.svg",
-  UnDrawIllustration.social_user:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Social_user_re_8cky.svg",
-  UnDrawIllustration.software_engineer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Software_engineer_re_tnjc.svg",
-  UnDrawIllustration.solution_mindset:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Solution_mindset_re_57bf.svg",
-  UnDrawIllustration.sorting_thoughts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sorting_thoughts_re_fgli.svg",
-  UnDrawIllustration.source_code:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Source_code_re_wd9m.svg",
-  UnDrawIllustration.special_event:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/special_event_4aj8.svg",
-  UnDrawIllustration.specs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Specs_re_546x.svg",
-  UnDrawIllustration.speech_to_text:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Speech_to_text_re_8mtf.svg",
-  UnDrawIllustration.speed_test:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Speed_test_re_pe1f.svg",
-  UnDrawIllustration.split_testing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/split_testing_l1uw.svg",
-  UnDrawIllustration.spooky_self:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/spooky_self_re_gljh.svg",
-  UnDrawIllustration.spread_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Spread_love_re_v3cl.svg",
-  UnDrawIllustration.spreadsheet:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Spreadsheet_re_cn18.svg",
-  UnDrawIllustration.spreadsheets:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Spreadsheets_re_alt0.svg",
-  UnDrawIllustration.stability_ball:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Stability_ball_b4ia.svg",
-  UnDrawIllustration.stand_out:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stand_out_1oag.svg",
-  UnDrawIllustration.starlink:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/starlink_3r0a.svg",
-  UnDrawIllustration.starry_window:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Starry_window_re_0v82.svg",
-  UnDrawIllustration.stars:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stars_re_6je7.svg",
-  UnDrawIllustration.start_building:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Start_building_re_xani.svg",
-  UnDrawIllustration.startled:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/startled_8p0r.svg",
-  UnDrawIllustration.startup_life:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Startup_life_re_8ow9.svg",
-  UnDrawIllustration.static_assets:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/static_assets_rpm6.svg",
-  UnDrawIllustration.static_website:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Static_website_re_x70h.svg",
-  UnDrawIllustration.statistic_chart:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Statistic_chart_re_w0pk.svg",
-  UnDrawIllustration.statistics:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Statistics_re_kox4.svg",
-  UnDrawIllustration.status_update:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Status_update_re_dm9y.svg",
-  UnDrawIllustration.staying_in:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/staying_in_i80u.svg",
-  UnDrawIllustration.step_to_the_sun:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/step_to_the_sun_nxqq.svg",
-  UnDrawIllustration.stepping_up:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stepping_up_g6oo.svg",
-  UnDrawIllustration.steps:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Steps_re_odoy.svg",
-  UnDrawIllustration.stock_prices:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Stock_prices_re_js33.svg",
-  UnDrawIllustration.stranded_traveler:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stranded_traveler_pdbw.svg",
-  UnDrawIllustration.street_food:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Street_food_re_uwex.svg",
-  UnDrawIllustration.stripe_payments:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Stripe_payments_re_chlm.svg",
-  UnDrawIllustration.studying:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Studying_re_deca.svg",
-  UnDrawIllustration.subscribe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/subscribe_vspl.svg",
-  UnDrawIllustration.subscriber:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Subscriber_re_om92.svg",
-  UnDrawIllustration.subscriptions:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/subscriptions_re_k7jj.svg",
-  UnDrawIllustration.suburbs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Suburbs_re_en49.svg",
-  UnDrawIllustration.subway:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/subway_7vh7.svg",
-  UnDrawIllustration.success_factors:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Success_factors_re_ce93.svg",
+      "illustrations/social_notifications.svg",
+  UnDrawIllustration.social_serenity: "illustrations/social_serenity.svg",
+  UnDrawIllustration.social_share: "illustrations/social_share.svg",
+  UnDrawIllustration.social_sharing: "illustrations/social_sharing.svg",
+  UnDrawIllustration.social_strategy: "illustrations/social_strategy.svg",
+  UnDrawIllustration.social_thinking: "illustrations/social_thinking.svg",
+  UnDrawIllustration.social_tree: "illustrations/social_tree.svg",
+  UnDrawIllustration.social_update: "illustrations/social_update.svg",
+  UnDrawIllustration.social_user: "illustrations/social_user.svg",
+  UnDrawIllustration.software_engineer: "illustrations/software_engineer.svg",
+  UnDrawIllustration.solution_mindset: "illustrations/solution_mindset.svg",
+  UnDrawIllustration.sorting_thoughts: "illustrations/sorting_thoughts.svg",
+  UnDrawIllustration.source_code: "illustrations/source_code.svg",
+  UnDrawIllustration.special_event: "illustrations/special_event.svg",
+  UnDrawIllustration.specs: "illustrations/specs.svg",
+  UnDrawIllustration.speech_to_text: "illustrations/speech_to_text.svg",
+  UnDrawIllustration.speed_test: "illustrations/speed_test.svg",
+  UnDrawIllustration.split_testing: "illustrations/split_testing.svg",
+  UnDrawIllustration.spooky_self: "illustrations/spooky_self.svg",
+  UnDrawIllustration.spread_love: "illustrations/spread_love.svg",
+  UnDrawIllustration.spreadsheet: "illustrations/spreadsheet.svg",
+  UnDrawIllustration.spreadsheets: "illustrations/spreadsheets.svg",
+  UnDrawIllustration.stability_ball: "illustrations/stability_ball.svg",
+  UnDrawIllustration.stand_out: "illustrations/stand_out.svg",
+  UnDrawIllustration.starlink: "illustrations/starlink.svg",
+  UnDrawIllustration.starry_window: "illustrations/starry_window.svg",
+  UnDrawIllustration.stars: "illustrations/stars.svg",
+  UnDrawIllustration.start_building: "illustrations/start_building.svg",
+  UnDrawIllustration.startled: "illustrations/startled.svg",
+  UnDrawIllustration.startup_life: "illustrations/startup_life.svg",
+  UnDrawIllustration.static_assets: "illustrations/static_assets.svg",
+  UnDrawIllustration.static_website: "illustrations/static_website.svg",
+  UnDrawIllustration.statistic_chart: "illustrations/statistic_chart.svg",
+  UnDrawIllustration.statistics: "illustrations/statistics.svg",
+  UnDrawIllustration.status_update: "illustrations/status_update.svg",
+  UnDrawIllustration.staying_in: "illustrations/staying_in.svg",
+  UnDrawIllustration.step_to_the_sun: "illustrations/step_to_the_sun.svg",
+  UnDrawIllustration.stepping_up: "illustrations/stepping_up.svg",
+  UnDrawIllustration.steps: "illustrations/steps.svg",
+  UnDrawIllustration.stock_prices: "illustrations/stock_prices.svg",
+  UnDrawIllustration.stranded_traveler: "illustrations/stranded_traveler.svg",
+  UnDrawIllustration.street_food: "illustrations/street_food.svg",
+  UnDrawIllustration.stripe_payments: "illustrations/stripe_payments.svg",
+  UnDrawIllustration.studying: "illustrations/studying.svg",
+  UnDrawIllustration.subscribe: "illustrations/subscribe.svg",
+  UnDrawIllustration.subscriber: "illustrations/subscriber.svg",
+  UnDrawIllustration.subscriptions: "illustrations/subscriptions.svg",
+  UnDrawIllustration.suburbs: "illustrations/suburbs.svg",
+  UnDrawIllustration.subway: "illustrations/subway.svg",
+  UnDrawIllustration.success_factors: "illustrations/success_factors.svg",
   UnDrawIllustration.successful_purchase:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Successful_purchase_re_mpig.svg",
-  UnDrawIllustration.summer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/summer_1wi4.svg",
-  UnDrawIllustration.sunlight:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sunlight_re_0usx.svg",
-  UnDrawIllustration.sunny_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sunny_day_re_gyxr.svg",
-  UnDrawIllustration.super_thank_you:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Super_thank_you_re_f8bo.svg",
-  UnDrawIllustration.super_woman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/super_woman_dv0y.svg",
-  UnDrawIllustration.superhero:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/superhero_v3o7.svg",
-  UnDrawIllustration.surfer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Surfer_re_hncq.svg",
-  UnDrawIllustration.surveillance:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Surveillance_re_8tkl.svg",
-  UnDrawIllustration.survey:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/survey_05s5.svg",
-  UnDrawIllustration.sweet_home:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/sweet_home_dkhr.svg",
-  UnDrawIllustration.swipe:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/swipe_re_vhc5.svg",
-  UnDrawIllustration.swipe_options:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/swipe_options_2e4v.svg",
-  UnDrawIllustration.swipe_profiles:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Swipe_profiles_re_tvqm.svg",
-  UnDrawIllustration.switches:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/switches_1js3.svg",
-  UnDrawIllustration.sync:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sync_re_492g.svg",
-  UnDrawIllustration.sync_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Sync_files_re_ws4c.svg",
-  UnDrawIllustration.synchronize:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Synchronize_re_4irq.svg",
-  UnDrawIllustration.tabs:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Tabs_re_a2bd.svg",
-  UnDrawIllustration.tailwind_css:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/tailwind_css_1egw.svg",
-  UnDrawIllustration.take_out_boxes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/takeout_boxes_ap54.svg",
-  UnDrawIllustration.taken:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Taken_re_yn20.svg",
-  UnDrawIllustration.taking_notes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Taking_notes_re_bnaf.svg",
-  UnDrawIllustration.taking_selfie:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Taking_selfie_re_wlgd.svg",
-  UnDrawIllustration.target:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Target_re_fi8j.svg",
-  UnDrawIllustration.task:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Task_re_wi3v.svg",
-  UnDrawIllustration.task_list:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/task_list_6x9d.svg",
-  UnDrawIllustration.tasks:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/tasks_re_v2v4.svg",
-  UnDrawIllustration.tasting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Tasting_re_3k5a.svg",
-  UnDrawIllustration.teacher:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Teacher_re_sico.svg",
-  UnDrawIllustration.teaching:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Teaching_re_g7e3.svg",
-  UnDrawIllustration.team:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_re_0bfe.svg",
-  UnDrawIllustration.team_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_chat_re_vbq1.svg",
-  UnDrawIllustration.team_collaboration:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_collaboration_re_ow29.svg",
-  UnDrawIllustration.team_goals:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_goals_re_4a3t.svg",
-  UnDrawIllustration.team_page:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_page_re_cffb.svg",
-  UnDrawIllustration.team_spirit:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_spirit_re_yl1v.svg",
-  UnDrawIllustration.team_up:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_up_re_84ok.svg",
-  UnDrawIllustration.team_work:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/team_work_k80m.svg",
-  UnDrawIllustration.teamwork:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teamwork_hpdk.svg",
-  UnDrawIllustration.teddy_bear:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teddy_bear_hns1.svg",
-  UnDrawIllustration.term_sheet:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/term_sheet_re_ju7s.svg",
-  UnDrawIllustration.terms:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Terms_re_6ak4.svg",
-  UnDrawIllustration.text_field:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/text_field_htlv.svg",
-  UnDrawIllustration.text_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/text_files_au1q.svg",
-  UnDrawIllustration.texting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Texting_re_l11n.svg",
-  UnDrawIllustration.the_search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/the_search_s0xf.svg",
-  UnDrawIllustration.the_world_is_mine:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/The_world_is_mine_re_j5cr.svg",
-  UnDrawIllustration.things_to_say:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Things_to_say_re_jpcg.svg",
-  UnDrawIllustration.thought_process:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Thought_process_re_om58.svg",
-  UnDrawIllustration.thoughts:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Thoughts_re_3ysu.svg",
-  UnDrawIllustration.through_the_desert:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Through_the_desert_re_1q2x.svg",
-  UnDrawIllustration.through_the_park:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/through_the_park_lxnl.svg",
-  UnDrawIllustration.through_the_window:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/through_the_window_51ew.svg",
-  UnDrawIllustration.throw_away:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Throw_away_re_x60k.svg",
-  UnDrawIllustration.throw_down:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/throw_down_ub2l.svg",
-  UnDrawIllustration.time_management:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Time_management_re_tk5w.svg",
-  UnDrawIllustration.timeline:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Timeline_re_aw6g.svg",
-  UnDrawIllustration.to_do:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/To_do_re_jaef.svg",
-  UnDrawIllustration.to_do_list:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/To_do_list_re_9nt7.svg",
-  UnDrawIllustration.to_the_moon:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/To_the_moon_re_q21i.svg",
-  UnDrawIllustration.to_the_stars:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/To_the_stars_re_wq2x.svg",
-  UnDrawIllustration.together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Together_re_a8x4.svg",
-  UnDrawIllustration.tourist_map:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/tourist_map_re_293e.svg",
-  UnDrawIllustration.towing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Towing_re_wesa.svg",
-  UnDrawIllustration.town:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/town_re_2ng5.svg",
-  UnDrawIllustration.toy_car:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/toy_car_7umw.svg",
-  UnDrawIllustration.track_and_field:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/track_and_field_33qn.svg",
-  UnDrawIllustration.transfer_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Transfer_files_re_a2a9.svg",
-  UnDrawIllustration.transfer_money:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Transfer_money_re_6o1h.svg",
-  UnDrawIllustration.travel_booking:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Travel_booking_re_6umu.svg",
-  UnDrawIllustration.travel_mode:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Travel_mode_re_2lxo.svg",
-  UnDrawIllustration.travel_plans:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Travel_plans_re_103r.svg",
-  UnDrawIllustration.travel_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/travel_together_re_kjf2.svg",
-  UnDrawIllustration.travelers:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Travelers_re_y25a.svg",
-  UnDrawIllustration.traveling:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Traveling_yhxq.svg",
-  UnDrawIllustration.treasure:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/treasure_of9i.svg",
-  UnDrawIllustration.tree_swing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Tree_swing_re_pqee.svg",
-  UnDrawIllustration.trends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Trends_re_2bd0.svg",
-  UnDrawIllustration.trendy_interface:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Trendy_interface_re_xsou.svg",
-  UnDrawIllustration.trip:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Trip_re_f724.svg",
-  UnDrawIllustration.true_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/true_friends_c94g.svg",
-  UnDrawIllustration.true_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/true_love_cy8x.svg",
-  UnDrawIllustration.tutorial_video:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Tutorial_video_re_wepc.svg",
-  UnDrawIllustration.tweetstorm:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Tweetstorm_re_n0rs.svg",
+      "illustrations/successful_purchase.svg",
+  UnDrawIllustration.summer: "illustrations/summer.svg",
+  UnDrawIllustration.sunlight: "illustrations/sunlight.svg",
+  UnDrawIllustration.sunny_day: "illustrations/sunny_day.svg",
+  UnDrawIllustration.super_thank_you: "illustrations/super_thank_you.svg",
+  UnDrawIllustration.super_woman: "illustrations/super_woman.svg",
+  UnDrawIllustration.superhero: "illustrations/superhero.svg",
+  UnDrawIllustration.surfer: "illustrations/surfer.svg",
+  UnDrawIllustration.surveillance: "illustrations/surveillance.svg",
+  UnDrawIllustration.survey: "illustrations/survey.svg",
+  UnDrawIllustration.sweet_home: "illustrations/sweet_home.svg",
+  UnDrawIllustration.swipe: "illustrations/swipe.svg",
+  UnDrawIllustration.swipe_options: "illustrations/swipe_options.svg",
+  UnDrawIllustration.swipe_profiles: "illustrations/swipe_profiles.svg",
+  UnDrawIllustration.switches: "illustrations/switches.svg",
+  UnDrawIllustration.sync: "illustrations/sync.svg",
+  UnDrawIllustration.sync_files: "illustrations/sync_files.svg",
+  UnDrawIllustration.synchronize: "illustrations/synchronize.svg",
+  UnDrawIllustration.tabs: "illustrations/tabs.svg",
+  UnDrawIllustration.tailwind_css: "illustrations/tailwind_css.svg",
+  UnDrawIllustration.take_out_boxes: "illustrations/take_out_boxes.svg",
+  UnDrawIllustration.taken: "illustrations/taken.svg",
+  UnDrawIllustration.taking_notes: "illustrations/taking_notes.svg",
+  UnDrawIllustration.taking_selfie: "illustrations/taking_selfie.svg",
+  UnDrawIllustration.target: "illustrations/target.svg",
+  UnDrawIllustration.task: "illustrations/task.svg",
+  UnDrawIllustration.task_list: "illustrations/task_list.svg",
+  UnDrawIllustration.tasks: "illustrations/tasks.svg",
+  UnDrawIllustration.tasting: "illustrations/tasting.svg",
+  UnDrawIllustration.teacher: "illustrations/teacher.svg",
+  UnDrawIllustration.teaching: "illustrations/teaching.svg",
+  UnDrawIllustration.team: "illustrations/team.svg",
+  UnDrawIllustration.team_chat: "illustrations/team_chat.svg",
+  UnDrawIllustration.team_collaboration: "illustrations/team_collaboration.svg",
+  UnDrawIllustration.team_goals: "illustrations/team_goals.svg",
+  UnDrawIllustration.team_page: "illustrations/team_page.svg",
+  UnDrawIllustration.team_spirit: "illustrations/team_spirit.svg",
+  UnDrawIllustration.team_up: "illustrations/team_up.svg",
+  UnDrawIllustration.team_work: "illustrations/team_work.svg",
+  UnDrawIllustration.teamwork: "illustrations/teamwork.svg",
+  UnDrawIllustration.teddy_bear: "illustrations/teddy_bear.svg",
+  UnDrawIllustration.term_sheet: "illustrations/term_sheet.svg",
+  UnDrawIllustration.terms: "illustrations/terms.svg",
+  UnDrawIllustration.text_field: "illustrations/text_field.svg",
+  UnDrawIllustration.text_files: "illustrations/text_files.svg",
+  UnDrawIllustration.texting: "illustrations/texting.svg",
+  UnDrawIllustration.the_search: "illustrations/the_search.svg",
+  UnDrawIllustration.the_world_is_mine: "illustrations/the_world_is_mine.svg",
+  UnDrawIllustration.things_to_say: "illustrations/things_to_say.svg",
+  UnDrawIllustration.thought_process: "illustrations/thought_process.svg",
+  UnDrawIllustration.thoughts: "illustrations/thoughts.svg",
+  UnDrawIllustration.through_the_desert: "illustrations/through_the_desert.svg",
+  UnDrawIllustration.through_the_park: "illustrations/through_the_park.svg",
+  UnDrawIllustration.through_the_window: "illustrations/through_the_window.svg",
+  UnDrawIllustration.throw_away: "illustrations/throw_away.svg",
+  UnDrawIllustration.throw_down: "illustrations/throw_down.svg",
+  UnDrawIllustration.time_management: "illustrations/time_management.svg",
+  UnDrawIllustration.timeline: "illustrations/timeline.svg",
+  UnDrawIllustration.to_do: "illustrations/to_do.svg",
+  UnDrawIllustration.to_do_list: "illustrations/to_do_list.svg",
+  UnDrawIllustration.to_the_moon: "illustrations/to_the_moon.svg",
+  UnDrawIllustration.to_the_stars: "illustrations/to_the_stars.svg",
+  UnDrawIllustration.together: "illustrations/together.svg",
+  UnDrawIllustration.tourist_map: "illustrations/tourist_map.svg",
+  UnDrawIllustration.towing: "illustrations/towing.svg",
+  UnDrawIllustration.town: "illustrations/town.svg",
+  UnDrawIllustration.toy_car: "illustrations/toy_car.svg",
+  UnDrawIllustration.track_and_field: "illustrations/track_and_field.svg",
+  UnDrawIllustration.transfer_files: "illustrations/transfer_files.svg",
+  UnDrawIllustration.transfer_money: "illustrations/transfer_money.svg",
+  UnDrawIllustration.travel_booking: "illustrations/travel_booking.svg",
+  UnDrawIllustration.travel_mode: "illustrations/travel_mode.svg",
+  UnDrawIllustration.travel_plans: "illustrations/travel_plans.svg",
+  UnDrawIllustration.travel_together: "illustrations/travel_together.svg",
+  UnDrawIllustration.travelers: "illustrations/travelers.svg",
+  UnDrawIllustration.traveling: "illustrations/traveling.svg",
+  UnDrawIllustration.treasure: "illustrations/treasure.svg",
+  UnDrawIllustration.tree_swing: "illustrations/tree_swing.svg",
+  UnDrawIllustration.trends: "illustrations/trends.svg",
+  UnDrawIllustration.trendy_interface: "illustrations/trendy_interface.svg",
+  UnDrawIllustration.trip: "illustrations/trip.svg",
+  UnDrawIllustration.true_friends: "illustrations/true_friends.svg",
+  UnDrawIllustration.true_love: "illustrations/true_love.svg",
+  UnDrawIllustration.tutorial_video: "illustrations/tutorial_video.svg",
+  UnDrawIllustration.tweetstorm: "illustrations/tweetstorm.svg",
   UnDrawIllustration.two_factor_authentication:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/two_factor_authentication_namy.svg",
-  UnDrawIllustration.typewriter:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Typewriter_re_u9i2.svg",
-  UnDrawIllustration.typing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Typing_re_d4sq.svg",
-  UnDrawIllustration.unboxing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/unboxing_pbmf.svg",
-  UnDrawIllustration.under_construction:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/under_construction_46pa.svg",
-  UnDrawIllustration.undraw_1000:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/unDraw_1000_gty8.svg",
-  UnDrawIllustration.unexpected_friends:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/unexpected_friends_tg6k.svg",
-  UnDrawIllustration.unicorn:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Unicorn_re_mi7i.svg",
-  UnDrawIllustration.unlock:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Unlock_re_a558.svg",
-  UnDrawIllustration.up_to_date:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Up_to_date_re_nqid.svg",
-  UnDrawIllustration.update:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Update_re_swkp.svg",
-  UnDrawIllustration.updated:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Updated_re_u4yh.svg",
-  UnDrawIllustration.updated_resume:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Updated_resume_re_7r9j.svg",
-  UnDrawIllustration.updates:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Updates_re_o5af.svg",
-  UnDrawIllustration.upgrade:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Upgrade_re_gano.svg",
-  UnDrawIllustration.upload:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Upload_re_pasx.svg",
-  UnDrawIllustration.upload_image:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Upload_image_re_svxx.svg",
-  UnDrawIllustration.uploading:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Uploading_re_okvh.svg",
-  UnDrawIllustration.upvote:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Upvote_re_qn2k.svg",
-  UnDrawIllustration.urban_design:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/urban_design_kpu8.svg",
-  UnDrawIllustration.usability_testing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Usability_testing_re_uu1g.svg",
-  UnDrawIllustration.user_flow:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/User_flow_re_bvfx.svg",
-  UnDrawIllustration.vault:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Vault_re_s4my.svg",
-  UnDrawIllustration.verified:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/verified_re_4io7.svg",
-  UnDrawIllustration.version_control:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/version_control_re_mg66.svg",
-  UnDrawIllustration.video_call:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Video_call_re_4p26.svg",
-  UnDrawIllustration.video_files:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/video_files_fu10.svg",
-  UnDrawIllustration.video_game_night:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/video_game_night_8h8m.svg",
-  UnDrawIllustration.video_influencer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Video_influencer_re_ili7.svg",
-  UnDrawIllustration.video_streaming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Video_streaming_re_v3qg.svg",
-  UnDrawIllustration.video_upload:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/video_upload_3d4u.svg",
-  UnDrawIllustration.videographer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Videographer_xn9m.svg",
-  UnDrawIllustration.virtual_assistant:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/virtual_assistant_jjo2.svg",
-  UnDrawIllustration.virtual_reality:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Virtual_reality_re_yg8i.svg",
+      "illustrations/two_factor_authentication.svg",
+  UnDrawIllustration.typewriter: "illustrations/typewriter.svg",
+  UnDrawIllustration.typing: "illustrations/typing.svg",
+  UnDrawIllustration.unboxing: "illustrations/unboxing.svg",
+  UnDrawIllustration.under_construction: "illustrations/under_construction.svg",
+  UnDrawIllustration.undraw_1000: "illustrations/undraw_1000.svg",
+  UnDrawIllustration.unexpected_friends: "illustrations/unexpected_friends.svg",
+  UnDrawIllustration.unicorn: "illustrations/unicorn.svg",
+  UnDrawIllustration.unlock: "illustrations/unlock.svg",
+  UnDrawIllustration.up_to_date: "illustrations/up_to_date.svg",
+  UnDrawIllustration.update: "illustrations/update.svg",
+  UnDrawIllustration.updated: "illustrations/updated.svg",
+  UnDrawIllustration.updated_resume: "illustrations/updated_resume.svg",
+  UnDrawIllustration.updates: "illustrations/updates.svg",
+  UnDrawIllustration.upgrade: "illustrations/upgrade.svg",
+  UnDrawIllustration.upload: "illustrations/upload.svg",
+  UnDrawIllustration.upload_image: "illustrations/upload_image.svg",
+  UnDrawIllustration.uploading: "illustrations/uploading.svg",
+  UnDrawIllustration.upvote: "illustrations/upvote.svg",
+  UnDrawIllustration.urban_design: "illustrations/urban_design.svg",
+  UnDrawIllustration.usability_testing: "illustrations/usability_testing.svg",
+  UnDrawIllustration.user_flow: "illustrations/user_flow.svg",
+  UnDrawIllustration.vault: "illustrations/vault.svg",
+  UnDrawIllustration.verified: "illustrations/verified.svg",
+  UnDrawIllustration.version_control: "illustrations/version_control.svg",
+  UnDrawIllustration.video_call: "illustrations/video_call.svg",
+  UnDrawIllustration.video_files: "illustrations/video_files.svg",
+  UnDrawIllustration.video_game_night: "illustrations/video_game_night.svg",
+  UnDrawIllustration.video_influencer: "illustrations/video_influencer.svg",
+  UnDrawIllustration.video_streaming: "illustrations/video_streaming.svg",
+  UnDrawIllustration.video_upload: "illustrations/video_upload.svg",
+  UnDrawIllustration.videographer: "illustrations/videographer.svg",
+  UnDrawIllustration.virtual_assistant: "illustrations/virtual_assistant.svg",
+  UnDrawIllustration.virtual_reality: "illustrations/virtual_reality.svg",
   UnDrawIllustration.visionary_technology:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Visionary_technology_re_jfp7.svg",
-  UnDrawIllustration.visual_data:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/visual_data_re_mxxo.svg",
-  UnDrawIllustration.visualization:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Visualization_re_1kag.svg",
-  UnDrawIllustration.voice_assistant:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/voice_assistant_nrv7.svg",
-  UnDrawIllustration.voice_control:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/voice_control_ofo1.svg",
-  UnDrawIllustration.voice_interface:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Voice_interface_re_206s.svg",
-  UnDrawIllustration.void_:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/void_3ggu.svg",
-  UnDrawIllustration.voting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/voting_nvu7.svg",
-  UnDrawIllustration.vr_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/VR_chat_re_s80u.svg",
-  UnDrawIllustration.wait_in_line:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wait_in_line_o2aq.svg",
-  UnDrawIllustration.waiting_for_you:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Waiting__for_you_ldha.svg",
-  UnDrawIllustration.walk_dreaming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walk_dreaming_u58a.svg",
-  UnDrawIllustration.walk_in_the_city:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walk_in_the_city_re_039v.svg",
-  UnDrawIllustration.walking_around:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_around_25f5.svg",
-  UnDrawIllustration.walking_in_rain:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_in_rain_5lo3.svg",
-  UnDrawIllustration.walking_outside:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_outside_re_56xo.svg",
-  UnDrawIllustration.walking_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_together_7f1b.svg",
-  UnDrawIllustration.wall_post:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wall_post_re_y78d.svg",
-  UnDrawIllustration.wallet:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wallet_re_cx9u.svg",
-  UnDrawIllustration.wandering_mind:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wandering_mind_re_x2a3.svg",
-  UnDrawIllustration.warning:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Warning_re_eoyh.svg",
-  UnDrawIllustration.wash_hands:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wash_hands_nwl2.svg",
-  UnDrawIllustration.watch_application:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/watch_application_uhc9.svg",
-  UnDrawIllustration.weather:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Weather_re_qsmd.svg",
-  UnDrawIllustration.weather_app:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Weather_app_re_kcb1.svg",
+      "illustrations/visionary_technology.svg",
+  UnDrawIllustration.visual_data: "illustrations/visual_data.svg",
+  UnDrawIllustration.visualization: "illustrations/visualization.svg",
+  UnDrawIllustration.voice_assistant: "illustrations/voice_assistant.svg",
+  UnDrawIllustration.voice_control: "illustrations/voice_control.svg",
+  UnDrawIllustration.voice_interface: "illustrations/voice_interface.svg",
+  UnDrawIllustration.void_: "illustrations/void_.svg",
+  UnDrawIllustration.voting: "illustrations/voting.svg",
+  UnDrawIllustration.vr_chat: "illustrations/vr_chat.svg",
+  UnDrawIllustration.wait_in_line: "illustrations/wait_in_line.svg",
+  UnDrawIllustration.waiting_for_you: "illustrations/waiting_for_you.svg",
+  UnDrawIllustration.walk_dreaming: "illustrations/walk_dreaming.svg",
+  UnDrawIllustration.walk_in_the_city: "illustrations/walk_in_the_city.svg",
+  UnDrawIllustration.walking_around: "illustrations/walking_around.svg",
+  UnDrawIllustration.walking_in_rain: "illustrations/walking_in_rain.svg",
+  UnDrawIllustration.walking_outside: "illustrations/walking_outside.svg",
+  UnDrawIllustration.walking_together: "illustrations/walking_together.svg",
+  UnDrawIllustration.wall_post: "illustrations/wall_post.svg",
+  UnDrawIllustration.wallet: "illustrations/wallet.svg",
+  UnDrawIllustration.wandering_mind: "illustrations/wandering_mind.svg",
+  UnDrawIllustration.warning: "illustrations/warning.svg",
+  UnDrawIllustration.wash_hands: "illustrations/wash_hands.svg",
+  UnDrawIllustration.watch_application: "illustrations/watch_application.svg",
+  UnDrawIllustration.weather: "illustrations/weather.svg",
+  UnDrawIllustration.weather_app: "illustrations/weather_app.svg",
   UnDrawIllustration.weather_notification:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Weather_notification_re_3pad.svg",
-  UnDrawIllustration.web_browsing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/web_browsing_p77h.svg",
-  UnDrawIllustration.web_developer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Web_developer_re_h7ie.svg",
-  UnDrawIllustration.web_development:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Web_development_0l6v.svg",
-  UnDrawIllustration.web_devices:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Web_devices_re_m8sc.svg",
-  UnDrawIllustration.web_search:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Web_search_re_efla.svg",
-  UnDrawIllustration.web_shopping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/web_shopping_re_owap.svg",
-  UnDrawIllustration.website_builder:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Website_builder_re_ii6e.svg",
-  UnDrawIllustration.website_setup:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Website_setup_re_d4y9.svg",
-  UnDrawIllustration.wedding:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wedding_re_66hj.svg",
-  UnDrawIllustration.welcome:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Welcome_re_h3d9.svg",
-  UnDrawIllustration.welcome_cats:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/welcome_cats_thqn.svg",
-  UnDrawIllustration.welcoming:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Welcoming_re_x0qo.svg",
-  UnDrawIllustration.well_done:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Well_done_re_3hpo.svg",
-  UnDrawIllustration.wilderness:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wilderness_81ka.svg",
-  UnDrawIllustration.wind_turbine:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wind_turbine_x2k4.svg",
-  UnDrawIllustration.window_shopping:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Window_shopping_re_0kbm.svg",
-  UnDrawIllustration.windows:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Windows_re_uo4w.svg",
-  UnDrawIllustration.windy_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/windy_day_x63l.svg",
-  UnDrawIllustration.wine_tasting:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wine_tasting_re_4jjf.svg",
-  UnDrawIllustration.winners:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Winners_re_wr1l.svg",
-  UnDrawIllustration.winter_activities:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/winter_activities_vv0v.svg",
-  UnDrawIllustration.winter_designer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/winter_designer_a2m7.svg",
-  UnDrawIllustration.winter_magic:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/winter_magic_5xu2.svg",
-  UnDrawIllustration.winter_road:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/winter_road_mcqj.svg",
-  UnDrawIllustration.winter_skating:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Winter_skating_re_qouk.svg",
-  UnDrawIllustration.winter_walk:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Winter_walk_re_rx25.svg",
-  UnDrawIllustration.wireframing:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wireframing_re_q6k6.svg",
-  UnDrawIllustration.wishes:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wishes_icyp.svg",
-  UnDrawIllustration.wishlist:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wishlist_re_m7tv.svg",
-  UnDrawIllustration.with_love:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/With_love_re_1q3m.svg",
-  UnDrawIllustration.woman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Woman_ffrd.svg",
-  UnDrawIllustration.women_day:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Women_day_re_1xe8.svg",
-  UnDrawIllustration.word_of_mouth:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Word_of_mouth_re_ndo0.svg",
-  UnDrawIllustration.wordpress:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wordpress_utxt.svg",
-  UnDrawIllustration.work_chat:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Work_chat_re_qes4.svg",
-  UnDrawIllustration.work_from_anywhere:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Work_from_anywhere_re_s2i6.svg",
-  UnDrawIllustration.work_in_progress:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Work_in_progress_re_byic.svg",
-  UnDrawIllustration.work_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Work_time_re_hdyv.svg",
-  UnDrawIllustration.work_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Work_together_re_5yhn.svg",
-  UnDrawIllustration.working:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Working_re_ddwy.svg",
+      "illustrations/weather_notification.svg",
+  UnDrawIllustration.web_browsing: "illustrations/web_browsing.svg",
+  UnDrawIllustration.web_developer: "illustrations/web_developer.svg",
+  UnDrawIllustration.web_development: "illustrations/web_development.svg",
+  UnDrawIllustration.web_devices: "illustrations/web_devices.svg",
+  UnDrawIllustration.web_search: "illustrations/web_search.svg",
+  UnDrawIllustration.web_shopping: "illustrations/web_shopping.svg",
+  UnDrawIllustration.website_builder: "illustrations/website_builder.svg",
+  UnDrawIllustration.website_setup: "illustrations/website_setup.svg",
+  UnDrawIllustration.wedding: "illustrations/wedding.svg",
+  UnDrawIllustration.welcome: "illustrations/welcome.svg",
+  UnDrawIllustration.welcome_cats: "illustrations/welcome_cats.svg",
+  UnDrawIllustration.welcoming: "illustrations/welcoming.svg",
+  UnDrawIllustration.well_done: "illustrations/well_done.svg",
+  UnDrawIllustration.wilderness: "illustrations/wilderness.svg",
+  UnDrawIllustration.wind_turbine: "illustrations/wind_turbine.svg",
+  UnDrawIllustration.window_shopping: "illustrations/window_shopping.svg",
+  UnDrawIllustration.windows: "illustrations/windows.svg",
+  UnDrawIllustration.windy_day: "illustrations/windy_day.svg",
+  UnDrawIllustration.wine_tasting: "illustrations/wine_tasting.svg",
+  UnDrawIllustration.winners: "illustrations/winners.svg",
+  UnDrawIllustration.winter_activities: "illustrations/winter_activities.svg",
+  UnDrawIllustration.winter_designer: "illustrations/winter_designer.svg",
+  UnDrawIllustration.winter_magic: "illustrations/winter_magic.svg",
+  UnDrawIllustration.winter_road: "illustrations/winter_road.svg",
+  UnDrawIllustration.winter_skating: "illustrations/winter_skating.svg",
+  UnDrawIllustration.winter_walk: "illustrations/winter_walk.svg",
+  UnDrawIllustration.wireframing: "illustrations/wireframing.svg",
+  UnDrawIllustration.wishes: "illustrations/wishes.svg",
+  UnDrawIllustration.wishlist: "illustrations/wishlist.svg",
+  UnDrawIllustration.with_love: "illustrations/with_love.svg",
+  UnDrawIllustration.woman: "illustrations/woman.svg",
+  UnDrawIllustration.women_day: "illustrations/women_day.svg",
+  UnDrawIllustration.word_of_mouth: "illustrations/word_of_mouth.svg",
+  UnDrawIllustration.wordpress: "illustrations/wordpress.svg",
+  UnDrawIllustration.work_chat: "illustrations/work_chat.svg",
+  UnDrawIllustration.work_from_anywhere: "illustrations/work_from_anywhere.svg",
+  UnDrawIllustration.work_in_progress: "illustrations/work_in_progress.svg",
+  UnDrawIllustration.work_time: "illustrations/work_time.svg",
+  UnDrawIllustration.work_together: "illustrations/work_together.svg",
+  UnDrawIllustration.working: "illustrations/working.svg",
   UnDrawIllustration.working_from_anywhere:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Working_from_anywhere_re_9obt.svg",
-  UnDrawIllustration.working_late:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Working_late_re_0c3y.svg",
-  UnDrawIllustration.working_out:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Working_out_re_nhkg.svg",
-  UnDrawIllustration.working_remotely:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Working_remotely_re_6b3a.svg",
-  UnDrawIllustration.workout:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/workout_gcgu.svg",
-  UnDrawIllustration.world:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/World_re_768g.svg",
-  UnDrawIllustration.writer:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/writer_q06d.svg",
-  UnDrawIllustration.xmas_snowman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/xmas_snowman_k7yf.svg",
-  UnDrawIllustration.xmas_surprise:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/xmas_surprise_57p1.svg",
-  UnDrawIllustration.yacht:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Yacht_re_kkai.svg",
-  UnDrawIllustration.year_2022:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Year_2022_uci7.svg",
-  UnDrawIllustration.yoga:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Yoga_re_i5ld.svg",
-  UnDrawIllustration.young_and_happy:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/young_and_happy_hfpe.svg",
-  UnDrawIllustration.youtube_tutorial:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Youtube_tutorial_re_69qc.svg",
-  UnDrawIllustration.zoom_in:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/zoom_in_1txs.svg",
+      "illustrations/working_from_anywhere.svg",
+  UnDrawIllustration.working_late: "illustrations/working_late.svg",
+  UnDrawIllustration.working_out: "illustrations/working_out.svg",
+  UnDrawIllustration.working_remotely: "illustrations/working_remotely.svg",
+  UnDrawIllustration.workout: "illustrations/workout.svg",
+  UnDrawIllustration.world: "illustrations/world.svg",
+  UnDrawIllustration.writer: "illustrations/writer.svg",
+  UnDrawIllustration.xmas_snowman: "illustrations/xmas_snowman.svg",
+  UnDrawIllustration.xmas_surprise: "illustrations/xmas_surprise.svg",
+  UnDrawIllustration.yacht: "illustrations/yacht.svg",
+  UnDrawIllustration.year_2022: "illustrations/year_2022.svg",
+  UnDrawIllustration.yoga: "illustrations/yoga.svg",
+  UnDrawIllustration.young_and_happy: "illustrations/young_and_happy.svg",
+  UnDrawIllustration.youtube_tutorial: "illustrations/youtube_tutorial.svg",
+  UnDrawIllustration.zoom_in: "illustrations/zoom_in.svg",
 };
