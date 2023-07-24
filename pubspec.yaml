@@ -1,7 +1,7 @@
 name: undraw
 description: Undraw illustrations
 version: 0.0.1
-homepage:
+homepage: https://github.com/pzierahn/undraw
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
