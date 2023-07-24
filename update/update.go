@@ -89,7 +89,7 @@ func kebabCase(value string) string {
 
 func downloadIllustrations(illustrations []Illustration) (downloads []string) {
 
-	illustrationDir := "illustrations"
+	illustrationDir := "assets/illustrations"
 	err := os.MkdirAll(illustrationDir, 0755)
 	if err != nil {
 		log.Fatalln(err)
