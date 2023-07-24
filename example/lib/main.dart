@@ -41,9 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView.builder(
         itemCount: UnDrawIllustration.values.length,
-        // separatorBuilder: (_, __) => const Divider(
-        //   height: 40,
-        // ),
         itemBuilder: (context, inx) {
           final illustration = UnDrawIllustration.values[inx];
 
