@@ -288,11 +288,6 @@ enum UnDrawIllustration {
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciate_it_re_yc8h.svg" alt="Appreciate it" width="200"/>
   appreciate_it,
 
-  /// Title: Appreciation
-  /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciation_0xsh.svg" alt="Appreciation" width="200"/>
-  appreciation,
-
   /// Title: Approve
   /// <br/>
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/approve_qwp7.svg" alt="Approve" width="200"/>
@@ -445,7 +440,7 @@ enum UnDrawIllustration {
 
   /// Title: Barista
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Barista_at0v.svg" alt="Barista" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Barista_qd50.svg" alt="Barista" width="200"/>
   barista,
 
   /// Title: Basketball
@@ -710,7 +705,7 @@ enum UnDrawIllustration {
 
   /// Title: Businessman
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businessman_5ccp.svg" alt="Businessman" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/businessman_e7v0.svg" alt="Businessman" width="200"/>
   businessman,
 
   /// Title: Businesswoman
@@ -1030,7 +1025,7 @@ enum UnDrawIllustration {
 
   /// Title: Coffee Time
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_Time_7oqh.svg" alt="Coffee Time" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_Time_e8cw.svg" alt="Coffee Time" width="200"/>
   coffee_time,
 
   /// Title: Coffee with friends
@@ -1105,7 +1100,7 @@ enum UnDrawIllustration {
 
   /// Title: Completed
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_03xt.svg" alt="Completed" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_38on.svg" alt="Completed" width="200"/>
   completed,
 
   /// Title: Completed steps
@@ -3180,7 +3175,7 @@ enum UnDrawIllustration {
 
   /// Title: Love it
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_it_loh3.svg" alt="Love it" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_it_0v4l.svg" alt="Love it" width="200"/>
   love_it,
 
   /// Title: Loving it
@@ -3427,6 +3422,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_browsers_re_kxol.svg" alt="Mobile browsers" width="200"/>
   mobile_browsers,
+
+  /// Title: Mobile Content
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_content_xvgr.svg" alt="Mobile Content" width="200"/>
+  mobile_content,
 
   /// Title: Mobile development
   /// <br/>
@@ -4475,7 +4475,7 @@ enum UnDrawIllustration {
 
   /// Title: Playing Golf
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playing_Golf_mm4r.svg" alt="Playing Golf" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/playing_golf_sdt3.svg" alt="Playing Golf" width="200"/>
   playing_golf,
 
   /// Title: Playlist
@@ -5170,7 +5170,7 @@ enum UnDrawIllustration {
 
   /// Title: Search engines
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_engines_ij7q.svg" alt="Search engines" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_engines_il2w.svg" alt="Search engines" width="200"/>
   search_engines,
 
   /// Title: Searching
@@ -5395,7 +5395,7 @@ enum UnDrawIllustration {
 
   /// Title: Shopping Bags
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_Bags_g4xr.svg" alt="Shopping Bags" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_Bags_noba.svg" alt="Shopping Bags" width="200"/>
   shopping_bags,
 
   /// Title: Short bio
@@ -6480,7 +6480,7 @@ enum UnDrawIllustration {
 
   /// Title: Walking In Rain
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_in_rain_5lo3.svg" alt="Walking In Rain" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_in_rain_vo9p.svg" alt="Walking In Rain" width="200"/>
   walking_in_rain,
 
   /// Title: Walking outside
@@ -6490,7 +6490,7 @@ enum UnDrawIllustration {
 
   /// Title: Walking Together
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_together_7f1b.svg" alt="Walking Together" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_Together_hebv.svg" alt="Walking Together" width="200"/>
   walking_together,
 
   /// Title: Wall post
@@ -6930,8 +6930,6 @@ const Map<UnDrawIllustration, String> illustrationMap = {
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/App_wireframe_re_d467.svg",
   UnDrawIllustration.appreciate_it:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciate_it_re_yc8h.svg",
-  UnDrawIllustration.appreciation:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Appreciation_0xsh.svg",
   UnDrawIllustration.approve:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/approve_qwp7.svg",
   UnDrawIllustration.apps:
@@ -6993,7 +6991,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.barber:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/barber_3uel.svg",
   UnDrawIllustration.barista:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Barista_at0v.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Barista_qd50.svg",
   UnDrawIllustration.basketball:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Basketball_re_7701.svg",
   UnDrawIllustration.be_the_hero:
@@ -7099,7 +7097,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.business_shop:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Business_shop_re_ruf4.svg",
   UnDrawIllustration.businessman:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businessman_5ccp.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/businessman_e7v0.svg",
   UnDrawIllustration.businesswoman:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Businesswoman_re_5n6b.svg",
   UnDrawIllustration.button_style:
@@ -7227,7 +7225,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.coffee_break:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/coffee_break_h3uu.svg",
   UnDrawIllustration.coffee_time:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_Time_7oqh.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Coffee_Time_e8cw.svg",
   UnDrawIllustration.coffee_with_friends:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/coffee_with_friends_3cbj.svg",
   UnDrawIllustration.cohort_analysis:
@@ -7257,7 +7255,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.complete_task:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Complete_task_re_44tb.svg",
   UnDrawIllustration.completed:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_03xt.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_38on.svg",
   UnDrawIllustration.completed_steps:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completed_steps_re_h9wc.svg",
   UnDrawIllustration.completed_tasks:
@@ -8087,7 +8085,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.love_is_in_the_air:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_is_in_the_air_4uud.svg",
   UnDrawIllustration.love_it:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_it_loh3.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Love_it_0v4l.svg",
   UnDrawIllustration.loving_it:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Loving_it_re_jfh4.svg",
   UnDrawIllustration.loving_story:
@@ -8186,6 +8184,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_apps_re_3wjf.svg",
   UnDrawIllustration.mobile_browsers:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_browsers_re_kxol.svg",
+  UnDrawIllustration.mobile_content:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_content_xvgr.svg",
   UnDrawIllustration.mobile_development:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Mobile_development_re_wwsn.svg",
   UnDrawIllustration.mobile_devices:
@@ -8605,7 +8605,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.playing_fetch:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/playing_fetch_cm19.svg",
   UnDrawIllustration.playing_golf:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playing_Golf_mm4r.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/playing_golf_sdt3.svg",
   UnDrawIllustration.playlist:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Playlist_re_1oed.svg",
   UnDrawIllustration.pleasant_surprise:
@@ -8883,7 +8883,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.search_app:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/search_app_oso2.svg",
   UnDrawIllustration.search_engines:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_engines_ij7q.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Search_engines_il2w.svg",
   UnDrawIllustration.searching:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Searching_re_3ra9.svg",
   UnDrawIllustration.season_change:
@@ -8973,7 +8973,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.shopping_app:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/shopping_app_flsj.svg",
   UnDrawIllustration.shopping_bags:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_Bags_g4xr.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Shopping_Bags_noba.svg",
   UnDrawIllustration.short_bio:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Short_bio_re_fmx0.svg",
   UnDrawIllustration.showing_support:
@@ -9407,11 +9407,11 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.walking_around:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_around_25f5.svg",
   UnDrawIllustration.walking_in_rain:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_in_rain_5lo3.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_in_rain_vo9p.svg",
   UnDrawIllustration.walking_outside:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_outside_re_56xo.svg",
   UnDrawIllustration.walking_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/walking_together_7f1b.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_Together_hebv.svg",
   UnDrawIllustration.wall_post:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wall_post_re_y78d.svg",
   UnDrawIllustration.wallet:
