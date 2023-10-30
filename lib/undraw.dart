@@ -9,9 +9,9 @@ export 'package:undraw/illustrations.g.dart';
 
 class UnDraw extends StatelessWidget {
   const UnDraw({
-    Key? key,
+    super.key,
     required this.illustration,
-    required this.color,
+    this.color,
     this.semanticLabel,
     this.alignment = Alignment.center,
     this.fit = BoxFit.contain,
@@ -20,13 +20,13 @@ class UnDraw extends StatelessWidget {
     this.placeholder,
     this.errorWidget,
     this.padding,
-  }) : super(key: key);
+  });
 
   /// Enum [UnDrawIllustration] with all supported illustrations
   final UnDrawIllustration illustration;
 
   /// The color that will replaced for illustration
-  final Color color;
+  final Color? color;
 
   /// The [Semantics.label] for this picture.
   ///
@@ -85,6 +85,8 @@ class UnDraw extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final color = this.color ?? Theme.of(context).colorScheme.primary;
+
     return FutureBuilder<String>(
       future: getTintedIllustration(illustration, color),
       builder: (context, snapshot) {
