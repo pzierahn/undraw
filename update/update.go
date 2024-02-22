@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -126,6 +127,20 @@ func downloadIllustrations(illustrations []Illustration) (downloads []string) {
 	return downloads
 }
 
+func fixDoubleId(illustrations []Illustration) {
+	ids := make(map[string]int)
+
+	for inx, illustration := range illustrations {
+		id := illustration.Id
+		if iny, ok := ids[id]; ok {
+			id += fmt.Sprintf("_%d", iny)
+		}
+
+		illustrations[inx].Id = id
+		ids[illustration.Id]++
+	}
+}
+
 func updateLib(illustrations []Illustration, locations []string) {
 	dart := `library undraw;
 			// ignore_for_file: unused_field
@@ -185,6 +200,8 @@ func main() {
 	} else {
 		locations = buildIllustrationMap(illustrations)
 	}
+
+	fixDoubleId(illustrations)
 
 	updateLib(illustrations, locations)
 }
