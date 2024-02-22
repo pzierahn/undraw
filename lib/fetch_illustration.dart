@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 
 import 'package:undraw/illustrations.g.dart';
@@ -12,28 +11,28 @@ Future<String> _fetchFromWeb(String location) async {
   return response.body;
 }
 
+String _colorToHex(Color color, {bool leadingHashSign = true}) =>
+    '${leadingHashSign ? '#' : ''}'
+    '${color.red.toRadixString(16).padLeft(2, '0')}'
+    '${color.green.toRadixString(16).padLeft(2, '0')}'
+    '${color.blue.toRadixString(16).padLeft(2, '0')}';
+
 Future<String> getTintedIllustration(
   UnDrawIllustration illustration,
   Color accent,
 ) async {
   final location = illustrationMap[illustration]!;
 
-  String image;
-
+  String svg;
   if (_cache.containsKey(location)) {
-    image = _cache[location]!;
-  } else if (location.startsWith("http")) {
-    image = await _fetchFromWeb(location);
-    _cache[location] = image;
+    svg = _cache[location]!;
   } else {
-    String path = "packages/undraw/assets/$location";
-    image = await rootBundle.loadString(path);
-    _cache[location] = image;
+    svg = await _fetchFromWeb(location);
+    _cache[location] = svg;
   }
 
-  String valueString = accent.toString().split('(0x')[1].split(')')[0];
-  valueString = valueString.substring(2, valueString.length);
-  image = image.replaceAll("#6c63ff", "#$valueString");
+  // Replace the default color with the accent color
+  svg = svg.replaceAll("#6c63ff", _colorToHex(accent));
 
-  return image;
+  return svg;
 }
