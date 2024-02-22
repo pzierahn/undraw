@@ -2,7 +2,7 @@ library undraw;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:undraw/fetch_illustration.dart';
+import 'package:undraw/get_illustration.dart';
 import 'package:undraw/illustrations.g.dart';
 
 export 'package:undraw/illustrations.g.dart';
