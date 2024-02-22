@@ -745,8 +745,13 @@ enum UnDrawIllustration {
 
   /// Title: Calling
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calling_re_mgft.svg" alt="Calling" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_calling_mcgf_gyrw_2jtb_-1-_eb38_-1-_fikj_hs3h.svg" alt="Calling" width="200"/>
   calling,
+
+  /// Title: Calling
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calling_re_mgft.svg" alt="Calling" width="200"/>
+  calling_1,
 
   /// Title: Camera
   /// <br/>
@@ -1120,7 +1125,7 @@ enum UnDrawIllustration {
 
   /// Title: Completion Progress
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_completion_iqwr_-1-_i0cm_(1)_dai9.svg" alt="Completion Progress" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_completion_progress_1oxr_gag2_-1-_0h44_-1-_vov5_(1)_qedr.svg" alt="Completion Progress" width="200"/>
   completion_progress,
 
   /// Title: Compose music
@@ -3835,8 +3840,13 @@ enum UnDrawIllustration {
 
   /// Title: Notebook
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notebook_re_id0r.svg" alt="Notebook" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_notebook_ask4_36jp.svg" alt="Notebook" width="200"/>
   notebook,
+
+  /// Title: Notebook
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notebook_re_id0r.svg" alt="Notebook" width="200"/>
+  notebook_1,
 
   /// Title: Noted
   /// <br/>
@@ -5175,7 +5185,7 @@ enum UnDrawIllustration {
 
   /// Title: Search engines
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_search_engines_041x_-2-_cl95_fiwb.svg" alt="Search engines" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_-1-_wbm3_t5p8_-1-_mt5l_-2-_dhxr_(2)_nmxe.svg" alt="Search engines" width="200"/>
   search_engines,
 
   /// Title: Searching
@@ -5243,6 +5253,11 @@ enum UnDrawIllustration {
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_option_re_u4qn.svg" alt="Select option" width="200"/>
   select_option,
 
+  /// Title: Select Option
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_selectoption_y9cm_mx7w_-2-_vjsk_js62_gghb_35qw_um1m_-1-_cqnl_kdby.svg" alt="Select Option" width="200"/>
+  select_option_1,
+
   /// Title: Select player
   /// <br/>
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/select_player_64ca.svg" alt="Select player" width="200"/>
@@ -5270,8 +5285,13 @@ enum UnDrawIllustration {
 
   /// Title: Selection
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/selection_re_ycpo.svg" alt="Selection" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_selection_f3no_lndu.svg" alt="Selection" width="200"/>
   selection,
+
+  /// Title: Selection
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/selection_re_ycpo.svg" alt="Selection" width="200"/>
+  selection_1,
 
   /// Title: Selfie
   /// <br/>
@@ -5995,7 +6015,7 @@ enum UnDrawIllustration {
 
   /// Title: Team Effort
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_team_effort_7w2e_bb6b_2vmj.svg" alt="Team Effort" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_team_effort_yj7m_ej3u_wvay_y0es.svg" alt="Team Effort" width="200"/>
   team_effort,
 
   /// Title: Team goals
@@ -6365,7 +6385,7 @@ enum UnDrawIllustration {
 
   /// Title: Users Per Minute
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_users_per_minute_1e4q_t22j_(1)_2ulq.svg" alt="Users Per Minute" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_users_per_minute_1e4q_t22j_-1-_0ngf_-1-_27dv_30ul.svg" alt="Users Per Minute" width="200"/>
   users_per_minute,
 
   /// Title: Vault
@@ -6510,7 +6530,7 @@ enum UnDrawIllustration {
 
   /// Title: Walking Together
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_Together_p0e5.svg" alt="Walking Together" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_walking_together_7ulo_m7i2_l2pa_rcwe_-1-_apsm_(1)_2hho.svg" alt="Walking Together" width="200"/>
   walking_together,
 
   /// Title: Wall post
@@ -6545,7 +6565,7 @@ enum UnDrawIllustration {
 
   /// Title: Watch Notification
   /// <br/>
-  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/watch_notification_8mf3.svg" alt="Watch Notification" width="200"/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_watch_notification_8mf3_-1-_rq1y_-1-_ifk0_-1-_m38m_w7ev_(1)_xoqy.svg" alt="Watch Notification" width="200"/>
   watch_notification,
 
   /// Title: Weather
@@ -6592,6 +6612,11 @@ enum UnDrawIllustration {
   /// <br/>
   /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/web_shopping_re_owap.svg" alt="Web shopping" width="200"/>
   web_shopping,
+
+  /// Title: Website
+  /// <br/>
+  /// <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_website_o7n3_bucy_30uo_-1-_d6br_m6dn.svg" alt="Website" width="200"/>
+  website,
 
   /// Title: Website builder
   /// <br/>
@@ -7138,6 +7163,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.calendar:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calendar_re_ki49.svg",
   UnDrawIllustration.calling:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_calling_mcgf_gyrw_2jtb_-1-_eb38_-1-_fikj_hs3h.svg",
+  UnDrawIllustration.calling_1:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Calling_re_mgft.svg",
   UnDrawIllustration.camera:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Camera_re_cnp4.svg",
@@ -7288,7 +7315,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.completing:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Completing_re_i7ap.svg",
   UnDrawIllustration.completion_progress:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_completion_iqwr_-1-_i0cm_(1)_dai9.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_completion_progress_1oxr_gag2_-1-_0h44_-1-_vov5_(1)_qedr.svg",
   UnDrawIllustration.compose_music:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Compose_music_re_wpiw.svg",
   UnDrawIllustration.composition:
@@ -8374,6 +8401,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.note_list:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Note_list_re_r4u9.svg",
   UnDrawIllustration.notebook:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_notebook_ask4_36jp.svg",
+  UnDrawIllustration.notebook_1:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Notebook_re_id0r.svg",
   UnDrawIllustration.noted:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Noted_re_c5wv.svg",
@@ -8910,7 +8939,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.search_app:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/search_app_oso2.svg",
   UnDrawIllustration.search_engines:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_search_engines_041x_-2-_cl95_fiwb.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_search_engines_041x_-2-_cl95_o7o8_pigd_-1-_wbm3_t5p8_-1-_mt5l_-2-_dhxr_(2)_nmxe.svg",
   UnDrawIllustration.searching:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Searching_re_3ra9.svg",
   UnDrawIllustration.season_change:
@@ -8937,6 +8966,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_house_re_s1j9.svg",
   UnDrawIllustration.select_option:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Select_option_re_u4qn.svg",
+  UnDrawIllustration.select_option_1:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_selectoption_y9cm_mx7w_-2-_vjsk_js62_gghb_35qw_um1m_-1-_cqnl_kdby.svg",
   UnDrawIllustration.select_player:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/select_player_64ca.svg",
   UnDrawIllustration.selected_box:
@@ -8948,6 +8979,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.selecting_team:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selecting_team_re_ndkb.svg",
   UnDrawIllustration.selection:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_selection_f3no_lndu.svg",
+  UnDrawIllustration.selection_1:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/selection_re_ycpo.svg",
   UnDrawIllustration.selfie:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Selfie_re_h9um.svg",
@@ -9238,7 +9271,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.team_collaboration:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_collaboration_re_ow29.svg",
   UnDrawIllustration.team_effort:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_team_effort_7w2e_bb6b_2vmj.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_team_effort_yj7m_ej3u_wvay_y0es.svg",
   UnDrawIllustration.team_goals:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Team_goals_re_4a3t.svg",
   UnDrawIllustration.team_page:
@@ -9386,7 +9419,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.user_flow:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/User_flow_re_bvfx.svg",
   UnDrawIllustration.users_per_minute:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_users_per_minute_1e4q_t22j_(1)_2ulq.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_users_per_minute_1e4q_t22j_-1-_0ngf_-1-_27dv_30ul.svg",
   UnDrawIllustration.vault:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Vault_re_s4my.svg",
   UnDrawIllustration.verified:
@@ -9444,7 +9477,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.walking_outside:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_outside_re_56xo.svg",
   UnDrawIllustration.walking_together:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Walking_Together_p0e5.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_walking_together_7ulo_m7i2_l2pa_rcwe_-1-_apsm_(1)_2hho.svg",
   UnDrawIllustration.wall_post:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Wall_post_re_y78d.svg",
   UnDrawIllustration.wallet:
@@ -9458,7 +9491,7 @@ const Map<UnDrawIllustration, String> illustrationMap = {
   UnDrawIllustration.watch_application:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/watch_application_uhc9.svg",
   UnDrawIllustration.watch_notification:
-      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/watch_notification_8mf3.svg",
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_undraw_watch_notification_8mf3_-1-_rq1y_-1-_ifk0_-1-_m38m_w7ev_(1)_xoqy.svg",
   UnDrawIllustration.weather:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Weather_re_qsmd.svg",
   UnDrawIllustration.weather_app:
@@ -9477,6 +9510,8 @@ const Map<UnDrawIllustration, String> illustrationMap = {
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Web_search_re_efla.svg",
   UnDrawIllustration.web_shopping:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/web_shopping_re_owap.svg",
+  UnDrawIllustration.website:
+      "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/undraw_undraw_undraw_undraw_website_o7n3_bucy_30uo_-1-_d6br_m6dn.svg",
   UnDrawIllustration.website_builder:
       "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Website_builder_re_ii6e.svg",
   UnDrawIllustration.website_setup:
