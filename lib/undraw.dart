@@ -19,7 +19,7 @@ class UnDraw extends StatelessWidget {
     this.width,
     this.placeholder,
     this.errorWidget,
-    this.padding,
+    this.padding = const EdgeInsets.all(16),
   });
 
   /// Enum [UnDrawIllustration] with all supported illustrations
@@ -110,7 +110,7 @@ class UnDraw extends StatelessWidget {
         return Container(
           width: width,
           height: height,
-          padding: padding ?? const EdgeInsets.all(16),
+          padding: padding,
           child: Center(child: body),
         );
       },
