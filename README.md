@@ -11,29 +11,110 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# UnDraw Illustrations Flutter Plugin
+
+This is a Flutter plugin for integrating UnDraw illustrations into your Flutter applications. It
+provides a simple and efficient way to use UnDraw's open-source illustrations in your projects.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Easy integration with Flutter applications.
+- Supports all UnDraw illustrations.
+- Allows customization of illustrations with primary color of your theme.
+- Efficient fetching and caching of illustrations.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this plugin, add `undraw` as
+a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
+
+```yaml
+dependencies:
+  undraw: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Here is a simple example of how to use the plugin:
 
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:undraw/undraw.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'UnDraw Illustrations',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blue,
+        ),
+        useMaterial3: true,
+      ),
+      home: const MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme
+        .of(context)
+        .colorScheme;
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('UnDraw Illustrations'),
+      ),
+      body: ListView.builder(
+        itemCount: UnDrawIllustration.values.length,
+        itemBuilder: (context, inx) {
+          final illustration = UnDrawIllustration.values[inx];
+
+          return Container(
+            margin: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: colorScheme.outlineVariant),
+            ),
+            child: Column(
+              children: [
+                ListTile(
+                  title: SelectableText(
+                    illustration.name,
+                    style: Theme
+                        .of(context)
+                        .textTheme
+                        .titleMedium,
+                  ),
+                ),
+                UnDraw(
+                  height: 200,
+                  padding: const EdgeInsets.all(16),
+                  illustration: illustration,
+                  color: colorScheme.primary,
+                ),
+              ],
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
