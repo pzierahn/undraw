@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               children: [
                 ListTile(
-                  title: Text(
+                  title: SelectableText(
                     illustration.name,
                     style: Theme.of(context).textTheme.titleMedium,
                   ),
