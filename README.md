@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # UnDraw Illustrations Flutter Plugin
 
-This is a Flutter plugin for integrating UnDraw illustrations into your Flutter applications. It
+This is a Flutter plugin for integrating [UnDraw illustrations](https://undraw.co/illustrations) into your Flutter applications. It
 provides a simple and efficient way to use UnDraw's open-source illustrations in your projects.
 
 ## Features
