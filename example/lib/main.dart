@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("UnDraw"),
+        title: const Text('UnDraw Illustrations'),
       ),
       body: ListView.builder(
         itemCount: UnDrawIllustration.values.length,
