@@ -30,7 +30,9 @@ a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
 
 ```yaml
 dependencies:
-  undraw: ^1.0.0
+  undraw:
+    git:
+      url: https://github.com/pzierahn/undraw.git
 ```
 
 ## Usage
