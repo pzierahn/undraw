@@ -22,18 +22,19 @@ var (
 type Illustration struct {
 	Id    string `json:"_id"`
 	Title string `json:"title"`
-	Image string `json:"image"`
-	Slug  string `json:"slug"`
+	Image string `json:"media"`
+	Slug  string `json:"newSlug"`
 }
 
 type ApiResponse struct {
-	Illustrations []Illustration `json:"illos"`
-	HasMore       bool           `json:"hasMore"`
-	NextPage      int            `json:"nextPage"`
+	PageProps struct {
+		Illustrations []Illustration `json:"illustrations"`
+		TotalPages    int            `json:"totalPages"`
+	} `json:"pageProps"`
 }
 
 func getIllustrations() (illustrations []Illustration) {
-	baseUrl := "https://undraw.co/api/illustrations?page="
+	baseUrl := "https://undraw.co/_next/data/mMWmJSt23qpgo8cLTD_pB/illustrations.json?page="
 
 	for inx := 0; ; inx++ {
 		log.Printf("Downloading page %d\n", inx)
@@ -57,9 +58,8 @@ func getIllustrations() (illustrations []Illustration) {
 			log.Fatalln(err)
 		}
 
-		illustrations = append(illustrations, apiResponse.Illustrations...)
-
-		if apiResponse.HasMore == false {
+		illustrations = append(illustrations, apiResponse.PageProps.Illustrations...)
+		if apiResponse.PageProps.TotalPages <= inx {
 			break
 		}
 	}
