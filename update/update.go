@@ -11,7 +11,6 @@ import (
 	"os/exec"
 	"regexp"
 	"sort"
-	"strconv"
 	"strings"
 )
 
@@ -34,13 +33,19 @@ type ApiResponse struct {
 }
 
 func getIllustrations() (illustrations []Illustration) {
-	baseUrl := "https://undraw.co/_next/data/mMWmJSt23qpgo8cLTD_pB/illustrations.json?page="
 
-	for inx := 0; ; inx++ {
+	for inx := 1; ; inx++ {
 		log.Printf("Downloading page %d\n", inx)
 
+		var url string
+		if inx == 1 {
+			url = "https://undraw.co/_next/data/mMWmJSt23qpgo8cLTD_pB/illustrations.json"
+		} else {
+			url = fmt.Sprintf("https://undraw.co/_next/data/mMWmJSt23qpgo8cLTD_pB/illustrations/%d.json", inx)
+		}
+
 		// Get the response
-		response, err := http.Get(baseUrl + strconv.Itoa(inx))
+		response, err := http.Get(url)
 		if err != nil {
 			log.Fatalln(err)
 		}
@@ -190,8 +195,19 @@ func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 	flag.Parse()
 
-	log.Printf("Collected illustrations:")
+	log.Printf("Collected illustrations")
 	illustrations := getIllustrations()
+
+	// Dump the illustrations to a json file
+	illustrationsJson, err := json.MarshalIndent(illustrations, "", "  ")
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	err = os.WriteFile("illustrations.json", illustrationsJson, 0644)
+	if err != nil {
+		log.Fatalln(err)
+	}
 
 	var locations []string
 	if *offline {
