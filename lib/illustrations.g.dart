@@ -1,5 +1,3 @@
-library undraw;
-
 // ignore_for_file: unused_field
 /// Enums to help locate the correct illustration
 enum UnDrawIllustration {

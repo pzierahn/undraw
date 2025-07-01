@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:undraw/illustrations.g.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:undraw/illustrations.g.dart';
 
 // Fetch the illustration from the web
 Future<String> _getFromWeb(String location) async {
@@ -30,9 +30,9 @@ Future<String> _getIllustration(String location) async {
 // Convert a color to a hex string
 String _colorToHex(Color color, {bool leadingHashSign = true}) =>
     '${leadingHashSign ? '#' : ''}'
-    '${color.red.toRadixString(16).padLeft(2, '0')}'
-    '${color.green.toRadixString(16).padLeft(2, '0')}'
-    '${color.blue.toRadixString(16).padLeft(2, '0')}';
+    '${(color.r * 255.0).toInt().toRadixString(16).padLeft(2, '0')}'
+    '${(color.g * 255.0).toInt().toRadixString(16).padLeft(2, '0')}'
+    '${(color.b * 255.0).toInt().toRadixString(16).padLeft(2, '0')}';
 
 // Get the illustration with the accent color
 Future<String> getTintedIllustration(
