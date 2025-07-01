@@ -147,8 +147,7 @@ func fixDoubleId(illustrations []Illustration) {
 }
 
 func updateLib(illustrations []Illustration, locations []string) {
-	dart := `library undraw;
-			// ignore_for_file: unused_field
+	dart := `// ignore_for_file: unused_field
 			/// Enums to help locate the correct illustration
 			enum UnDrawIllustration {`
 
